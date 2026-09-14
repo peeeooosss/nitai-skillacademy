@@ -1,37 +1,40 @@
 "use client";
 
 import * as React from "react";
+import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 import {
   Timer,
   Check,
-  CheckCircle2,
   ArrowRight,
 } from "lucide-react";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { COURSES, COURSE_TABS } from "@/data/courses";
+import { COURSE_SLUGS } from "@/data/portal";
+import { useAuth } from "@/context/AuthContext";
 import type { CourseId, CourseCategory } from "@/types";
 
 interface CourseGridProps {
   highlightedId: CourseId | null;
   activeTab: "All" | CourseCategory;
   setActiveTab: (t: "All" | CourseCategory) => void;
+  onOpenLogin: () => void;
 }
 
-export function CourseGrid({ highlightedId, activeTab, setActiveTab }: CourseGridProps) {
-  const [enrolled, setEnrolled] = React.useState<Set<CourseId>>(new Set());
-
+export function CourseGrid({ highlightedId, activeTab, setActiveTab, onOpenLogin }: CourseGridProps) {
+  const { user } = useAuth();
+  const router = useRouter();
   const filtered = activeTab === "All" ? COURSES : COURSES.filter((c) => c.category === activeTab);
 
-  const toggleEnroll = (id: CourseId) => {
-    setEnrolled((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
-      return next;
-    });
+  const handleEnroll = (id: CourseId) => {
+    const slug = COURSE_SLUGS[id];
+    if (user && slug) {
+      router.push(`/portal/courses/${slug}`);
+    } else {
+      onOpenLogin();
+    }
   };
 
   return (
@@ -61,7 +64,6 @@ export function CourseGrid({ highlightedId, activeTab, setActiveTab }: CourseGri
               transition={{ duration: 0.3 }}
             >
               {filtered.map((course, index) => {
-                const isEnrolled = enrolled.has(course.id);
                 const isHighlighted = highlightedId === course.id;
                 return (
                   <motion.article
@@ -114,26 +116,11 @@ export function CourseGrid({ highlightedId, activeTab, setActiveTab }: CourseGri
                     </div>
 
                     <Button
-                      onClick={() => toggleEnroll(course.id)}
-                      disabled={isEnrolled}
-                      className={cn(
-                        "mt-5 w-full",
-                        isEnrolled
-                          ? "bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500/20"
-                          : "bg-gradient-to-r from-violet-600 to-cyan-500 text-white hover:scale-[1.02]"
-                      )}
+                      onClick={() => handleEnroll(course.id)}
+                      className="group/btn mt-5 w-full bg-gradient-to-r from-violet-600 to-cyan-500 text-white hover:scale-[1.02]"
                     >
-                      {isEnrolled ? (
-                        <>
-                          <CheckCircle2 className="h-4 w-4" />
-                          Enrolled
-                        </>
-                      ) : (
-                        <>
-                          Enroll Now
-                          <ArrowRight className="h-4 w-4" />
-                        </>
-                      )}
+                      {user ? "Enroll & Learn" : "Enroll Now"}
+                      <ArrowRight className="h-4 w-4 transition-transform group-hover/btn:translate-x-0.5" />
                     </Button>
                   </motion.article>
                 );

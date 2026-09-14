@@ -13,32 +13,20 @@ import { OpportunityHub } from "@/components/homepage/OpportunityHub";
 import { ProgrammesShowcase } from "@/components/homepage/ProgrammesShowcase";
 import { EcosystemShowcase } from "@/components/homepage/EcosystemShowcase";
 import { FAQAccordion } from "@/components/homepage/FAQAccordion";
-import { LoginModal } from "@/components/ui/login-modal";
-import { PORTALS } from "@/data/portals";
-import type { CourseId, CourseCategory, PortalId } from "@/types";
+import { AuthModal } from "@/components/portal/AuthModal";
+import type { CourseId, CourseCategory } from "@/types";
 
 export function HomeClient() {
   const [loginOpen, setLoginOpen] = React.useState(false);
-  const [selectedPortal, setSelectedPortal] = React.useState<PortalId | null>(null);
   const [highlightedCourseId, setHighlightedCourseId] = React.useState<CourseId | null>(null);
   const [courseTab, setCourseTab] = React.useState<"All" | CourseCategory>("All");
 
-  React.useEffect(() => {
-    const portal = new URLSearchParams(window.location.search).get("portal") as PortalId | null;
-    if (portal && PORTALS.some((p) => p.id === portal)) {
-      setSelectedPortal(portal);
-      setLoginOpen(true);
-    }
-  }, []);
-
-  const openLoginGateway = (portal?: PortalId) => {
-    setSelectedPortal(portal ?? null);
+  const openLoginGateway = () => {
     setLoginOpen(true);
   };
 
   const closeLoginGateway = () => {
     setLoginOpen(false);
-    setSelectedPortal(null);
   };
 
   const handleLaunchPathway = (courseId: CourseId, category: CourseCategory) => {
@@ -75,6 +63,7 @@ export function HomeClient() {
           highlightedId={highlightedCourseId}
           activeTab={courseTab}
           setActiveTab={setCourseTab}
+          onOpenLogin={openLoginGateway}
         />
         <ProgrammesShowcase />
         <ValueSystem />
@@ -85,12 +74,7 @@ export function HomeClient() {
 
       <GlobalFooter onOpenLogin={openLoginGateway} />
 
-      <LoginModal
-        open={loginOpen}
-        selectedPortal={selectedPortal}
-        onSelectPortal={setSelectedPortal}
-        onClose={closeLoginGateway}
-      />
+      <AuthModal open={loginOpen} onClose={closeLoginGateway} />
     </motion.div>
   );
 }

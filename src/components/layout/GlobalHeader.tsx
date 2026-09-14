@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { cn } from "@/lib/utils";
 import {
@@ -12,11 +13,14 @@ import {
   Zap,
   ChevronRight,
   ArrowRight,
+  Award,
+  LayoutDashboard,
 } from "lucide-react";
 import { NAV_LINKS } from "@/data/navigation";
 import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from "@/components/ui/dropdown-menu";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
+import { useAuth } from "@/context/AuthContext";
 
 interface GlobalHeaderProps {
   onOpenLogin: () => void;
@@ -27,6 +31,17 @@ export function GlobalHeader({ onOpenLogin, onStartJourney }: GlobalHeaderProps)
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [scrolled, setScrolled] = React.useState(false);
   const reducedMotion = useReducedMotion();
+  const { user } = useAuth();
+  const router = useRouter();
+
+  const handleJourney = () => {
+    setMobileOpen(false);
+    if (user) {
+      router.push("/portal/courses");
+    } else {
+      onOpenLogin();
+    }
+  };
 
   const { scrollY } = useScroll();
   const navBgOpacity = useTransform(scrollY, [0, 100], [0.7, 0.95]);
@@ -96,42 +111,47 @@ export function GlobalHeader({ onOpenLogin, onStartJourney }: GlobalHeaderProps)
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="glass" size="sm">
-                <LogIn className="h-3.5 w-3.5" />
-                Portal Login
-                <ChevronRight className="h-3.5 w-3.5" />
+          {user ? (
+            <>
+              <div className="flex items-center gap-1.5 rounded-full border border-amber-400/25 bg-amber-400/10 px-3 py-1.5">
+                <Award className="h-3.5 w-3.5 text-amber-300" />
+                <span className="text-xs font-semibold text-amber-200">{user.credits} Credits</span>
+              </div>
+              <Button
+                variant="glass"
+                size="sm"
+                onClick={() => router.push("/portal")}
+              >
+                <LayoutDashboard className="h-3.5 w-3.5" />
+                My Portal
               </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end" className="w-56">
-              <DropdownMenuItem onClick={() => { onOpenLogin(); }} className="flex items-center gap-2">
-                <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-violet-500/20">
-                  <Sparkles className="h-4 w-4 text-violet-300" />
-                </span>
-                <span>Student Portal</span>
-              </DropdownMenuItem>
-              <DropdownMenuItem onClick={() => { onOpenLogin(); }} className="flex items-center gap-2">
-                <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-cyan-500/20">
-                  <Sparkles className="h-4 w-4 text-cyan-300" />
-                </span>
-                <span>Partner Portal</span>
-              </DropdownMenuItem>
-              <DropdownMenuItem onClick={() => { onOpenLogin(); }} className="flex items-center gap-2">
-                <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-500/20">
-                  <Sparkles className="h-4 w-4 text-amber-300" />
-                </span>
-                <span>HQ Command Center</span>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
+            </>
+          ) : (
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="glass" size="sm">
+                  <LogIn className="h-3.5 w-3.5" />
+                  Portal Login
+                  <ChevronRight className="h-3.5 w-3.5" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-56">
+                <DropdownMenuItem onClick={onOpenLogin} className="flex items-center gap-2">
+                  <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-violet-500/20">
+                    <Sparkles className="h-4 w-4 text-violet-300" />
+                  </span>
+                  <span>Student Portal</span>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          )}
           <Button
-            onClick={onStartJourney}
+            onClick={handleJourney}
             className="group relative flex items-center gap-1.5 overflow-hidden rounded-full bg-gradient-to-r from-violet-600 to-cyan-500 px-5 py-2 text-sm font-semibold text-white shadow-[0_0_25px_-6px_rgba(124,58,237,0.9)] transition-transform hover:scale-[1.03] focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-300"
           >
             <span className="absolute inset-0 animate-pulse bg-white/10" />
             <Zap className="h-3.5 w-3.5 relative" />
-            <span className="relative">Start AI Journey</span>
+            <span className="relative">{user ? "Explore Courses" : "Start AI Journey"}</span>
           </Button>
         </div>
 
@@ -165,20 +185,37 @@ export function GlobalHeader({ onOpenLogin, onStartJourney }: GlobalHeaderProps)
             ))}
           </div>
           <div className="mt-4 flex flex-col gap-2.5 border-t border-white/10 pt-4">
+            {user ? (
+              <>
+                <div className="flex items-center gap-1.5 rounded-full border border-amber-400/25 bg-amber-400/10 px-3 py-1.5 text-xs font-semibold text-amber-200">
+                  <Award className="h-3.5 w-3.5 text-amber-300" />
+                  {user.credits} Credits
+                </div>
+                <Button
+                  variant="glass"
+                  className="w-full justify-center"
+                  onClick={() => { setMobileOpen(false); router.push("/portal"); }}
+                >
+                  <LayoutDashboard className="h-3.5 w-3.5" />
+                  My Portal
+                </Button>
+              </>
+            ) : (
+              <Button
+                variant="glass"
+                className="w-full justify-center"
+                onClick={() => { setMobileOpen(false); onOpenLogin(); }}
+              >
+                <LogIn className="h-3.5 w-3.5" />
+                Portal Login
+              </Button>
+            )}
             <Button
-              variant="glass"
               className="w-full justify-center"
-              onClick={() => { setMobileOpen(false); onOpenLogin(); }}
-            >
-              <LogIn className="h-3.5 w-3.5" />
-              Portal Login
-            </Button>
-            <Button
-              className="w-full justify-center"
-              onClick={() => { setMobileOpen(false); onStartJourney(); }}
+              onClick={handleJourney}
             >
               <Zap className="h-3.5 w-3.5" />
-              Start AI Journey
+              {user ? "Explore Courses" : "Start AI Journey"}
             </Button>
           </div>
         </motion.div>

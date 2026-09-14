@@ -1,0 +1,266 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  STUDENT
+  ADMIN
+}
+
+enum AuthProvider {
+  LOCAL
+  GOOGLE
+  GITHUB
+}
+
+enum SubmissionStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum SessionType {
+  THEORY
+  QUIZ
+  PROJECT
+  LIVE_INTERACTIVE
+}
+
+enum AssignmentType {
+  TEXT
+  URL
+  FILE
+}
+
+model User {
+  id            String         @id @default(cuid())
+  email         String         @unique
+  name          String
+  password      String?
+  provider      AuthProvider   @default(LOCAL)
+  providerId    String?
+  avatar        String?
+  role          Role           @default(STUDENT)
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+
+  progress              UserProgress[]
+  quizSubmissions       QuizSubmission[]
+  assignmentSubmissions AssignmentSubmission[]
+  credits               UserCredit?
+  courseEnrollments     UserCourseEnrollment[]
+
+  @@index([email])
+  @@index([provider, providerId])
+}
+
+model UserCredit {
+  id          String   @id @default(cuid())
+  userId      String   @unique
+  balance     Int      @default(0)
+  totalEarned Int      @default(0)
+  updatedAt   DateTime @updatedAt
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Course {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  index       String
+
+  title       String
+  shortTitle  String
+  tagline     String
+  description String
+
+  trackName   String
+  audience    String
+  category    String?
+  outcomes    String[] @default([])
+
+  duration    String?
+  icon        String?
+  accentColor String?
+
+  moduleCount Int     @default(0)
+  totalXp     Int     @default(0)
+
+  isActive    Boolean  @default(true)
+  position    Int      @default(0)
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  weeks       Week[]
+  modules     Module[]
+  enrollments UserCourseEnrollment[]
+
+  @@index([position])
+  @@index([isActive])
+}
+
+model UserCourseEnrollment {
+  id          String   @id @default(cuid())
+  userId      String
+  courseId    String
+  startedAt   DateTime @default(now())
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  course      Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, courseId])
+  @@index([userId])
+}
+
+model Week {
+  id          Int      @id @default(autoincrement())
+  weekNumber  Int
+  title       String
+  phase       Int
+  phaseName   String
+  startDate   DateTime
+  endDate     DateTime
+  courseId    String?
+  course      Course?  @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  modules     Module[]
+  progress    UserProgress[]
+
+  @@unique([courseId, weekNumber])
+  @@index([weekNumber])
+  @@index([phase])
+}
+
+model Module {
+  id            Int          @id @default(autoincrement())
+  weekId        Int
+  week          Week         @relation(fields: [weekId], references: [id], onDelete: Cascade)
+  dayNumber     Int          @unique
+  dayInWeek     Int
+  weekNumber    Int
+  courseId      String?
+  course        Course?      @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  missionNumber Int?
+  sessionType   SessionType
+  title         String
+  description   String
+  contentMarkdown String?
+  videoUrl      String?
+  creditsReward Int
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+
+  progress      UserProgress[]
+  quiz          Quiz?
+  assignment    Assignment?
+  aiContext     ModuleAIContext?
+
+  @@unique([courseId, missionNumber])
+  @@unique([weekId, dayInWeek])
+  @@index([dayNumber])
+  @@index([weekNumber])
+  @@index([sessionType])
+  @@index([courseId, missionNumber])
+}
+
+model UserProgress {
+  id                  String    @id @default(cuid())
+  userId              String
+  moduleId            Int
+  weekId              Int?
+  videoWatched        Boolean   @default(false)
+  quizPassed          Boolean   @default(false)
+  assignmentSubmitted Boolean   @default(false)
+  completed           Boolean   @default(false)
+  completedAt         DateTime?
+  createdAt           DateTime  @default(now())
+
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  module      Module    @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  week        Week?     @relation(fields: [weekId], references: [id], onDelete: SetNull)
+
+  @@unique([userId, moduleId])
+  @@index([userId])
+  @@index([moduleId])
+  @@index([weekId])
+}
+
+model Quiz {
+  id          String   @id @default(cuid())
+  moduleId    Int      @unique
+  questions   Json
+  passScore   Int      @default(75)
+  timeLimit   Int?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  module      Module   @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  submissions QuizSubmission[]
+}
+
+model QuizSubmission {
+  id          String   @id @default(cuid())
+  userId      String
+  quizId      String
+  answers     Json
+  score       Float
+  passed      Boolean
+  submittedAt DateTime @default(now())
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  quiz        Quiz     @relation(fields: [quizId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([quizId])
+}
+
+model Assignment {
+  id            String           @id @default(cuid())
+  moduleId      Int              @unique
+  prompt        String
+  type          AssignmentType   @default(TEXT)
+  maxCredits    Int              @default(50)
+  dueDate       DateTime?
+  createdAt     DateTime         @default(now())
+  updatedAt     DateTime         @updatedAt
+
+  module        Module           @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  submissions   AssignmentSubmission[]
+}
+
+model AssignmentSubmission {
+  id            String           @id @default(cuid())
+  userId        String
+  assignmentId  String
+  content       String
+  status        SubmissionStatus @default(PENDING)
+  submittedAt   DateTime         @default(now())
+  reviewedAt    DateTime?
+  aiScore       Int?
+  aiFeedback    String?
+
+  user          User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  assignment    Assignment       @relation(fields: [assignmentId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, assignmentId])
+  @@index([userId])
+  @@index([assignmentId])
+}
+
+model ModuleAIContext {
+  id           String   @id @default(cuid())
+  moduleId     Int      @unique
+  module       Module   @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  systemPrompt String
+  ragChunks    Json
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
