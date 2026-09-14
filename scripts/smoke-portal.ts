@@ -46,7 +46,7 @@ function fail(message: string): void {
   console.error(`  ✗ ${message}`)
 }
 
-async function request<T = unknown>(method: string, path: string, body?: unknown): Promise<T> {
+async function request<T = unknown>(path: string, method = 'GET', body?: unknown): Promise<T> {
   const response = await fetch(`${API_BASE}${path}`, {
     method,
     headers: {
