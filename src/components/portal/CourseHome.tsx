@@ -13,6 +13,7 @@ import {
   Timer,
   Quote,
   Sparkles,
+  ChevronDown,
 } from "lucide-react";
 import { api, type CourseDetail } from "@/lib/api";
 import { courseIcon, hexToRgba } from "@/lib/courseIcons";
@@ -24,6 +25,15 @@ export default function CourseHomePage({ params }: { params: { slug: string } })
   const [error, setError] = React.useState("");
   const [enrolling, setEnrolling] = React.useState(false);
   const [refreshKey, setRefreshKey] = React.useState(0);
+  const [expanded, setExpanded] = React.useState<Set<number>>(new Set());
+
+  const toggleExpand = (n: number) =>
+    setExpanded((prev) => {
+      const next = new Set(prev);
+      if (next.has(n)) next.delete(n);
+      else next.add(n);
+      return next;
+    });
 
   React.useEffect(() => {
     api
@@ -161,7 +171,7 @@ export default function CourseHomePage({ params }: { params: { slug: string } })
             return (
               <div
                 key={m.id}
-                className={`flex items-center gap-4 rounded-2xl border p-4 transition-all sm:p-5 ${
+                className={`rounded-2xl border p-4 transition-all sm:p-5 ${
                   isCurrent
                     ? "border-violet-500/30 bg-violet-500/5 ring-1 ring-violet-500/20"
                     : isDone
@@ -171,41 +181,101 @@ export default function CourseHomePage({ params }: { params: { slug: string } })
                         : "border-white/5 bg-white/[0.01] opacity-50"
                 }`}
               >
-                <div className="flex items-center gap-3">
-                  <span
-                    className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-sm font-bold ${
-                      isDone
-                        ? "bg-emerald-500/15 text-emerald-400"
-                        : isCurrent
-                          ? "bg-gradient-to-br from-violet-600 to-cyan-500 text-white"
-                          : "bg-white/5 text-white/30"
-                    }`}
-                  >
-                    {m.missionNumber}
-                  </span>
-                </div>
-
-                <div className="min-w-0 flex-1">
-                  <h3 className="truncate text-sm font-semibold text-white">{m.title}</h3>
-                  <p className="mt-0.5 line-clamp-1 text-[11px] text-slate-400">
-                    {isDone ? "Completed" : isUnlocked ? "Available now" : `Complete Mission ${m.missionNumber - 1} to unlock`}
-                    {" · "}+{m.creditsReward} credits
-                  </p>
-                </div>
-
-                <div className="flex shrink-0 items-center gap-2">
-                  {isDone && <CheckCircle2 className="h-5 w-5 text-emerald-400" />}
-                  {isUnlocked && !isDone && (
-                    <Link
-                      href={`/portal/courses/${course.slug}/mission/${m.missionNumber}`}
-                      className="flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-violet-600 to-cyan-500 px-3.5 py-2 text-xs font-semibold text-white transition-transform hover:scale-[1.03]"
+                <div className="flex items-center gap-4">
+                  <div className="flex items-center gap-3">
+                    <span
+                      className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-sm font-bold ${
+                        isDone
+                          ? "bg-emerald-500/15 text-emerald-400"
+                          : isCurrent
+                            ? "bg-gradient-to-br from-violet-600 to-cyan-500 text-white"
+                            : "bg-white/5 text-white/30"
+                      }`}
                     >
-                      <PlayCircle className="h-3.5 w-3.5" />
-                      {isCurrent ? "Continue" : "Start"}
-                    </Link>
-                  )}
-                  {!isUnlocked && <Lock className="h-4 w-4 text-white/20" />}
+                      {m.missionNumber}
+                    </span>
+                  </div>
+
+                  <div className="min-w-0 flex-1">
+                    <h3 className="truncate text-sm font-semibold text-white">{m.title}</h3>
+                    <p className="mt-0.5 line-clamp-1 text-[11px] text-slate-400">
+                      {isDone ? "Completed" : isUnlocked ? "Available now" : `Complete Mission ${m.missionNumber - 1} to unlock`}
+                      {m.submodules.length > 0 && ` · ${m.submodulesCompleted}/${m.submodulesTotal} modules done`}
+                      {" · "}+{m.creditsReward} credits
+                    </p>
+                  </div>
+
+                  <div className="flex shrink-0 items-center gap-2">
+                    {m.submodules.length > 0 && (
+                      <button
+                        onClick={() => toggleExpand(m.missionNumber)}
+                        aria-label="Toggle topics"
+                        className="rounded-lg border border-white/10 p-1.5 text-slate-300 transition-colors hover:border-white/25 hover:text-white"
+                      >
+                        <ChevronDown
+                          className={`h-4 w-4 transition-transform ${expanded.has(m.missionNumber) ? "rotate-180" : ""}`}
+                        />
+                      </button>
+                    )}
+                    {isDone && <CheckCircle2 className="h-5 w-5 text-emerald-400" />}
+                    {isUnlocked && !isDone && (
+                      <Link
+                        href={`/portal/courses/${course.slug}/mission/${m.missionNumber}`}
+                        className="flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-violet-600 to-cyan-500 px-3.5 py-2 text-xs font-semibold text-white transition-transform hover:scale-[1.03]"
+                      >
+                        <PlayCircle className="h-3.5 w-3.5" />
+                        {isCurrent ? "Continue" : "Start"}
+                      </Link>
+                    )}
+                    {!isUnlocked && <Lock className="h-4 w-4 text-white/20" />}
+                  </div>
                 </div>
+
+                {expanded.has(m.missionNumber) && m.submodules.length > 0 && (
+                  <div className="mt-3 grid gap-2 border-t border-white/5 pt-3 sm:grid-cols-2">
+                    {m.submodules.map((s) => {
+                      const href = s.unlocked ? `/portal/courses/${course.slug}/mission/${m.missionNumber}?module=${s.index}` : null;
+                      const content = (
+                        <>
+                          <span
+                            className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md text-[10px] font-bold ${
+                              s.completed
+                                ? "bg-emerald-500/15 text-emerald-400"
+                                : s.unlocked
+                                  ? ""
+                                  : "bg-white/5 text-white/30"
+                            }`}
+                            {...(s.unlocked && !s.completed
+                              ? { style: { background: hexToRgba(accentHead, 0.16), color: accentHead } }
+                              : {})}
+                          >
+                            {s.completed ? <Check className="h-3 w-3" /> : s.unlocked ? s.index : <Lock className="h-3 w-3" />}
+                          </span>
+                          <span className={`flex-1 text-xs leading-relaxed ${s.completed || s.unlocked ? "text-slate-300" : "text-slate-600"}`}>
+                            {s.title}
+                            {!s.unlocked && <span className="ml-1.5 text-[10px] text-slate-600">· locked</span>}
+                          </span>
+                        </>
+                      );
+                      if (!href) {
+                        return (
+                          <div key={s.index} className={`flex items-start gap-2.5 rounded-xl px-3 py-2 bg-white/[0.01] opacity-50`}>
+                            {content}
+                          </div>
+                        );
+                      }
+                      return (
+                        <Link
+                          key={s.index}
+                          href={href}
+                          className="flex items-start gap-2.5 rounded-xl px-3 py-2 bg-white/[0.03] transition-colors hover:bg-white/[0.06]"
+                        >
+                          {content}
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
               </div>
             );
           })}

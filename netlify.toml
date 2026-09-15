@@ -29,6 +29,12 @@
   to = "/.netlify/functions/auth-me"
   status = 200
 
+# Admin live sessions (must precede /api/* wildcard)
+[[redirects]]
+  from = "/api/admin/live-sessions"
+  to = "/.netlify/functions/admin-live-sessions"
+  status = 200
+
 # Other API endpoints (courses, missions, enrollments, progress, quizzes, dashboard)
 [[redirects]]
   from = "/api/*"

@@ -64,6 +64,11 @@ export const handler: NetlifyHandler = async (event) => {
     })
     const progressByModule = new Map(progressRows.map(p => [p.moduleId, p]))
 
+    const liveSession = await prisma.liveSession.findFirst({
+      where: { courseId: course.id, missionNumber: mission, isActive: true },
+      orderBy: { scheduledAt: 'desc' },
+    })
+
     const idx = allMissions.findIndex(m => m.id === module.id)
     const previousCompleted = idx <= 0
       ? true
@@ -71,6 +76,20 @@ export const handler: NetlifyHandler = async (event) => {
 
     const current = progressByModule.get(module.id)
     const unlocked = previousCompleted
+
+    interface RawSubmodule { index: number; title: string; markdown: string; exampleQuiz?: unknown }
+    const rawSubmodules = ((module.submodules as RawSubmodule[] | null) || [])
+      .slice()
+      .sort((a, b) => a.index - b.index)
+    const completedSet = new Set<number>((current?.completedSubmodules as number[] | null) || [])
+    const submodules = rawSubmodules.map((s, i) => ({
+      index: s.index,
+      title: s.title,
+      markdown: s.markdown,
+      exampleQuiz: s.exampleQuiz ?? null,
+      unlocked: i === 0 || completedSet.has(rawSubmodules[i - 1].index),
+      completed: completedSet.has(s.index),
+    }))
 
     return successResponse({
       course: {
@@ -88,10 +107,21 @@ export const handler: NetlifyHandler = async (event) => {
         sessionType: module.sessionType,
         title: module.title,
         description: module.description,
-        contentMarkdown: module.contentMarkdown,
+        submodules,
         videoUrl: module.videoUrl,
         creditsReward: module.creditsReward,
       },
+      liveSession: liveSession
+        ? {
+            id: liveSession.id,
+            title: liveSession.title,
+            description: liveSession.description,
+            platform: liveSession.platform,
+            link: liveSession.link,
+            scheduledAt: liveSession.scheduledAt.toISOString(),
+            durationMins: liveSession.durationMins,
+          }
+        : null,
       quiz: module.quiz
         ? {
             id: module.quiz.id,
@@ -113,6 +143,8 @@ export const handler: NetlifyHandler = async (event) => {
         quizPassed: current?.quizPassed ?? false,
         assignmentSubmitted: current?.assignmentSubmitted ?? false,
         completed: current?.completed ?? false,
+        submodulesCompleted: completedSet.size,
+        submodulesTotal: submodules.length,
       },
       gating: {
         unlocked,

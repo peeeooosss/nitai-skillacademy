@@ -32,6 +32,13 @@ enum SessionType {
   LIVE_INTERACTIVE
 }
 
+enum LivePlatform {
+  ZOOM
+  MEET
+  TEAMS
+  OTHER
+}
+
 enum AssignmentType {
   TEXT
   URL
@@ -101,6 +108,7 @@ model Course {
   weeks       Week[]
   modules     Module[]
   enrollments UserCourseEnrollment[]
+  liveSessions LiveSession[]
 
   @@index([position])
   @@index([isActive])
@@ -154,6 +162,7 @@ model Module {
   title         String
   description   String
   contentMarkdown String?
+  submodules    Json?
   videoUrl      String?
   creditsReward Int
   createdAt     DateTime     @default(now())
@@ -172,6 +181,26 @@ model Module {
   @@index([courseId, missionNumber])
 }
 
+model LiveSession {
+  id           String       @id @default(cuid())
+  title        String
+  description  String?
+  platform     LivePlatform @default(ZOOM)
+  link         String
+  scheduledAt  DateTime
+  durationMins Int          @default(60)
+  courseId     String
+  course       Course       @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  missionNumber Int?
+  isActive     Boolean      @default(true)
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+
+  @@index([courseId])
+  @@index([scheduledAt])
+  @@index([isActive])
+}
+
 model UserProgress {
   id                  String    @id @default(cuid())
   userId              String
@@ -181,6 +210,7 @@ model UserProgress {
   quizPassed          Boolean   @default(false)
   assignmentSubmitted Boolean   @default(false)
   completed           Boolean   @default(false)
+  completedSubmodules Json?
   completedAt         DateTime?
   createdAt           DateTime  @default(now())
 

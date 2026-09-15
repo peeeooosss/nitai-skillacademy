@@ -12,7 +12,7 @@
 import * as fs from 'fs'
 import * as path from 'path'
 import { fileURLToPath } from 'url'
-import { PrismaClient } from '@prisma/client'
+import { PrismaClient, Prisma } from '@prisma/client'
 
 const prisma = new PrismaClient()
 
@@ -379,6 +379,129 @@ function extractMissionNumber(title: string): number {
   return match ? parseInt(match[1], 10) : 0
 }
 
+interface ExampleQuizItem {
+  question: string
+  options: string[]
+  answerIndex: number
+  explanation: string
+}
+
+interface Submodule {
+  index: number
+  title: string
+  markdown: string
+  exampleQuiz?: ExampleQuizItem[]
+}
+
+// Parse the structured "**Example Quiz**" section inside a module body.
+// Format:
+//   **Example Quiz**
+//
+//   1. Question text?
+//   - A) Option A
+//   - B) Option B
+//   - C) Option C
+//   - D) Option D
+//
+//   **Answer:** A — explanation text
+function parseExampleQuiz(markdown: string): { markdown: string; quiz: ExampleQuizItem[] | null } {
+  const lines = markdown.split('\n')
+  const start = lines.findIndex(l => /^\s*\*\*Example\s+Quiz/i.test(l))
+  if (start === -1) return { markdown, quiz: null }
+
+  const body = lines.slice(0, start).join('\n').replace(/\n+$/, '')
+  const quizLines = lines.slice(start)
+
+  const qRe = /^(\d+)[.)]\s+(.+)$/
+  const optRe = /^-\s*\**([A-D])\*?[\s.)·:]+\s*(.+)$/i
+  const ansRe = /^\s*\*\*Answer:\*\*\s*([A-D])\b[\s:]*[—–\-–]*\s*(.*)$/i
+
+  const quiz: ExampleQuizItem[] = []
+  let current: ExampleQuizItem | null = null
+
+  for (const raw of quizLines) {
+    const line = raw.trim()
+    if (!line) continue
+
+    const q = line.match(qRe)
+    if (q && !ansRe.test(line)) {
+      if (current) quiz.push(current)
+      current = {
+        question: q[2].trim(),
+        options: [],
+        answerIndex: -1,
+        explanation: '',
+      }
+      continue
+    }
+
+    if (current && current.answerIndex === -1 && current.options.length < 6) {
+      const opt = line.match(optRe)
+      if (opt) {
+        current.options.push(opt[2].trim())
+        continue
+      }
+    }
+
+    if (current) {
+      const ans = line.match(ansRe)
+      if (ans) {
+        current.answerIndex = ans[1].toUpperCase().charCodeAt(0) - 65
+        current.explanation = ans[2].replace(/\*\*/g, '').trim()
+        quiz.push(current)
+        current = null
+        continue
+      }
+    }
+  }
+
+  if (current) quiz.push(current)
+
+  const valid = quiz.filter(
+    q => q.options.length >= 2 && q.answerIndex >= 0 && q.answerIndex < q.options.length
+  )
+
+  return { markdown: body, quiz: valid.length > 0 ? valid : null }
+}
+
+// Parse "### Module N · Topic Title" blocks into ordered sub-modules.
+// Content runs until the next "## " (level-2) heading or another "### Module" heading.
+function parseSubmodules(content: string): Submodule[] | null {
+  const lines = content.split('\n')
+  const modules: Submodule[] = []
+  let current: Submodule | null = null
+
+  const headingRe = /^###\s+Module\s*(\d+)[\s·.\-:]*?(.+)$/i
+  const stopRe = /^##\s+/
+
+  for (const raw of lines) {
+    const line = raw.replace(/\s*$/, '')
+    const match = line.match(headingRe)
+    if (match) {
+      current = {
+        index: parseInt(match[1], 10),
+        title: cleanOption(match[2].replace(/^Module\s*\d+[\s·.\-:]*/i, '')),
+        markdown: line,
+      }
+      modules.push(current)
+      continue
+    }
+    if (current && stopRe.test(raw)) {
+      current = null
+      continue
+    }
+    if (current) {
+      current.markdown += '\n' + raw
+    }
+  }
+
+  const ordered = modules
+    .filter(m => m.title && m.markdown.trim().length > 0)
+    .sort((a, b) => a.index - b.index)
+
+  return ordered.length > 0 ? ordered : null
+}
+
 const GENERIC_DISTRACTORS = [
   'Using AI tools without any human judgment',
   'Memorising AI terminology without practice',
@@ -634,6 +757,16 @@ async function main() {
       }
 
       const description = cleanOption(title.replace(/^Mission\s+\d+:\s*/i, ''))
+      const parsedSubmodules = parseSubmodules(content)
+
+      const submodules: Submodule[] | null = parsedSubmodules
+        ? parsedSubmodules
+            .map(s => {
+              const { markdown, quiz } = parseExampleQuiz(s.markdown)
+              return { index: s.index, title: s.title, markdown, ...(quiz ? { exampleQuiz: quiz } : {}) }
+            })
+            .filter(s => s.markdown.trim().length > 0 || (s.exampleQuiz && s.exampleQuiz.length > 0))
+        : null
 
       const module = await prisma.module.upsert({
         where: { courseId_missionNumber: { courseId: course.id, missionNumber } },
@@ -645,6 +778,7 @@ async function main() {
           title,
           description,
           contentMarkdown: content,
+          submodules: submodules && submodules.length > 0 ? (submodules as unknown as Prisma.InputJsonValue) : Prisma.JsonNull,
           creditsReward: BASE_XP,
         },
         create: {
@@ -658,6 +792,7 @@ async function main() {
           title,
           description,
           contentMarkdown: content,
+          submodules: submodules && submodules.length > 0 ? (submodules as unknown as Prisma.InputJsonValue) : Prisma.JsonNull,
           videoUrl: null,
           creditsReward: BASE_XP,
         },

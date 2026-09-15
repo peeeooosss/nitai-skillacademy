@@ -44,6 +44,50 @@ export interface EnrolledCourse extends CourseMeta {
   };
 }
 
+export interface ExampleQuizItem {
+  question: string;
+  options: string[];
+  answerIndex: number;
+  explanation: string;
+}
+
+export interface Submodule {
+  index: number;
+  title: string;
+  unlocked?: boolean;
+  completed?: boolean;
+}
+
+export interface SubmoduleContent extends Submodule {
+  markdown: string;
+  exampleQuiz?: ExampleQuizItem[] | null;
+}
+
+export type LivePlatform = "ZOOM" | "MEET" | "TEAMS" | "OTHER";
+
+export interface LiveSession {
+  id: string;
+  title: string;
+  description: string | null;
+  platform: LivePlatform;
+  link: string;
+  scheduledAt: string;
+  durationMins: number;
+  missionNumber: number | null;
+  course: {
+    slug: string;
+    title: string;
+    shortTitle: string;
+    icon?: string;
+    accentColor?: string;
+  };
+}
+
+export interface AdminLiveSession extends LiveSession {
+  courseId: string;
+  isActive: boolean;
+}
+
 export interface MissionItem {
   id: number;
   missionNumber: number;
@@ -51,6 +95,9 @@ export interface MissionItem {
   description: string;
   sessionType: string;
   creditsReward: number;
+  submodules: Submodule[];
+  submodulesCompleted: number;
+  submodulesTotal: number;
   videoWatched: boolean;
   quizPassed: boolean;
   assignmentSubmitted: boolean;
@@ -87,9 +134,19 @@ export interface MissionDetail {
     title: string;
     description: string;
     contentMarkdown: string;
+    submodules: SubmoduleContent[];
     videoUrl: string | null;
     creditsReward: number;
   };
+  liveSession: {
+    id: string;
+    title: string;
+    description: string | null;
+    platform: LivePlatform;
+    link: string;
+    scheduledAt: string;
+    durationMins: number;
+  } | null;
   quiz: {
     id: string;
     questions: QuizQuestion[];
@@ -107,6 +164,8 @@ export interface MissionDetail {
     quizPassed: boolean;
     assignmentSubmitted: boolean;
     completed: boolean;
+    submodulesCompleted?: number;
+    submodulesTotal?: number;
   };
   gating: {
     unlocked: boolean;

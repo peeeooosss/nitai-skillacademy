@@ -48,6 +48,16 @@ export const handler: NetlifyHandler = async (event) => {
           const assignmentSubmitted = pr?.assignmentSubmitted ?? false
           const completed = pr?.completed ?? false
           const unlocked = i === 0 ? true : (progressByModule.get(course.modules[i - 1].id)?.completed === true)
+          const rawSubmodules = ((m.submodules as { index: number; title: string }[] | null) || [])
+            .slice()
+            .sort((a, b) => a.index - b.index)
+          const completedSet = new Set<number>((pr?.completedSubmodules as number[] | null) || [])
+          const submodules = rawSubmodules.map((s, si) => ({
+            index: s.index,
+            title: s.title,
+            unlocked: si === 0 || completedSet.has(rawSubmodules[si - 1].index),
+            completed: completedSet.has(s.index),
+          }))
           return {
             id: m.id,
             missionNumber: m.missionNumber as number,
@@ -55,6 +65,9 @@ export const handler: NetlifyHandler = async (event) => {
             description: m.description,
             sessionType: m.sessionType,
             creditsReward: m.creditsReward,
+            submodules,
+            submodulesCompleted: completedSet.size,
+            submodulesTotal: submodules.length,
             videoWatched,
             quizPassed,
             assignmentSubmitted,

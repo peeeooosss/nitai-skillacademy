@@ -15,6 +15,7 @@ import {
   X,
   ChevronRight,
   Home,
+  Video,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/context/AuthContext";
@@ -23,6 +24,7 @@ import { AuthCard } from "./AuthCard";
 const NAV_ITEMS = [
   { href: "/portal", label: "Dashboard", icon: LayoutDashboard },
   { href: "/portal/courses", label: "Courses", icon: BookOpen },
+  { href: "/portal/live", label: "Live Sessions", icon: Video },
 ];
 
 export function PortalShell({ children }: { children: React.ReactNode }) {
