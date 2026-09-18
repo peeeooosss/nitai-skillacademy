@@ -1,25 +1,54 @@
 # Mission 5: Department-Specific AI Workflows
 
-## Learning Objectives
-
-- Design workflows matched to your department, not a generic one-fits-all prompt
-- Build a marketing and content workflow: briefs, social, and campaigns
-- Build a sales and support workflow: follow-ups, objections, summaries
-- Build a finance and operations workflow: variance notes and structured reports
-- Build an HR workflow: job descriptions, onboarding, feedback
-- Launch your department's first workflow and measure its impact
-
 ---
 ### Module 1 · One Workflow per Department
 
-A generic 'use AI at work' skill helps, but the real gains come from a workflow built for your department's repeated tasks:
+A generic 'use AI at work' skill helps, but the real gains come from a workflow built for your department's repeated tasks. Department workflows succeed because they match your jargon, your formats, and your actual rhythm - not a one-size-fits-all prompt.
 
-- **Marketing** - briefs, social copy, campaign plans, tone guides.
-- **Sales & support** - follow-ups, objection handling, call summaries.
-- **Finance & ops** - variance explanations, structured reports, checklists.
-- **HR** - job descriptions, onboarding plans, feedback drafts.
+Each workflow is a small set of reusable prompts tuned to the way your team already works. When the output looks like what your department normally produces, adoption happens on its own.
 
-Each workflow is a small set of reusable prompts tuned to your jargon and formats.
+## Learning Objectives
+
+- Explain why department workflows outperform generic prompts
+- Map the repeated task types of marketing, sales, finance, and HR
+- Start with the workflow that matches your own team's cadence
+
+## The Department Map
+
+### Marketing
+- Briefs, social copy, campaign plans, tone guides
+### Sales and support
+- Follow-ups, objection handling, call summaries
+### Finance and ops
+- Variance explanations, structured reports, checklists
+### HR
+- Job descriptions, onboarding plans, feedback drafts
+
+## Why Fit Matters
+
+- A workflow that speaks your jargon produces output you barely edit
+- Prompts tuned to your formats slot straight into your normal documents
+- A generic prompt produces generic output that still needs reshaping
+
+## How to Find Yours
+
+- List the task types your team repeats weekly - not monthly, weekly
+- Pick the two or three with the most time lost and the easiest verification
+- Build one workflow per task type; add your jargon and your format names
+
+## Key Takeaways
+
+- Department workflows beat generic prompts because they match your tasks and language
+- Marketing, sales, finance, and HR each have distinct repeatable task types
+- Workflows tuned to your formats produce output you barely edit
+- Start from weekly repeated tasks with clear verification
+- Adoption follows fit - the output looks like your department's real work
+
+## Practice Challenge
+
+1. List the weekly repeated task types in your own department.
+2. Mark the two with the most time lost and easiest verification.
+3. Add the list to your toolkit as your workflow roadmap.
 
 **Example Quiz**
 
@@ -39,24 +68,62 @@ Each workflow is a small set of reusable prompts tuned to your jargon and format
 
 **Answer:** A — Marketing workflows cover briefs, social copy, campaigns, and tone guides.
 
-3. What is a finance/ops workflow example?
+3. What is a finance-and-ops workflow example?
 - A) Variance explanations and structured reports
 - B) Cold calls
 - C) Instagram stories
 - D) Hiring plans
 
-**Answer:** A — Finance/ops workflows produce variance notes and structured reports.
+**Answer:** A — Finance and ops workflows produce variance notes and structured reports.
 
 ---
 ### Module 2 · Marketing and Content Workflows
 
-For marketing and content, build prompts around your repeated outputs:
+Marketing and content teams repeat the same outputs constantly: briefs, social posts, campaign plans, and tone guides. Each of these can be built as a reusable prompt, and each one you build pays for itself within a week.
 
-- **Campaign brief** - 'Act as a content strategist. Write a one-page brief for [audience] on [offer]: goal, message, channels, CTA, tone.'
-- **Social posts** - 'Rewrite this campaign idea as 3 LinkedIn posts and 3 short-form posts, same voice.'
-- **Tone guide** - 'Given the samples below, extract our tone rules (words we use, words we avoid).'
+The key asset in a marketing AI workflow is the tone guide - a set of rules extracted from your own approved samples. It is what makes every later prompt sound like your brand instead of like generic AI.
 
-The tone guide is the key asset - it makes every later prompt sound like you.
+## Learning Objectives
+
+- Build brief, social, and tone-guide prompts for a content team
+- Extract a tone guide from your own approved samples
+- Explain why the tone guide makes every later prompt sound like you
+
+## The Content Prompt Set
+
+### Campaign brief
+- 'Act as a content strategist. Write a one-page brief for [audience] on [offer]: goal, message, channels, CTA, tone'
+### Social posts
+- 'Rewrite this campaign idea as 3 LinkedIn posts and 3 short-form posts, same voice'
+### Tone guide
+- 'Given the samples below, extract our tone rules - words we use, words we avoid'
+
+## Building Your Tone Guide
+
+- Feed the AI three months of your approved posts - the samples carry your voice
+- Ask it to extract explicit rules: vocabulary, formality, humour, sentence length
+- Review the rules against what you actually approve - correct anything off
+- The result is a reusable asset every prompt can reference
+
+## Why the Voice Wins
+
+- Consistent voice is what separates branded content from generic filler
+- Approvals drop when the first draft already sounds like the team
+- The tone guide unlocks speed across every format you produce
+
+## Key Takeaways
+
+- A tone guide extracted from your own samples makes every prompt sound like your brand
+- Campaign brief prompts cover goal, message, channels, CTA, and tone on one page
+- One campaign idea plus several format requests gives fast, consistent social posts
+- The tone guide is the reusable asset that other prompts build on
+- Approvals drop when first drafts arrive in your voice
+
+## Practice Challenge
+
+1. Collect three months of your approved content samples.
+2. Extract a tone guide from them and review it against your real style.
+3. Use the tone guide to generate one social post and compare it to your usual output.
 
 **Example Quiz**
 
@@ -82,23 +149,63 @@ The tone guide is the key asset - it makes every later prompt sound like you.
 - C) Write each by hand
 - D) Buy followers
 
-**Answer:** A — One idea + several format requests + your tone guide = fast, consistent social posts.
+**Answer:** A — One idea plus several format requests plus your tone guide equals fast, consistent social posts.
 
 ---
 ### Module 3 · Sales and Support Workflows
 
-Sales and support teams repeat follow-ups, objection handling, and summaries:
+Sales and support teams live on repetition: follow-ups, objection handling, and call summaries. Each of these can become a reusable prompt, and each saved prompt keeps the messaging consistent while the team focuses on the conversation, not the typing.
 
-- **Follow-up** - 'Draft a polite follow-up to [person] about [deal], referencing our last point: [point]. Include one new value add.'
-- **Objections** - 'Given this objection, [objection], give three rebuttals with evidence a sales rep can deliver in one minute.'
-- **Call summary** - 'From the call notes, list: decisions, next steps with owners, open questions, risks.'
+The three prompts in this module turn scattered conversations into a repeatable, verifiable workflow - and a shared answer bank keeps even new reps on message.
 
-These prompts turn scattered conversations into repeatable, verifiable workflow.
+## Learning Objectives
+
+- Build follow-up, objection, and call-summary prompts for sales and support
+- Turn a call into structured next steps with owners
+- Explain how an answer bank keeps messaging consistent across reps
+
+## The Sales Prompt Set
+
+### Follow-up
+- 'Draft a polite follow-up to [person] about [deal], referencing our last point: [point]. Include one new value add'
+### Objections
+- 'Given this objection, [objection], give three rebuttals with evidence a sales rep can deliver in one minute'
+### Call summary
+- 'From the call notes, list: decisions, next steps with owners, open questions, risks'
+
+## Why These Save Real Time
+
+- Follow-ups that reference the last point and add value move deals forward
+- An objection bank gives reps three evidence-backed answers in under a minute
+- Structured call summaries keep follow-up clear and accountable
+
+## Building the Objection Bank Over Time
+
+### Collect
+- Save the hardest objections you hear, in the team's own words
+### Generate
+- Produce evidence-backed rebuttals in one prompt per objection
+### Vet
+- A senior rep verifies each answer before it enters the shared bank
+
+## Key Takeaways
+
+- Follow-ups need the last point plus one new value add to move deals
+- Objection prompts yield three evidence-backed rebuttals a rep can deliver fast
+- Call summaries capture decisions, next steps with owners, open questions, risks
+- A vetted answer bank keeps messaging consistent, even for new reps
+- Sales workflows turn scattered conversations into repeatable process
+
+## Practice Challenge
+
+1. Write the follow-up, objection, and call-summary prompts for your role.
+2. Run them on three real examples from your last week.
+3. Vet one rebuttal for your hardest recurring objection and save it to the bank.
 
 **Example Quiz**
 
 1. What does the sales follow-up prompt include?
-- A) Last point discussed plus one new value add
+- A) The last point discussed plus one new value add
 - B) The full contract
 - C) A calendar export
 - D) The customer list
@@ -124,13 +231,53 @@ These prompts turn scattered conversations into repeatable, verifiable workflow.
 ---
 ### Module 4 · Finance and Operations Workflows
 
-Finance and ops gain from structured reports and variance explanations:
+Finance and operations teams live on structured outputs: reports, variance explanations, and process checklists. AI writes the narrative around the numbers; your systems remain the source of truth. Get that division right and these workflows become a genuine time engine.
 
-- **Variance note** - 'Given budget vs actual for [period], explain the largest variances in plain language, with top 3 drivers.'
-- **Structured report** - 'Produce our monthly ops report: metrics table, three highlights, three risks, actions and owners.'
-- **Checklist** - 'Turn this process into a numbered checklist with owners and time estimates.'
+The discipline, always: AI explains and drafts, you verify against your systems, and nothing with a number in it ships unchecked.
 
-Numbers still need verification - AI produces the narrative; your systems produce the truth.
+## Learning Objectives
+
+- Build variance-note, structured-report, and checklist prompts
+- Explain why your systems stay the source of truth for numbers
+- Verify AI narrative against the figures it describes
+
+## The Finance and Ops Prompt Set
+
+### Variance note
+- 'Given budget vs actual for [period], explain the largest variances in plain language, with top 3 drivers'
+### Structured report
+- 'Produce our monthly ops report: metrics table, three highlights, three risks, actions and owners'
+### Checklist
+- 'Turn this process into a numbered checklist with owners and time estimates'
+
+## The Narrative-Versus-Truth Split
+
+- AI is excellent at explaining why a variance moved - that is a narrative skill
+- Your systems own the numbers - a dashboard, ledger, or spreadsheet is the only source of truth
+- The workflow works because each side does what it is good at
+
+## Verifying the Story
+
+### Check the drivers
+- Do the AI's top-three drivers match what your dashboard actually shows?
+### Check the numbers
+- Spot-check every figure that appears in the narrative
+### Check the ownership
+- Do checklists and risk rows always carry an owner and a date?
+
+## Key Takeaways
+
+- Variance prompts produce plain-language explanations of the largest moves
+- AI writes the narrative; your systems are the source of truth for numbers
+- Structured reports need metrics, highlights, risks, and owned actions
+- Process checklists become executable with owners and time estimates
+- Verify drivers and figures against your systems before anything ships
+
+## Practice Challenge
+
+1. Run the variance-note prompt on your department's last period.
+2. Check its top drivers against your actual dashboard.
+3. Turn one of your manual processes into a numbered checklist.
 
 **Example Quiz**
 
@@ -161,13 +308,53 @@ Numbers still need verification - AI produces the narrative; your systems produc
 ---
 ### Module 5 · HR and People Ops Workflows
 
-HR teams repeat job descriptions, onboarding, and feedback:
+HR teams repeat the same drafts constantly: job descriptions, onboarding plans, and feedback. Each one touches someone's career, which is exactly why these workflows pair AI's drafting speed with mandatory human review.
 
-- **Job description** - 'Write a JD for [role] in [team]: responsibilities, required skills, nice-to-have skills, and what success looks like in 90 days. Tone: inclusive.'
-- **Onboarding plan** - 'Create a 30-day onboarding plan for [role], week by week, with owners and checkpoints.'
-- **Feedback draft** - 'Given this situation, draft strengths-based feedback with a specific next step.'
+The benefit is real - faster cycle times and consistently structured, bias-reducing drafts. The discipline is equally real: people content is never published without a human reading it first.
 
-These drafts reduce bias and speed up cycle times - but a human always reviews before publishing.
+## Learning Objectives
+
+- Build JD, onboarding, and feedback-draft prompts for people teams
+- Explain why inclusive standards belong in every people prompt
+- Apply the human-review requirement to all people-facing output
+
+## The People Prompt Set
+
+### Job description
+- 'Write a JD for [role] in [team]: responsibilities, required skills, nice-to-have skills, and what success looks like in 90 days. Tone: inclusive'
+### Onboarding plan
+- 'Create a 30-day onboarding plan for [role], week by week, with owners and checkpoints'
+### Feedback draft
+- 'Given this situation, draft strengths-based feedback with a specific next step'
+
+## Why These Prompts Include the Standards
+
+- Stating an inclusive tone in the prompt reduces unconscious-bias pattern from the first draft
+- Structuring success criteria forces clarity about what the role actually needs
+- Strengths-based feedback with a next step is actionable rather than vague
+
+## The Review Requirement
+
+### Never skip
+- A human reads every JD, onboarding plan, and feedback item before it is used
+### Why
+- People content affects careers - errors or awkward wording have real cost
+### How to make it easy
+- The AI produces a clean draft; the human's job is review and judgement, not re-drafting
+
+## Key Takeaways
+
+- A complete JD includes responsibilities, skill tiers, and what success looks like
+- Week-by-week onboarding plans with owners and checkpoints make the first month actionable
+- Strengths-based feedback with a specific next step is actionable, not vague
+- People content affects careers - human review is non-negotiable
+- Inclusive standards belong in the prompt so the first draft starts clean
+
+## Practice Challenge
+
+1. Write the JD, onboarding, and feedback prompts for a role you know well.
+2. Draft one feedback message and apply the review requirement to it.
+3. Add the prompts to your toolkit with your review checklist beside them.
 
 **Example Quiz**
 
@@ -198,15 +385,54 @@ These drafts reduce bias and speed up cycle times - but a human always reviews b
 ---
 ### Module 6 · Launch Your Department's First Workflow
 
-Choose your department's single most repetitive, verifiable task and build one workflow:
+You now have the patterns; this module is where one of them becomes real. The most persuasive thing you can show your team is a single working workflow - a prompt that turns one weekly task into minutes, with quality intact.
 
-1. **Pick** one task you and your team do weekly.
-2. **Design** a reusable prompt with your jargon and formats.
-3. **Test** it on three past real examples; refine once.
-4. **Share** it with a colleague; note time saved and quality kept.
-5. **Measure** - minutes saved and passes without redo.
+The method is deliberately small: pick one task, design one prompt, test it on past real examples, share it with a colleague, and measure the difference. One working workflow is worth more than ten ideas.
 
-A single working workflow is worth more than ten ideas. Grow from one to many.
+## Learning Objectives
+
+- Select the most repetitive, verifiable task in your department
+- Design, test, and refine a workflow for it
+- Measure success in minutes saved and redo-free passes
+
+## The Launch Checklist
+
+### 1. Pick
+- One weekly task with the most time lost and easiest verification
+### 2. Design
+- A reusable prompt in your jargon, with your formats
+### 3. Test
+- Run it on three past real examples; refine once
+### 4. Share
+- Hand it to a colleague and see if it survives contact
+### 5. Measure
+- Minutes saved and passes without redo
+
+## What to Pick First
+
+- The most repetitive and verifiable task wins - biggest saving, easiest to check
+- Avoid the newest or most complex task for a first launch
+- A colleague should be able to use it without you in the room
+
+## Measuring Honestly
+
+- Log minutes for the task before and after in real work, for two weeks
+- Count passes without redo - rework is the hidden tax on any workflow
+- One honest table outpaces ten enthusiastic impressions when you report later
+
+## Key Takeaways
+
+- Start with the most repetitive, verifiable task - biggest saving, easiest to check
+- Design the prompt in your jargon and your formats
+- Test on three past real examples and refine once
+- One working workflow is worth more than ten ideas
+- Measure minutes saved and redo-free passes - the honest numbers win
+
+## Practice Challenge
+
+1. Identify your department's single most repetitive, verifiable task.
+2. Design and test its prompt on three past real examples.
+3. Share it with a colleague and record the minutes it saved this week.
 
 **Example Quiz**
 
@@ -235,29 +461,3 @@ A single working workflow is worth more than ten ideas. Grow from one to many.
 **Answer:** A — Time saved and redo-free outputs are the honest measures.
 
 ---
-
-## Real-World Examples
-
-**The marketing tone guide —** A small marketing team fed three months of approved posts into AI, extracted its tone rules, then generated a month of social posts in their own voice - approvals dropped from two rounds to one.
-**The sales objection bank —** A team of sales reps fed their hardest objections into AI and kept a rebuttal bank with evidence bullets. New reps answered common objections in a minute with consistent, accurate messages.
-**The finance variance note —** An analyst used a variance-note prompt to draft plain-language explanations for monthly budget vs actual. Leadership now reads the story behind the numbers in minutes, with figures verified each month.
-
----
-
-## Key Takeaways
-
-- Department workflows beat generic prompts because they match your jargon and formats.
-- A tone guide from your own samples makes every marketing prompt sound like you.
-- Sales wins come from repeatable follow-ups, objection banks, and call summaries.
-- Finance and ops: AI writes the narrative; your systems stay the source of truth.
-- HR content is people-facing - always review before publishing.
-- Ship one working workflow first; measure minutes saved and redo-free passes.
-
----
-
-## Practice Challenge
-
-1. Identify the single most repetitive, verifiable task in your department.
-2. Write a reusable prompt with your jargon and formats.
-3. Test it on three past real examples and refine once.
-4. Share it with a colleague and record minutes saved.

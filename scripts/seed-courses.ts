@@ -465,14 +465,16 @@ function parseExampleQuiz(markdown: string): { markdown: string; quiz: ExampleQu
 }
 
 // Parse "### Module N · Topic Title" blocks into ordered sub-modules.
-// Content runs until the next "## " (level-2) heading or another "### Module" heading.
+// Content runs until the next "### Module" heading so that "## " / "### "
+// level-2 sections (Learning Objectives, concepts, Key Takeaways, etc.)
+// stay inside the owning submodule's markdown.
 function parseSubmodules(content: string): Submodule[] | null {
   const lines = content.split('\n')
   const modules: Submodule[] = []
   let current: Submodule | null = null
 
-  const headingRe = /^###\s+Module\s*(\d+)[\s·.\-:]*?(.+)$/i
-  const stopRe = /^##\s+/
+  const headingRe = /^###\s+Module\s*(\d+)[\s·.\-:]*?([^\s·.\-:]+.*)$/i
+  const stopRe = /^###\s+Module\s*\d+\b/i
 
   for (const raw of lines) {
     const line = raw.replace(/\s*$/, '')

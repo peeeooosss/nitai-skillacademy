@@ -1,23 +1,57 @@
 # Mission 3: Prompting Like a Pro at Work
 
-## Learning Objectives
-
-- Write role-based prompts that produce work-ready output
-- Use structure and format requests to control the result
-- Iterate like a professional: one revision at a time
-- Avoid the classic prompt mistakes that waste time
-- Build a set of reusable prompt patterns for your role
-
 ---
 ### Module 1 · Give the AI a Role
 
-The single biggest upgrade to any prompt is a role. Saying 'Act as a senior financial analyst...' or 'You are an experienced HR partner...' changes the depth and tone of the answer.
+The single biggest upgrade you can make to any prompt is to give the AI a role. Saying 'Act as a senior financial analyst...' or 'You are an experienced HR partner...' changes the depth, tone, and vocabulary of the answer more than almost anything else you can type.
 
-Use the pattern:
+Role prompts work because they give the model context it would otherwise have to guess. A guessing model produces a generic answer; a role sets the standard from the very first sentence and saves you an entire round-trip.
 
-'Act as a [role]. Your audience is [audience]. Produce [task] with [constraints].'
+## Learning Objectives
 
-Role prompts work because they give the model context it would otherwise guess. Guessing wastes a round-trip; a role sets the bar from the first sentence.
+- Write role prompts that set depth and tone in the first line
+- Explain why role prompts reduce guessing and wasted round-trips
+- Apply the pattern - role, audience, task, constraints - to your own work
+
+## Why a Role Changes the Answer
+
+- A role tells the model who it is, so it applies the right vocabulary and standards
+- 'Act as a senior analyst' instantly raises rigour versus an unanchored ask
+- The model stops guessing your context and starts answering as the expert you named
+
+## The Role Pattern
+
+The pattern fits on one line and extends to nearly any task.
+```text
+Act as a [role]. Your audience is [audience]. Produce [task]
+with [constraints].
+```
+- Role: the expert you want the AI to imitate - senior analyst, HR partner, copy-editor
+- Audience: who will use or read the output
+- Task plus constraints: exactly what to produce and under which limits
+
+## Good Role Prompts
+
+### Senior financial analyst
+- Budget commentary, variance notes, and board-style summaries
+### Experienced HR partner
+- Job descriptions, feedback drafts, and onboarding plans
+### Copy-editor and proof-reader
+- Cleaning drafts for clarity, consistency, and tone
+
+## Key Takeaways
+
+- A role is the single biggest upgrade to any prompt
+- Roles supply context the model would otherwise guess - saving a round-trip
+- The pattern: Act as a [role] for [audience], produce [task] with [constraints]
+- Different roles raise or lower rigour, vocabulary, and style automatically
+- One line of role context shapes an entire answer
+
+## Practice Challenge
+
+1. Take a prompt you use and add a specific role at the start.
+2. Run it with and without the role and compare the two answers.
+3. Save the better version with a note on why the role helped.
 
 **Example Quiz**
 
@@ -27,7 +61,7 @@ Role prompts work because they give the model context it would otherwise guess. 
 - C) Using CAPS LOCK
 - D) Adding more questions
 
-**Answer:** A — A role - 'Act as a senior financial analyst' - sets depth and tone immediately.
+**Answer:** A — A role - such as 'Act as a senior financial analyst' - sets depth and tone immediately.
 
 2. What does a role give the model?
 - A) Context it would otherwise guess
@@ -43,19 +77,61 @@ Role prompts work because they give the model context it would otherwise guess. 
 - C) 'Make this professional'
 - D) 'Try really hard'
 
-**Answer:** A — 'Act as a [role]... [task] with [constraints]' is the professional pattern.
+**Answer:** A — Role plus task and constraints is the professional pattern.
 
 ---
 ### Module 2 · Name the Audience and Constraints
 
-Audience and constraints are the two details professionals forget most. Include them:
+Audience and constraints are the two details professionals forget most in their prompts. Without them, the AI silently chooses its own length, complexity, and structure - and usually picks something that does not fit your situation.
 
-- **Audience:** 'written for non-finance managers' - changes every word choice.
-- **Constraints:** 'under one page', 'no jargon', 'numbers in a table', 'tone: direct and respectful'.
+The fix is cheap: name who the output is for, and set the limits you care about. Two small sentences change the entire shape of the result.
 
-Without constraints, the AI chooses its own length, complexity, and structure - usually wrong for your context.
+## Learning Objectives
 
-**Try it now:** rewrite a generic prompt you use and add one audience and two constraints.
+- Add audience and constraints to every work prompt
+- Explain why the model otherwise guesses length, tone, and complexity
+- Rewrite a generic prompt with one audience and at least two constraints
+
+## Audience - Who Reads It
+
+- An audience line such as 'written for non-finance managers' changes every word choice
+- The same facts read differently to leadership, a technical team, or a client
+- State the audience plainly - do not make the AI infer it from the topic
+
+## Constraints - The Limits
+
+### Length
+- 'Under one page', 'no more than 120 words', 'five bullet points'
+### Complexity
+- 'No jargon', 'plain language', 'explain as if to a new hire'
+### Structure and tone
+- 'Numbers in a table', 'tone: direct and respectful', 'lead with the recommendation'
+
+## The Fixed Version
+
+Notice the difference constraints make on the same task.
+```text
+Generic: Summarise this proposal.
+
+Constrained: Summarise this proposal for non-technical managers. Keep
+it under one page, avoid jargon, put the budget in a table, and lead
+with the recommendation and the decision needed.
+```
+- The constrained version produces output you could paste into a board pack
+
+## Key Takeaways
+
+- Audience and constraints are the two details professionals forget most
+- Naming the audience changes wording, tone, and level of detail
+- Constraints control length, complexity, structure, and tone
+- Without them the model guesses - and usually guesses wrong for your context
+- One audience line plus two constraints turn generic output into usable output
+
+## Practice Challenge
+
+1. Rewrite a generic prompt you use and add one audience and two constraints.
+2. Run both versions and compare where the constraints changed the output.
+3. Keep the constrained version in your toolkit as a reference.
 
 **Example Quiz**
 
@@ -81,18 +157,58 @@ Without constraints, the AI chooses its own length, complexity, and structure - 
 - C) Your calendar
 - D) The number of replies
 
-**Answer:** A — Constraints - 'under a page', 'no jargon', 'as a table' - control the output shape.
+**Answer:** A — Constraints - under a page, no jargon, as a table - control the output shape.
 
 ---
 ### Module 3 · Ask for Structure and Format
 
-Never accept an unstructured wall of text when you need something usable. Ask for format:
+Never accept an unstructured wall of text when you need something usable. The AI will happily produce a long paragraph where you needed a table, bullets, or a numbered list - unless you ask for the structure you want.
 
-'Deliver as: 1) a summary paragraph, 2) five bullet points, 3) a comparison table.'
+Asking for format is one of the highest-leverage moves in prompting, because the usual next step is copy-pasting the output into a document. Ask for the format that document already uses, and the copy-paste job mostly disappears.
 
-Table requests are especially powerful: 'Put the pros and cons in a table with columns: Option, Benefit, Risk, Effort.'
+## Learning Objectives
 
-**Rule of thumb:** if you are going to copy-paste the answer into a document, ask for the format that document already uses.
+- Request explicit structures - paragraphs, bullets, tables - in prompts
+- Use table requests to organise comparisons and options clearly
+- Match the requested format to the document the output will be pasted into
+
+## Naming the Output Shape
+
+```text
+Deliver as: 1) a summary paragraph, 2) five bullet points, 3) a
+comparison table with columns: Option, Benefit, Risk, Effort.
+```
+- Specify the exact structure so the output is paste-ready
+- Numbered delivery lists stop the AI from choosing its own layout
+
+## Why Table Requests Are Powerful
+
+- Tables organise pros, cons, and comparisons so decisions are easy to read
+- A comparison table makes a build-versus-buy choice obvious in minutes
+- Tables force the AI to separate fact from opinion cleanly
+- They compress a lot of information into a small, scannable space
+
+## Match the Format to the Destination
+
+### Rule of thumb
+- If the output goes into a report, ask for the format that report already uses
+- Ask for a memo layout for a memo, an email layout for an email, slide bullets for a deck
+### Why it works
+- Paste-ready output removes editing time - the largest hidden cost after drafting
+
+## Key Takeaways
+
+- Ask for a specific structure or format instead of accepting any shape
+- Table requests organise comparisons so decisions are easy to read
+- Match the requested format to the document the output will live in
+- Numbered delivery lists stop the AI from choosing its own layout
+- Paste-ready output eliminates the silent hour of reformatting
+
+## Practice Challenge
+
+1. Take the next document you will create and identify its real format.
+2. Write a prompt that requests exactly that structure for the output.
+3. Run it and check whether the output lands in the document with minimal edits.
 
 **Example Quiz**
 
@@ -110,7 +226,7 @@ Table requests are especially powerful: 'Put the pros and cons in a table with c
 - C) They confuse readers
 - D) They are longer
 
-**Answer:** A — Tables organise pros/cons and comparisons so decisions are easy to read.
+**Answer:** A — Tables organise pros and cons so decisions are easy to read.
 
 3. What format should you request for a task?
 - A) The format your document already uses
@@ -123,16 +239,52 @@ Table requests are especially powerful: 'Put the pros and cons in a table with c
 ---
 ### Module 4 · Iterate Like a Professional
 
-The first answer is a draft, not a result. Professional iteration is one revision at a time:
+The first AI answer is a draft, not a result. Professionals treat it that way and improve it deliberately - one revision instruction at a time. This small habit separates the people who get usable work from the people who keep starting over.
 
-- 'Make it shorter and more practical.'
-- 'Tone it down - less formal, more approachable.'
-- 'Use numbers where possible.'
-- 'Give me three options instead, with costs.'
+The reason for one instruction at a time is practical: if you overload the AI with four requests in a single message, it silently drops or blends half of them. One clear instruction per round lets you see exactly what changed and why.
 
-One instruction per message lets you track what changed. If you overload the AI with four instructions, it silently drops half of them.
+## Learning Objectives
 
-**The habit:** always read the draft before you write the revision instruction.
+- Treat the first AI answer as a draft to be improved
+- Iterate with one instruction per message for trackable changes
+- Read the draft fully before writing the next revision instruction
+
+## The Draft Mindset
+
+- The first output is a starting point, not a promise - expect to shape it
+- Good revisions are short, specific, and targeted at one thing
+- Each round answers one question: is the draft closer to usable or not?
+
+## One Instruction at a Time
+
+```text
+Round 1: Make it shorter and more practical.
+Round 2: Tone it down - less formal, more approachable.
+Round 3: Use numbers where possible.
+Round 4: Give me three options instead, with costs.
+```
+- Four rounds of one instruction each beat one message with four demands
+- You can always track which instruction produced which change
+
+## Read Before You Revise
+
+- Always read the draft before writing the revision instruction - aim it at a real gap
+- Name the specific problem: the length, the tone, a missing detail
+- If the draft is close, one polish instruction is enough - do not over-iterate
+
+## Key Takeaways
+
+- The first AI answer is a draft, not a result
+- Iterate one instruction at a time - overloaded prompts drop instructions
+- Track what changed between rounds by changing one thing at a time
+- Read the draft before revising, and aim the revision at a real gap
+- Iteration is the difference between a raw draft and a polished deliverable
+
+## Practice Challenge
+
+1. Run the one-instruction iteration on a real work draft this week.
+2. Complete three rounds and note what changed at each one.
+3. Save the final version and the instructions that got you there.
 
 **Example Quiz**
 
@@ -163,25 +315,65 @@ One instruction per message lets you track what changed. If you overload the AI 
 ---
 ### Module 5 · The Classic Prompt Mistakes
 
-Avoid the five most common wastes of time:
+Most wasted time with AI comes from five repeatable mistakes, not from the tools themselves. Each mistake costs at least one extra round-trip - and the fix for every one of them is free. That is why prompting skill is the highest-ROI habit in this course.
 
-1. **'Write something professional'** - no audience, task, or format.
-2. **One giant paragraph** - no structure or line breaks; hard for AI to parse.
-3. **No constraints** - the model guesses length and tone.
-4. **No check step** - shipping a raw draft with errors.
-5. **Changing tools** when the real fix is a better prompt.
+Once you can spot these five mistakes in your own prompts, you will stop fighting the tool and start getting usable output on the first or second try.
 
-Each mistake costs a round-trip. Fixing them is free - which is why prompting skill is the highest-ROI habit in this course.
+## Learning Objectives
+
+- Recognise the five classic prompt mistakes as they happen
+- Explain why vague prompts cost extra round-trips
+- Fix a poor result by improving the prompt rather than switching tools
+
+## The Five Mistakes
+
+### The vague ask
+- 'Write something professional' - no audience, task, or format for the AI to aim at
+### The wall of text
+- One giant paragraph with no structure - hard for the AI to parse into action
+### The missing constraints
+- No length, tone, or format - so the model guesses them wrong
+### The skipped check
+- Shipping a raw draft with errors still in it
+### The tool-chaser
+- Changing tools when the real fix is a better prompt
+
+## What the Vague Ask Costs You
+
+- No audience means the model guesses formality and detail - usually wrong
+- No task means generic, surface-level output instead of a deliverable
+- No format means another round-trip to reshape what you got
+- Each vagueness compounds into multiple wasted exchanges
+
+## The Real Fix Is Cheaper Than the Tool
+
+- Poor output almost always traces back to the prompt, not the product
+- A free rewrite beats switching subscriptions and re-learning a tool
+- When output fails, debug the prompt first: role, audience, constraints, format
+
+## Key Takeaways
+
+- Five mistakes cause most wasted round-trips: vague asks, walls of text, missing constraints, skipped checks, and tool-chasing
+- Without constraints the model guesses length and tone wrong
+- Vague prompts are the number one time waster in this course
+- Debug the prompt before you switch tools - the fix is usually free
+- Spotting the mistake early is the skill; fixing it is just a rewrite
+
+## Practice Challenge
+
+1. Collect three prompts you have used recently and score each against the five mistakes.
+2. Fix the worst one with role, audience, constraints, and format.
+3. Re-run it and note the difference in the output.
 
 **Example Quiz**
 
 1. Which is a classic prompt mistake?
-- A) Giving a role and constraints
-- B) 'Write something professional' with no context
+- A) 'Write something professional' with no context
+- B) Giving a role and constraints
 - C) Asking for a table
 - D) Iterating once
 
-**Answer:** B — Vague asks with no audience, task, or format waste round-trips.
+**Answer:** A — Vague asks with no audience, task, or format waste round-trips.
 
 2. Why do vague prompts waste time?
 - A) The model guesses length and tone wrong
@@ -202,14 +394,53 @@ Each mistake costs a round-trip. Fixing them is free - which is why prompting sk
 ---
 ### Module 6 · Your Reusable Prompt Patterns
 
-By now you should have several patterns in your toolkit:
+By now you should have several patterns in your toolkit. That collection - not any single answer - is the real output of this mission. Every pattern you write once and reuse ten times pays for itself many times over.
 
-- **Role prompt** - 'Act as a [role] for an audience of [audience].'
-- **Repurpose prompt** - 'Convert [content] into [format], keeping the facts identical.'
-- **Summary prompt** - 'Extract decisions, actions with owners and dates, and open items.'
-- **Iteration instruction** - 'Make it shorter and more practical.'
+The four patterns in this module cover most of the professional prompting you will do: playing a role, repurposing content, summarising meetings, and guiding iteration. Keep them where you can reach them at work.
 
-This collection is the real output of this whole mission. Keep it where you can reach it - the more you reuse it, the faster your work becomes.
+## Learning Objectives
+
+- Assemble the four core prompt patterns into a reachable toolkit
+- Choose the right pattern for a task on sight
+- Explain why reusable patterns, not single answers, are the mission's real output
+
+## The Four Patterns
+
+### Role prompt
+- 'Act as a [role] for an audience of [audience]'
+### Repurpose prompt
+- 'Convert [content] into [format], keeping the facts identical'
+### Summary prompt
+- 'Extract decisions, actions with owners and dates, and open items'
+### Iteration instruction
+- 'Make it shorter and more practical'
+
+## Choosing the Pattern
+
+- Starting from a blank page? Use the role prompt with audience and task
+- Changing one format to another? Use the repurpose prompt
+- Condensing notes or a thread? Use the summary prompt
+- You have a draft that is close? Apply the iteration instruction
+
+## Keeping the Toolkit Alive
+
+- Add one pattern every week from your real work - not from theory
+- Write one line per pattern: what it is for and when it works
+- A toolkit you never open is worthless; keep it one click away
+
+## Key Takeaways
+
+- Reusable patterns, not single answers, are the real output of this mission
+- The four core patterns cover role, repurpose, summary, and iteration
+- Choose the pattern by the shape of the task, not the tool
+- Write one line per pattern - its purpose and when it works
+- Keep the toolkit where you can reach it daily; reuse is the point
+
+## Practice Challenge
+
+1. Write all four patterns into your toolkit in your own words.
+2. Add one additional pattern from a task you actually did this week.
+3. Mark which pattern saved you the most time and why.
 
 **Example Quiz**
 
@@ -238,29 +469,3 @@ This collection is the real output of this whole mission. Keep it where you can 
 **Answer:** A — Keep patterns where you can reach them daily - reuse is the point.
 
 ---
-
-## Real-World Examples
-
-**The role that changed the answer —** Asking for 'a senior consultant's briefing for a non-technical board' instead of 'explain this strategy' produced a one-page summary with a decision table and recommended options - usable directly in the board pack.
-**The table request win —** A product manager asked for feature comparison 'as a table with columns Option, Benefit, Risk, Effort'. The AI's first free-form paragraph became a tidy table that made the build-vs-buy choice obvious in minutes.
-**The one-instruction iteration —** A marketer ran three rounds of one instruction each - 'shorter', 'more practical', 'with numbers' - and landed a final snippet in under ten minutes, instead of rewriting prose five times.
-
----
-
-## Key Takeaways
-
-- Give the AI a role; it sets depth, tone, and vocabulary immediately.
-- Name the audience and constraints; otherwise the model guesses them.
-- Ask for structure and format so output is paste-ready, not a rewrite project.
-- Iterate one instruction at a time after reading the draft.
-- Vague prompts are the #1 time waster; fix the prompt, not the tool.
-- Collect every pattern that works into a reachable toolkit.
-
----
-
-## Practice Challenge
-
-1. Pick a routine work output you create (email, update, memo).
-2. Write a role-based prompt with audience, task, format, and two constraints.
-3. Run it, read the draft, then improve it with exactly one revision instruction.
-4. Add the final prompt to your toolkit with a note on when it works.
