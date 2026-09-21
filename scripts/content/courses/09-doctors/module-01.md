@@ -1,53 +1,565 @@
 # Mission 1: AI in Clinical Practice: An Orientation
 
-Prepared for the Clinical AI Track — a practical, hands-on lesson you can finish in one sitting.
+---
+### Module 1 · What AI Can and Cannot Do in Clinical Practice
+
+AI in clinical practice is a fast, well-read assistant - not a clinician. It can summarise, draft, and suggest; it cannot examine, judge, or take responsibility.
+
+Knowing the boundary is the first safety skill. AI supports your reasoning; you own the decision.
 
 ## Learning Objectives
 
-- Understand how this mission fits your real work as a doctor.
-- Learn the core AI concept you need for this task, in plain language.
-- Know exactly which AI tools to open and what to type.
-- Complete a short practice challenge that produces something you can actually use.
+- Define what AI can do clinically
+- Recognise what AI cannot do
+- Keep clinical responsibility with you
+- Avoid over-reliance
 
-## The Core Idea
+## What AI Does Well
 
-AI tools are best understood not as magic but as a very fast assistant who has read a great deal and follows instructions carefully. Your job is to give clear instructions, check the output, and improve it. This mission teaches the specific instructions for this task.
+- Summarising notes and literature
+- Drafting letters and patient information
+- Suggesting differentials as prompts for thought
+- Saving time on repetitive documentation
+### Why
+- AI is fast and tireless
+- It handles language-heavy tasks
+- It never replaces clinical judgment
 
-### What You Will Do
+## What AI Cannot Do
 
-Start with the simple principle: **input quality decides output quality.** The better you describe your situation, audience, format, and constraints, the more useful the AI response. Every activity in this course follows the same loop — Ask, Check, Improve, Save — and by the end of this mission the loop will feel automatic.
+- Examine the patient
+- Take clinical responsibility
+- Guarantee accuracy or currency
+- Understand the full human context
+### The rule
+- AI suggests, you decide
+- Always verify output
+- Responsibility stays with the clinician
 
-### Key Techniques
+## The Orientation Prompt
 
-- **Be specific:** name the task, the audience, the tone, and the length.
-- **Give it a role:** "Act as an experienced doctors advisor…"
-- **Ask for structure:** headings, bullet points, or a table make outputs usable.
-- **Iterate:** treat the first answer as a draft. Ask for revisions.
-
-### A Simple Framework to Remember
-
-Use the three-part prompt frame: **Context – Task – Format.** Example: our professional context, the task you perform, and how you want the answer delivered. Master this frame and you can apply it to almost every other mission in the course.
-
-## Real-World Examples
-
-**Example 1 – The busy-work problem.** A typical day is full of small, repetitive tasks: drafting emails, summarising notes, structuring plans. With one well-worded prompt, a participant turns a half-hour of routine drafting into five minutes of checking and editing.
-
-**Example 2 – The blank-page problem.** Staring at an empty document is common. Use AI to produce a first draft or an outline in seconds, then spend your energy improving the draft rather than starting from nothing.
-
-**Example 3 – The consistency problem.** When the same style or format is needed repeatedly — a report layout, a newsletter structure, a lesson plan — save your best prompt and reuse it. Consistency becomes easy because the tool applies the pattern every time.
+```text
+Explain what AI can and cannot safely do in [specialty]
+clinical practice, with examples of safe support tasks and
+tasks that must stay with the clinician.
+```
+- Safe support tasks
+- Clinician-only tasks
+- Specialty-specific examples
 
 ## Key Takeaways
 
-- AI is an assistant that follows clear instructions; no prompt experience is needed to start.
-- The Context – Task – Format frame works for most tasks in this course.
-- Always review and edit AI output before using it — you are responsible for the result.
-- Save your best prompts to reuse; they become your personal toolkit.
+- AI is a fast assistant, not a clinician
+- It can summarise, draft, and suggest
+- It cannot examine, judge, or take responsibility
+- AI suggests; you decide
+- Clinical responsibility always stays with you
 
 ## Practice Challenge
 
-**Task:** Use your chosen AI tool to complete one real task from this mission.
+1. List three tasks AI can safely support
+2. List three tasks that must stay with you
+3. Write your own boundary rule
 
-1. Open your AI assistant (ChatGPT, Gemini, or the tool your course suggests).
-2. Write a Context – Task – Format prompt for a task you did for real this week.
-3. Ask for a revision once: "Make it shorter and more practical."
-4. Save the final output; share a 2–3 sentence note on what you changed and why.
+**Example Quiz**
+
+1. What is AI in clinical practice?
+- A) A fast assistant, not a clinician
+- B) A replacement doctor
+- C) A diagnostic device
+- D) A surgeon
+
+**Answer:** A — AI supports tasks but never replaces clinical judgment.
+
+2. Which task can AI support?
+- A) Summarising notes
+- B) Examining a patient
+- C) Taking responsibility
+- D) Prescribing alone
+
+**Answer:** A — AI handles language-heavy tasks like summarising and drafting.
+
+3. Who owns the decision?
+- A) The clinician
+- B) The AI
+- C) The vendor
+- D) The patient's family
+
+**Answer:** A — Clinical responsibility and decisions always stay with the clinician.
+
+4. What should you always do with AI output?
+- A) Verify it
+- B) Trust it blindly
+- C) Publish it
+- D) Ignore it
+
+**Answer:** A — AI can be inaccurate, so always verify its output.
+
+---
+### Module 2 · The Clinician's Prompt Frame
+
+Good clinical prompts have four parts: the clinical context, the task, the required format, and the safety constraints. Vague prompts produce unsafe, unusable output.
+
+Use the frame **Context - Task - Format - Guardrails** for every clinical prompt.
+
+## Learning Objectives
+
+- Use the clinical prompt frame
+- Include safety guardrails
+- Get usable, structured output
+- Avoid vague clinical prompts
+
+## The Four Parts
+
+- **Context:** the clinical scenario and setting
+- **Task:** exactly what to produce
+- **Format:** the structure you need
+- **Guardrails:** limits, exclusions, and safety notes
+### Why
+- Context sharpens relevance
+- Format makes output usable
+- Guardrails reduce risk
+
+## Writing Guardrails
+
+- State that output is for clinician review
+- Ask for uncertainty to be flagged
+- Exclude anything outside your scope
+### The rule
+- Always include guardrails
+- Ask AI to flag uncertainty
+- Never ask for a final diagnosis
+
+## The Clinical Prompt
+
+```text
+Context: [clinical scenario, setting]. Task: [what to
+produce]. Format: [structure]. Guardrails: for clinician
+review only, flag uncertainty, no final diagnosis.
+```
+- All four parts present
+- Explicit guardrails
+- Review-only framing
+
+## Key Takeaways
+
+- Use Context - Task - Format - Guardrails
+- Guardrails reduce clinical risk
+- Ask AI to flag uncertainty
+- Never ask AI for a final diagnosis
+- Clear prompts produce usable, safer output
+
+## Practice Challenge
+
+1. Rewrite a vague prompt with all four parts
+2. Add guardrails to an existing prompt
+3. Test the difference in output quality
+
+**Example Quiz**
+
+1. What are the four parts?
+- A) Context, Task, Format, Guardrails
+- B) Who, What, When, Where
+- C) History, Exam, Plan, Review
+- D) Plan, Do, Check, Act
+
+**Answer:** A — Context, Task, Format, and Guardrails structure clinical prompts.
+
+2. Why include guardrails?
+- A) To reduce clinical risk
+- B) To look professional
+- C) To save time
+- D) To impress colleagues
+
+**Answer:** A — Guardrails keep AI output within safe limits.
+
+3. What should AI flag?
+- A) Uncertainty
+- B) Nothing
+- C) Only facts
+- D) Only dates
+
+**Answer:** A — Ask AI to flag uncertainty so you can verify carefully.
+
+4. What should you never ask AI for?
+- A) A final diagnosis
+- B) A summary
+- C) A draft letter
+- D) A list of options
+
+**Answer:** A — AI must not give a final diagnosis; that is the clinician's call.
+
+---
+### Module 3 · Clinical Guardrails: Safety, Bias, and Scope
+
+AI output can be wrong, biased, or out of date. Clinical guardrails are the habits that catch those problems before they reach a patient.
+
+Safety, bias, and scope checks are not optional extras - they are part of using AI responsibly.
+
+## Learning Objectives
+
+- Apply safety checks to AI output
+- Recognise bias in AI output
+- Stay within your scope of practice
+- Build verification habits
+
+## Three Guardrails
+
+- **Safety:** could this harm a patient if wrong?
+- **Bias:** does this reflect skewed data or assumptions?
+- **Scope:** is this within my competence and role?
+### Why
+- AI errors can harm
+- Biased output can worsen inequity
+- Scope protects patients and you
+
+## Building the Habit
+
+- Verify facts and doses independently
+- Check for biased or missing groups
+- Escalate anything outside your scope
+### The rule
+- Safety first, always
+- Challenge biased output
+- Stay in scope
+
+## The Guardrail Prompt
+
+```text
+Review this AI output [paste] for a [specialty] clinician:
+flag any safety concerns, possible bias, and anything
+outside scope of practice, with the checks to perform.
+```
+- Safety concerns
+- Possible bias
+- Scope issues
+
+## Key Takeaways
+
+- AI output can be wrong, biased, or out of date
+- Check safety, bias, and scope every time
+- Verify facts and doses independently
+- Escalate anything outside your competence
+- Guardrails protect patients and clinicians
+
+## Practice Challenge
+
+1. Run the three guardrail checks on one output
+2. Note any bias or scope concerns
+3. Write your personal verification checklist
+
+**Example Quiz**
+
+1. What are the three guardrails?
+- A) Safety, bias, scope
+- B) Speed, cost, ease
+- C) History, exam, plan
+- D) Plan, do, review
+
+**Answer:** A — Safety, bias, and scope checks catch AI problems before they reach patients.
+
+2. Why check for bias?
+- A) It can worsen inequity
+- B) It looks good
+- C) It is required
+- D) It saves time
+
+**Answer:** A — Biased AI output can worsen health inequities.
+
+3. What do you do with out-of-scope output?
+- A) Escalate it
+- B) Ignore it
+- C) Act on it
+- D) Publish it
+
+**Answer:** A — Escalate anything outside your competence to the right person.
+
+4. How do you verify doses?
+- A) Independently
+- B) Trust the AI
+- C) Ask the AI again
+- D) Skip it
+
+**Answer:** A — Verify facts and doses with independent, authoritative sources.
+
+---
+### Module 4 · Your AI Tool Stack (Notes, Literature, Patient Info)
+
+Clinical AI spans three jobs: documentation, literature, and patient information. Each has different risks and approved tools.
+
+Choose tools that meet privacy and clinical standards - not whatever is popular.
+
+## Learning Objectives
+
+- Identify the three clinical tool categories
+- Choose approved, privacy-safe tools
+- Match tools to the task
+- Avoid unapproved tools
+
+## The Three Categories
+
+- **Documentation:** notes, letters, summaries
+- **Literature:** search, screening, appraisal
+- **Patient information:** handouts and explanations
+### Why
+- Each has different risks
+- Patient data changes what is allowed
+- Approved tools protect privacy
+
+## Choosing Tools
+
+- Use tools approved by your institution
+- Check data handling and privacy terms
+- Never paste identifiable patient data into unapproved tools
+### The rule
+- Approved tools only
+- Check privacy terms
+- De-identify before you paste
+
+## The Tool-Stack Prompt
+
+```text
+Help me choose a clinical AI tool stack for documentation,
+literature, and patient information in [specialty]. Include
+the privacy and approval criteria I should check.
+```
+- Tools per category
+- Privacy criteria
+- Approval checks
+
+## Key Takeaways
+
+- Clinical AI covers documentation, literature, and patient information
+- Each category has different risks
+- Use only institution-approved, privacy-safe tools
+- Check data handling and privacy terms
+- Never paste identifiable patient data into unapproved tools
+
+## Practice Challenge
+
+1. List approved tools for each category
+2. Check their privacy terms
+3. Write your de-identification rule
+
+**Example Quiz**
+
+1. What are the three tool categories?
+- A) Documentation, literature, patient information
+- B) Notes, billing, coding
+- C) Email, chat, calendar
+- D) Scan, treat, discharge
+
+**Answer:** A — Documentation, literature, and patient information cover clinical AI.
+
+2. Which tools should you use?
+- A) Institution-approved ones
+- B) Any popular tool
+- C) Free tools only
+- D) Personal apps
+
+**Answer:** A — Use tools approved by your institution that meet privacy standards.
+
+3. What must you check?
+- A) Privacy and data handling terms
+- B) Font size
+- C) Colour
+- D) Price only
+
+**Answer:** A — Check data handling and privacy terms before using a tool.
+
+4. What must never go into unapproved tools?
+- A) Identifiable patient data
+- B) General questions
+- C) Public research
+- D) Your notes on guidelines
+
+**Answer:** A — Never paste identifiable patient data into unapproved tools.
+
+---
+### Module 5 · Setting Up a Safe AI Workflow
+
+A safe AI workflow has defined steps: what you can paste, which tool you use, how you verify, and where the human sign-off happens.
+
+Set the workflow once so safety does not depend on remembering it in a busy clinic.
+
+## Learning Objectives
+
+- Design a safe AI workflow
+- Define what data is allowed
+- Build in verification and sign-off
+- Make safety automatic
+
+## The Workflow
+
+- **Input:** what data may be used
+- **Tool:** the approved tool for the task
+- **Verify:** the checks before use
+- **Sign-off:** the clinician approves
+### Why
+- A defined workflow prevents leaks
+- Verification catches errors
+- Sign-off keeps responsibility clear
+
+## Making It Automatic
+
+- Write the workflow as a checklist
+- Train the whole team on it
+- Review it as tools change
+### The rule
+- De-identify inputs
+- Verify before use
+- Clinician signs off
+
+## The Workflow Prompt
+
+```text
+Design a safe AI workflow for [task] in [setting]: allowed
+inputs, approved tool, verification steps, and the clinician
+sign-off point. Format it as a checklist.
+```
+- Allowed inputs
+- Verification steps
+- A sign-off point
+
+## Key Takeaways
+
+- A safe workflow defines inputs, tools, verification, and sign-off
+- De-identify data before it enters any tool
+- Build verification in before output is used
+- The clinician always signs off
+- Write the workflow as a checklist and train the team
+
+## Practice Challenge
+
+1. Write a workflow for one clinical task
+2. Turn it into a checklist
+3. Identify the sign-off point
+
+**Example Quiz**
+
+1. What are the workflow steps?
+- A) Input, tool, verify, sign-off
+- B) Plan, do, check, act
+- C) Read, write, edit, send
+- D) Ask, answer, save, share
+
+**Answer:** A — A safe workflow covers inputs, tools, verification, and sign-off.
+
+2. What happens to inputs?
+- A) They are de-identified
+- B) They are shared
+- C) They are published
+- D) They are sold
+
+**Answer:** A — De-identify data before it enters any AI tool.
+
+3. Who signs off?
+- A) The clinician
+- B) The AI
+- C) The vendor
+- D) The administrator
+
+**Answer:** A — The clinician always reviews and signs off on AI-assisted work.
+
+4. How should the workflow be written?
+- A) As a checklist
+- B) As a paragraph
+- C) As a poster
+- D) As a speech
+
+**Answer:** A — A checklist makes the safe workflow easy to follow.
+
+---
+### Module 6 · Your First Week with AI
+
+Start small: one task, one approved tool, careful verification, and a daily note of what worked and what did not.
+
+The goal of week one is safe familiarity, not maximum automation.
+
+## Learning Objectives
+
+- Start with one safe use case
+- Build familiarity gradually
+- Track what works and what does not
+- Keep safety central
+
+## The First Week
+
+- Pick one low-risk task
+- Use one approved tool
+- Verify everything
+### Why
+- Small starts are safer
+- Familiarity builds confidence
+- Low-risk tasks protect patients
+
+## Tracking Progress
+
+- Note time saved and errors caught
+- Record tasks that felt unsafe
+- Adjust the workflow from evidence
+### The rule
+- One task to start
+- Verify and record
+- Expand only when safe
+
+## The First-Week Prompt
+
+```text
+Plan my first week using AI for [task] in [setting]: the
+one task to start, the verification steps, and what to
+record each day to judge safety and value.
+```
+- One starting task
+- Verification steps
+- What to record daily
+
+## Key Takeaways
+
+- Start with one low-risk task and one approved tool
+- Verify everything in week one
+- Record time saved and errors caught
+- Note anything that felt unsafe
+- Expand only when the evidence says it is safe
+
+## Practice Challenge
+
+1. Choose one low-risk task for week one
+2. Write the verification steps
+3. Record daily results for a week
+
+**Example Quiz**
+
+1. How should you start?
+- A) With one low-risk task
+- B) With everything at once
+- C) With a high-risk task
+- D) With no verification
+
+**Answer:** A — Start small with one low-risk task and one approved tool.
+
+2. What do you do in week one?
+- A) Verify everything
+- B) Skip verification
+- C) Automate fully
+- D) Ignore safety
+
+**Answer:** A — Verify everything carefully while building familiarity.
+
+3. What should you record?
+- A) Time saved and errors caught
+- B) Only successes
+- C) Nothing
+- D) Only complaints
+
+**Answer:** A — Tracking time saved and errors caught shows real value and risk.
+
+4. When do you expand?
+- A) When evidence says it is safe
+- B) Immediately
+- C) Never
+- D) Randomly
+
+**Answer:** A — Expand to more tasks only when the evidence shows it is safe.
+
+---
