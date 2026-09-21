@@ -1,279 +1,584 @@
 # Mission 5: Agri-Business & Value Addition with AI
 
+---
+### Module 1 · Value Addition Starts With a Question
+
+Value addition means turning raw produce into something more valuable - jam from fruit, flour from grain, pickles from vegetables, packaged goods with a label. The difference between selling a tomato for a few rupees and selling a jar of tomato chutney for many times more is value addition, and AI can help you find the right idea.
+
+You do not need a factory. You need a product that fits your produce, your skills, your local demand, and a realistic budget. AI helps you generate and compare ideas before you spend a single rupee.
+
 ## Learning Objectives
 
-- Understand value addition and why it improves farm income
-- Use AI to match a value-added product to your crop and skills
-- Build a simple business plan and pricing with AI
-- Learn how AI helps you sell directly and safely through WhatsApp and marketplaces
-
----
-### Module 1 · What Is Value Addition, and Why It Pays
-Selling raw produce is the toughest part of farming. Raw produce takes a long route to market and many middlemen take a share. **Value addition** means transforming part of your crop so it is worth more and competes less on price:
-
-- Pulses into flour
-- Milk into paneer or ghee
-- Fruit into jam or pulp
-- Chillies into powder
-- Paddy into clean, packed rice
-
-AI is your business advisor: it helps you pick the product, size the investment, set prices, and write the messages and listings that sell it.
-
-**The logic is simple:** raw produce is a commodity (price-taker); a value-added product is differentiated (price-maker).
-
-**Try it now:** List your surplus crops. Which could become a value-added product your family can make?
-
-**Example Quiz**
-
-1. What does 'value addition' mean?
-- A) Adding water
-- B) Transforming part of your crop so it is worth more
-- C) Adding more land
-- D) Adding labour only
-
-**Answer:** B — Value addition transforms your crop into something worth more - powder, paneer, jam.
-
-2. Why do middlemen take a share?
-- A) They add no value
-- B) Raw produce takes a long route to market
-- C) They are unfair by law
-- D) Farmers prefer it
-
-**Answer:** B — Raw produce travels a long route with many middlemen sharing the margin.
-
-3. What is the difference between commodity and value-added product?
-- A) No difference
-- B) A commodity is a price-taker; a value-added product is a price-maker
-- C) Value is added by weight
-- D) Commodities sell more
-
-**Answer:** B — Raw produce takes whatever price; differentiated products set their own.
-
----
-
-### Module 2 · Finding the Right Product for You
-Ask AI:
-> "Act as a farm business advisor in [state]. My family grows [crops]. Suggest 3 value-added products we could make at home with simple equipment. For each: equipment, raw material cost, labour, shelf life, and who buys it."
-
-Then filter with your reality:
-
-- **Skills** - does someone in the family already make it well? (pickle, papad, ghee, powder)
-- **Time** - how many hours weekly can you give without hurting field work?
-- **Shelf life** - long-shelf products (powders, pickles) are friendlier than fresh ones for a small start.
-- **Demand** - ask AI: "Who buys this product locally? Retail shops, restaurants, festivals, or online customers?"
-
-**Try it now:** Run the product-ideas prompt and shortlist the one idea that best fits your skills and time.
-
-**Example Quiz**
-
-1. What 4 filters should you apply to AI product ideas?
-- A) Skills, time, shelf life, demand
-- B) Colour, size, shape, weight
-- C) Season, weather, soil, rain
-- D) None
-
-**Answer:** A — Filter by family skills, weekly time, product shelf life, and local demand.
-
-2. Which products are friendlier to a small start?
-- A) Fresh ones
-- B) Long-shelf products like powders and pickles
-- C) Only milk
-- D) Only vegetables
-
-**Answer:** B — Long-shelf products (powders, pickles) are friendlier than fresh ones for a small start.
-
-3. Who buys your product locally?
-- A) Only online
-- B) Retail shops, restaurants, festivals, online customers
-- C) Only exports
-- D) No one
-
-**Answer:** B — Ask AI: retail shops, restaurants, festivals, or online customers buy locally.
-
----
-
-### Module 3 · Size It and Price It With AI
-Keep the first batch tiny (a trial) to protect your money:
-
-- "A 10 kg trial of chilli powder needs [cost of chillies, grinding, packing]. What should I charge per 200g pack to earn a margin?"
-- "What packaging is both cheap and holds quality for 6 months?"
-- "What certificate or hygiene registration does selling processed food require in my state?" - then **verify at the local food-safety/food business office**, because rules matter and change.
-
-Never take big numbers from AI as fact; use them as planning estimates and confirm local costs at the mandi and market.
-
-**Try it now:** Plan a 10 kg trial for your chosen product: equipment, material cost, pricing per pack, shelf life.
-
-**Example Quiz**
-
-1. Why keep the first batch tiny?
-- A) To save bags
-- B) To protect your money while you learn
-- C) Because buyers want small orders
-- D) There is no reason
-
-**Answer:** B — A small trial protects money while you learn pricing, rules, and demand.
-
-2. What should AI calculate for a 10 kg chilli powder trial?
-- A) Only packaging
-- B) Costs and price per pack to earn a margin
-- C) Only grinding
-- D) Shipping overseas
-
-**Answer:** B — Chat costs of chillies, grinding, packing, and what to charge per pack for a margin.
-
-3. What must you verify about processed food with officials?
-- A) Nothing
-- B) Certificate/hygiene registration requirements
-- C) Only the price
-- D) The brand name
-
-**Answer:** B — Verify any certificate or hygiene registration requirement with the food-safety office.
-
----
-
-### Module 4 · Selling Directly with an AI Assist
-Direct sales mean more margin, and AI writes most of the marketing:
-
-1. **Listing copy** - "Write a 5-line WhatsApp message announcing our new chilli powder. Mention it's home-made, from our own chillies, price per pack, and how to order."
-2. **Festival push** - "Suggest 3 festival gift ideas using our [product] and a promo message for each."
-3. **A simple order book** - "Make a table: name, product, packs, amount, advance, delivery date."
-4. **Repeat customers** - "Write a polite message for customers who ordered last festival asking if they want the same again."
-
-Each of these takes minutes with AI - but they are what turns a product into a business.
-
-**Try it now:** Have AI write your WhatsApp launch message and build a simple order table.
-
-**Example Quiz**
-
-1. What does AI write for your launch?
-- A) Pesticide labels
-- B) A 5-line WhatsApp message with price and how to order
-- C) Bank forms
-- D) Weather reports
-
-**Answer:** B — AI drafts the launch message - home-made, from own crop, price per pack, ordering details.
-
-2. What does the simple order book table list?
-- A) Names of buyers and amounts only
-- B) Name, product, packs, amount, advance, delivery date
-- C) Prices of seeds
-- D) Weather days
-
-**Answer:** B — The order book tracks name, product, packs, amount, advance, and delivery date.
-
-3. What did the WhatsApp festival drive achieve?
-- A) Nothing
-- B) Cleared the week's milk into higher-margin products
-- C) Cut all profits
-- D) Stopped sales
-
-**Answer:** B — The festival drive turned the week's milk into paneer and ghee at higher margins.
-
----
-
-### Module 5 · The Safety Rules for Selling
-The rules from Mission 3 now apply to selling:
-
-- Verify any registration or licence requirement with officials before selling food products.
-- Be honest on labels: ingredients, date, and weight.
-- Never pay a marketplace "fee" to middlemen who promise guaranteed sales up front.
-- Start local and small; grow with proven sales, not borrowed optimism.
-
-The **honest-label rule is key:** claiming things like "organic" without certification invites complaints and fines.
-
-**Try it now:** Confirm the food-registration/hygiene requirement for your product with your local food-safety office.
-
-**Example Quiz**
-
-1. What is the honest-label rule about?
-- A) Big fonts
-- B) Ingredients, date, weight - honestly
-- C) Colourful packaging
-- D) English names
-
-**Answer:** B — Be honest on labels: ingredients, date, and weight - avoid unverifiable claims.
-
-2. What does the 'added-surplus lesson' teach?
-- A) Lie about organic
-- B) Honest labelling instead of unverifiable claims
-- C) Sell raw only
-- D) Skip labels
-
-**Answer:** B — A farmer avoided costly complaints by labelling honestly instead of unverifiable 'organic' claims.
-
-3. What should you never pay a middleman?
-- A) For delivery
-- B) A 'fee' for guaranteed sales up front
-- C) For transport
-- D) For grading
-
-**Answer:** B — Never pay a marketplace 'fee' to middlemen who promise guaranteed sales up front.
-
----
-
-### Module 6 · From Trial to Proven Sales
-A value-addition pilot that works looks like this:
-
-1. **Choose one product** that fits your skills, time, and local demand.
-2. **Run a small trial** - 10 kg or one batch - to learn without losing money.
-3. **Price carefully** with AI, verified against local costs.
-4. **Launch with clear WhatsApp messages** and an order table.
-5. **Record the margin** and reinvest small profits into the next batch.
-
-**Key takeaway:** Value addition turns surplus and skill into higher-margin products. Start tiny - ten kilos, one trial, local buyers - and grow from proven sales.
-
-**Example Quiz**
-
-1. What is the right order for a pilot?
-- A) Launch, price, trial
-- B) Choose, small trial, price carefully, launch, record margin
-- C) Buy big, test big
-- D) Skip trial
-
-**Answer:** B — Choose one product → small trial → careful pricing → WhatsApp launch → record margins.
-
-2. What did the chilli powder family do first?
-- A) Bought a grinder and trialed 10 kg
-- B) Bought 1000 kg of chillies
-- C) Rented a shop
-- D) Imported powder
-
-**Answer:** A — They bought a grinder, trialed 10 kg, and priced 200g packs.
-
-3. What is the final growth advice?
-- A) Borrow big and grow big
-- B) Start tiny, grow from proven sales
-- C) Wait for exports
-- D) Sell everything at once
-
-**Answer:** B — Start tiny - ten kilos, one trial, local buyers - and grow from proven sales.
-
----
-
-## Real-World Examples
-
-**Example 1 — The chilli powder plan.** A small chilli surplus each harvest sat unsold. Using AI's business advisor prompts, a farm family bought a grinder, trialed 10 kg, priced 200g packs, and sold the first batch through a WhatsApp message with their daughter's clean photos - two neighbours' shops took repeat orders.
-
-**Example 2 — The festival paneer.** A dairy family asked AI which value products suit festival season and how to price a fresh 500g pack. AI suggested paneer and ghee with festival gift messaging; their WhatsApp festival drive cleared the week's milk into higher-margin products instead of selling only raw milk.
-
-**Example 3 — The added-surplus lesson.** A farmer tried selling "organic-level" claims without certification. AI and the food-safety office advised honest labelling instead of unverifiable claims - protecting them from costly complaints.
-
----
+- Explain what value addition means
+- Ask AI to generate product ideas from your produce
+- Compare ideas by demand, cost, shelf life, and effort
+- Choose one idea to test
+
+## What Value Addition Means
+
+- Turning raw produce into a more valuable product
+- Jam from fruit, flour from grain, pickles from vegetables
+- Packaged goods with a label and a story
+- The same tomato can earn many times more as a jar of chutney
+### Why it matters
+- It reduces your dependence on low mandi prices
+- It uses produce that would otherwise be wasted
+- It creates a product you own and can brand
+
+## The Idea-Generation Prompt
+
+```text
+Act as a small food-business advisor.
+I grow [crop] in [district]. I have [budget] and [people] to help.
+Give me 5 value-added product ideas I could make and sell locally.
+For each: rough cost, shelf life, effort level, and who would buy it.
+```
+- The more you say about your budget and helpers, the more realistic the ideas
+- Ask for cost, shelf life, effort, and buyers for each
+- Generate 5, then shortlist
+
+## Choosing One Idea
+
+- Compare ideas on demand, cost, shelf life, and your available effort
+- Prefer products that use what you already grow
+- Start with one product and one small batch
+### Why start small
+- A small batch tests real demand with low risk
+- You learn production, packaging, and pricing cheaply
+- Scale up only after the test proves demand
 
 ## Key Takeaways
 
-- Value addition turns surplus and skill into higher-margin products you don't sell as commodity.
-- Let AI suggest the product, size the first trial, and price it; your judgement filters it.
-- Direct WhatsApp sales with clear messages and order tables beat middlemen margins.
-- Verify food-registration rules with officials; label honestly.
-- Start tiny - ten kilos, one trial, local buyers - and grow from proven sales.
-
----
+- Value addition turns raw produce into a more valuable product
+- Ask AI for 5 product ideas with cost, shelf life, effort, and buyers
+- Compare ideas on demand, cost, shelf life, and effort
+- Prefer products using what you already grow
+- Start with one product and one small batch
 
 ## Practice Challenge
 
-1. **Ideas:** Ask AI for 3 value-added product ideas from your own crop; pick one.
-2. **Trial plan:** Ask AI to plan a 10 kg trial: equipment, material cost, pricing per pack, and shelf life.
-3. **Verify:** Confirm the food-registration/hygiene requirement locally before you invest.
-4. **Launch:** Have AI write your WhatsApp launch message and build a simple order table.
-5. **Pilot:** Run the trial: produce, photograph, sell your first small batch, and record the margin.
+1. Run the idea-generation prompt for your main crop
+2. Shortlist two ideas by demand, cost, shelf life, and effort
+3. Choose one to test with a small batch
+
+**Example Quiz**
+
+1. What is value addition?
+- A) Turning raw produce into a more valuable product
+- B) Selling quickly
+- C) Buying more land
+- D) Paying less tax
+
+**Answer:** A — Value addition turns raw produce into something more valuable, like jam from fruit.
+
+2. What should the idea prompt ask for?
+- A) Cost, shelf life, effort, and buyers for each idea
+- B) Only names
+- C) Only prices
+- D) Only colours
+
+**Answer:** A — Ask for rough cost, shelf life, effort level, and who would buy it.
+
+3. Why start with a small batch?
+- A) It tests real demand with low risk
+- B) It is cheaper to advertise
+- C) It looks good
+- D) It avoids tax
+
+**Answer:** A — A small batch tests demand and teaches production cheaply before scaling.
+
+4. Which products should you prefer?
+- A) Ones that use what you already grow
+- B) Imported ones
+- C) Ones needing a factory
+- D) Ones with no buyers
+
+**Answer:** A — Prefer products that use your own produce - you control the raw material.
+
+---
+### Module 2 · The Value-Addition Prompt
+
+A good prompt turns a vague hope into a concrete plan. The value-addition prompt asks AI to act as a small food-business advisor and give you a shortlist of products tailored to your crop, district, budget, and helpers. From that shortlist you pick the most realistic option.
+
+The same prompt can then be reused for costing, packaging, and pricing - each time with more detail about the product you chose.
+
+## Learning Objectives
+
+- Write a detailed value-addition prompt
+- Include budget, helpers, and location
+- Ask for a shortlist with clear criteria
+- Reuse the prompt for costing and packaging
+
+## Writing the Prompt
+
+- State your crop and district
+- State your budget and how many people can help
+- Ask for 5 ideas with rough cost, shelf life, effort, and buyers
+- Ask AI to mark the 2 most realistic for a small farmer
+### Detail pays
+- Vague inputs get vague ideas
+- Budget and helpers shape what is realistic
+- Marking the realistic ones saves you time
+
+## From Idea to Product Plan
+
+```text
+Follow-up prompts after choosing one product:
+1. 'Give me a step-by-step recipe and process for [product] at small scale'
+2. 'What equipment and ingredients do I need, and rough costs?'
+3. 'How should I package and label it for local sale?'
+4. 'What price should I charge, and how did you calculate it?'
+5. 'What licences or food-safety rules apply for a home kitchen?'
+```
+- Each follow-up turns the idea into an executable plan
+- Ask about licences and food safety early
+- Price should be calculated, not guessed
+
+## Checking Before You Invest
+
+- Confirm any food-safety or licence requirement with your local authority
+- Ask the agri officer or KVK about training and support
+- Test the product with neighbours before selling widely
+### The safe path
+- Plan with AI, verify with officials, test with real buyers
+- Start small, learn, then scale
+- Value addition is a business - treat it with care
+
+## Key Takeaways
+
+- Include crop, district, budget, and helpers in the prompt
+- Ask AI to mark the 2 most realistic ideas
+- Use follow-ups for recipe, equipment, packaging, price, and rules
+- Confirm food-safety and licence requirements locally
+- Test with neighbours before selling widely
+
+## Practice Challenge
+
+1. Write and run the detailed value-addition prompt
+2. Ask two follow-up questions for your chosen product
+3. Check the food-safety or licence requirement locally
+
+**Example Quiz**
+
+1. What should you include in the value-addition prompt?
+- A) Crop, district, budget, and helpers
+- B) Only the crop
+- C) Only the price
+- D) Nothing
+
+**Answer:** A — Crop, district, budget, and helpers make the ideas realistic.
+
+2. What follow-up asks for the price?
+- A) 'What price should I charge, and how did you calculate it?'
+- B) 'What is the weather?'
+- C) 'Who is the buyer?'
+- D) 'What colour?'
+
+**Answer:** A — Ask for a calculated price, not a guess.
+
+3. What should you confirm locally before investing?
+- A) Food-safety and licence requirements
+- B) The colour
+- C) The name
+- D) Nothing
+
+**Answer:** A — Confirm food-safety and licence rules with your local authority.
+
+4. Who should you test the product with first?
+- A) Neighbours and local buyers
+- B) Big supermarkets
+- C) Exporters
+- D) No one
+
+**Answer:** A — Test with neighbours and local buyers before selling widely.
+
+---
+### Module 3 · Costing Your Product
+
+Many small food businesses fail not because the product is bad but because the price does not cover the true cost. Costing means adding up everything - ingredients, packaging, fuel, labour, and a share of your time - before you decide the selling price.
+
+AI can build a simple cost sheet with you. You provide the real numbers from your own market; AI organises them and calculates the price needed for a fair profit.
+
+## Learning Objectives
+
+- List all cost components of a product
+- Build a cost sheet with AI
+- Calculate a fair selling price with a margin
+- Identify which costs people commonly forget
+
+## What to Count
+
+- Ingredients and raw material
+- Packaging (jars, labels, boxes)
+- Fuel, gas, or electricity
+- Labour, including your own time
+- Transport and any market fees
+### The commonly forgotten costs
+- Your own labour is a real cost
+- Packaging adds up faster than people expect
+- Small fees and transport quietly reduce profit
+
+## Building the Cost Sheet
+
+```text
+Help me cost this product for a small batch:
+1. List every ingredient and its quantity and price
+2. Add packaging, fuel, and labour per unit
+3. Show total cost per unit and per batch
+4. Suggest a selling price with a fair profit margin
+5. Show the profit per unit at that price
+```
+- Give AI your real local prices
+- Ask for cost per unit, not just per batch
+- A fair margin covers risk and reinvestment
+
+## Pricing With Confidence
+
+- Compare your price with similar local products
+- A price below cost is not a bargain - it is a slow loss
+- Adjust the recipe or packaging if the cost is too high
+### The discipline
+- Never sell without knowing your cost
+- Recalculate when prices change
+- Profit is the point of a business
+
+## Key Takeaways
+
+- Count ingredients, packaging, fuel, labour, transport, and fees
+- Your own labour and packaging are commonly forgotten costs
+- Build a cost sheet with real local prices
+- Calculate price per unit with a fair margin
+- Never sell without knowing your cost
+
+## Practice Challenge
+
+1. List every cost for one small batch of your product
+2. Ask AI to build the cost sheet and suggest a price
+3. Compare your price with a similar local product
+
+**Example Quiz**
+
+1. Which cost do people commonly forget?
+- A) Their own labour
+- B) Ingredients
+- C) Packaging
+- D) Fuel
+
+**Answer:** A — Your own labour is a real cost and is often forgotten.
+
+2. What should you give AI for costing?
+- A) Real local prices
+- B) Guesses
+- C) Nothing
+- D) Only the product name
+
+**Answer:** A — Provide your real local prices so the cost sheet is accurate.
+
+3. What is a price below cost?
+- A) A slow loss, not a bargain
+- B) A smart deal
+- C) Good marketing
+- D) A tax saving
+
+**Answer:** A — Selling below cost is a slow loss - always know your cost first.
+
+4. What should you do when prices change?
+- A) Recalculate the cost and price
+- B) Ignore it
+- C) Raise prices randomly
+- D) Stop selling
+
+**Answer:** A — Recalculate when ingredient or packaging prices change.
+
+---
+### Module 4 · Pricing and Selling Online
+
+Once your product is ready, selling it well is a second skill. Online marketplaces, WhatsApp selling, and local fairs all work - but each needs a clear price, a clear description, and a reliable supply. AI helps you write listings and compare channels.
+
+The key is to start local and small. Neighbours, a local fair, or a WhatsApp status can sell a first batch without any marketplace fees or complicated setup.
+
+## Learning Objectives
+
+- Compare selling channels for your product
+- Write a clear product listing with AI
+- Price for online fees and shipping
+- Start local before going online
+
+## Choosing a Channel
+
+- **Local/neighbourhood** - fastest, no fees, builds trust
+- **Local fairs and exhibitions** - direct customer feedback
+- **WhatsApp status and groups** - low effort, good for repeat buyers
+- **Online marketplaces** - wider reach, but fees, shipping, and competition
+### Start local
+- Local sales give instant feedback and cash
+- They need no listing fees or shipping
+- They build the reputation you later take online
+
+## Writing a Listing
+
+```text
+Write a product listing for [product]:
+1. A short, appealing title
+2. 3-4 lines describing taste, ingredients, and how it is made
+3. Why it is special (homemade, local, no preservatives)
+4. Weight, shelf life, and storage instructions
+5. Price and how to order
+```
+- A clear listing answers buyer questions before they ask
+- Mention what makes it special - buyers pay for a story
+- Always state weight and shelf life
+
+## Pricing for Online
+
+- Add marketplace fees and shipping to your price
+- Keep a margin even after discounts
+- Check that the price still beats selling raw produce
+### The test
+- Sell one batch locally, then one online
+- Compare the net profit of each
+- Grow the channel that pays best
+
+## Key Takeaways
+
+- Compare channels: local, fairs, WhatsApp, online marketplaces
+- Start local - no fees, instant feedback, builds trust
+- Write listings with title, description, specialness, weight, and shelf life
+- Add online fees and shipping into the price
+- Grow the channel with the best net profit
+
+## Practice Challenge
+
+1. Write a product listing with AI for your chosen product
+2. Price it including any online fees and shipping
+3. Sell one small batch locally and note the net profit
+
+**Example Quiz**
+
+1. Which channel should you start with?
+- A) Local/neighbourhood - fastest, no fees, builds trust
+- B) A big marketplace
+- C) Export
+- D) None
+
+**Answer:** A — Start local: instant feedback, no fees, and reputation building.
+
+2. What should a listing include?
+- A) Title, description, specialness, weight, shelf life, price
+- B) Only the price
+- C) Only a photo
+- D) Only the name
+
+**Answer:** A — A clear listing answers buyer questions before they ask.
+
+3. What must you add to an online price?
+- A) Marketplace fees and shipping
+- B) Nothing
+- C) Only tax
+- D) A discount
+
+**Answer:** A — Add fees and shipping so your margin survives.
+
+4. How do you choose the best channel?
+- A) Compare net profit from a local batch and an online batch
+- B) Pick the most famous
+- C) Pick the cheapest
+- D) Ask a friend
+
+**Answer:** A — Test both and grow the channel that pays the best net profit.
+
+---
+### Module 5 · Building a Brand Story
+
+A brand is not a logo - it is the reason a buyer chooses your jar over an identical one. For farm products, that reason is usually the story: who made it, where it came from, and why it is trustworthy. AI helps you shape that story into a label and a few honest lines.
+
+The story must be true. Buyers forgive small producers almost anything except a lie. Build the brand on what is genuinely good about your farm and your process.
+
+## Learning Objectives
+
+- Explain what a brand story is
+- Draft a true story with AI
+- Design a simple label
+- Use the story consistently in selling
+
+## What a Brand Story Is
+
+- The reason a buyer chooses your product over an identical one
+- Who made it, where it came from, and why it is trustworthy
+- For farm products, authenticity is the strongest asset
+### The truth rule
+- The story must be true
+- Buyers forgive almost anything except a lie
+- Build on what is genuinely good about your farm
+
+## Drafting the Story
+
+```text
+Help me write a short brand story for [product]:
+1. Who makes it (family, village, generations of farming)
+2. Where the produce comes from (my own field, my district)
+3. How it is made (homemade, small batch, no preservatives)
+4. Why I started (to reduce waste, to earn fairer, to share)
+5. Keep it under 5 lines and simple
+```
+- Short and simple beats long and fancy
+- Real details are more convincing than big claims
+- The story goes on the label and in every listing
+
+## Label and Consistency
+
+- A simple label: product name, your name, weight, shelf life, and the story
+- Use the same story everywhere - label, WhatsApp, marketplace
+- Consistency builds recognition and trust
+### The long game
+- Repeat buyers are worth more than one-time buyers
+- A true story keeps them coming back
+- Your brand grows with every honest sale
+
+## Key Takeaways
+
+- A brand story is why a buyer chooses your product
+- The story must be true - authenticity is the strongest asset
+- Draft a short story: who, where, how, and why
+- Use the same story on the label and in every listing
+- Consistency builds repeat buyers and trust
+
+## Practice Challenge
+
+1. Draft a short brand story for your product with AI
+2. Design a simple label including the story
+3. Use the same story in one WhatsApp or listing message
+
+**Example Quiz**
+
+1. What is a brand story?
+- A) The reason a buyer chooses your product over an identical one
+- B) A logo
+- C) A price tag
+- D) A barcode
+
+**Answer:** A — A brand is the reason a buyer chooses your jar over an identical one - the story.
+
+2. What is the truth rule?
+- A) The story must be true - authenticity is the strongest asset
+- B) Exaggerate a little
+- C) Copy a famous brand
+- D) Hide the origin
+
+**Answer:** A — Buyers forgive almost anything except a lie.
+
+3. What should a label include?
+- A) Product name, your name, weight, shelf life, and the story
+- B) Only the price
+- C) Only a picture
+- D) Only the weight
+
+**Answer:** A — Keep the label simple but complete, including the story.
+
+4. Why use the same story everywhere?
+- A) Consistency builds recognition and trust
+- B) It is easier
+- C) It saves ink
+- D) It is required
+
+**Answer:** A — Consistency across label, WhatsApp, and listings builds repeat buyers.
+
+---
+### Module 6 · A Simple Agri-Business Plan
+
+A business plan does not need to be long. One page is enough if it answers five questions: what you sell, to whom, at what price, what it costs, and how you will grow. AI can draft this in minutes and help you keep it realistic.
+
+The plan is a living document. Revisit it after each batch and update the numbers. A plan you actually use beats a fancy document you never open.
+
+## Learning Objectives
+
+- Draft a one-page business plan with AI
+- Cover product, buyers, price, cost, and growth
+- Set a realistic first target
+- Review and update the plan after each batch
+
+## The One-Page Plan
+
+- **What** you sell (product and batch size)
+- **To whom** (neighbours, fair, WhatsApp, marketplace)
+- **At what price** (from your cost sheet)
+- **What it costs** (per unit and per batch)
+- **How you will grow** (next 3 months)
+### Keep it realistic
+- A first target of one small batch is fine
+- Growth is a direction, not a promise
+- One page you use beats ten pages you ignore
+
+## Drafting With AI
+
+```text
+Write a one-page business plan for my product:
+1. What I sell and batch size
+2. Who will buy it
+3. Price and cost per unit
+4. How I will make and sell the first batch
+5. A realistic 3-month growth goal
+```
+- AI organises your numbers into a clear plan
+- Ask it to keep the language simple
+- Correct anything that does not match your reality
+
+## Reviewing and Growing
+
+- After each batch, note what sold and what did not
+- Update the plan's numbers and targets
+- Decide the next step based on real results
+### The compounding habit
+- Each batch teaches you something
+- Small, steady growth beats a risky leap
+- A living plan turns a hobby into a business
+
+## Key Takeaways
+
+- A one-page plan answers what, to whom, price, cost, and growth
+- Ask AI to draft it in simple language
+- Set a realistic first target of one small batch
+- Review and update after each batch
+- A living plan turns a hobby into a business
+
+## Practice Challenge
+
+1. Draft a one-page business plan with AI
+2. Set a realistic first target and a 3-month growth goal
+3. Review the plan after selling your first batch
+
+**Example Quiz**
+
+1. What five things should a one-page plan answer?
+- A) What, to whom, price, cost, and growth
+- B) Only price
+- C) Only growth
+- D) Only buyers
+
+**Answer:** A — What you sell, to whom, at what price, what it costs, and how you will grow.
+
+2. What is a realistic first target?
+- A) One small batch
+- B) A factory
+- C) An export order
+- D) A supermarket chain
+
+**Answer:** A — Start with one small batch; growth is a direction, not a promise.
+
+3. When should you review the plan?
+- A) After each batch
+- B) Once a decade
+- C) Never
+- D) Only at harvest
+
+**Answer:** A — Note what sold, update the numbers, and decide the next step.
+
+4. Why does a living plan matter?
+- A) It turns a hobby into a business through small, steady growth
+- B) It looks good
+- C) It impresses officials
+- D) It avoids tax
+
+**Answer:** A — Each batch teaches you something; small steady growth beats a risky leap.
+
+---
