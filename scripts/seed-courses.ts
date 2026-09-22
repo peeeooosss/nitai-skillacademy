@@ -545,11 +545,16 @@ function buildQuiz(
   missionTitle: string,
   objectives: string[],
   takeaways: string[],
+  practiceChallenge: string | null,
   idx: number
 ): Array<{ question: string; options: string[]; correctIndex: number; explanation: string }> {
   const subtitle = missionTitle.replace(/^Mission\s+\d+\s*:\s*/i, '') || missionTitle
   const obj = objectives.length ? objectives : takeaways
   const take = takeaways.length ? takeaways : objectives
+
+  const challenge = practiceChallenge
+    ? cleanOption(practiceChallenge.replace(/[#*`>]/g, '').split('\n')[0].slice(0, 120))
+    : null
 
   const questions: Array<{ question: string; options: string[]; correctIndex: number; explanation: string }> = []
   let qi = 0
@@ -559,9 +564,9 @@ function buildQuiz(
     `What is the main focus of this mission?`,
     [
       `Mastering "${subtitle}"`,
-      'Learning a foreign language',
-      'Memorising facts without practice',
-      'Avoiding technology entirely',
+      'Learning an unrelated foreign language',
+      'Memorising facts without any practise',
+      'Avoiding technology tools entirely',
     ],
     `This mission focuses on ${subtitle}.`,
     qi++
@@ -594,21 +599,47 @@ function buildQuiz(
       distractor: rotate(d, 6),
       explanation: 'Takeaways condense the mission into the ideas you should remember.',
     },
+    {
+      question: 'Which habit would NOT be in line with what this mission teaches?',
+      correct: rotate(d, 3)[0] ?? '',
+      distractor: [take[0] ?? take[1], take[1] ?? take[0], obj[0] ?? obj[1]].map(cleanOption),
+      explanation: 'The mission teaches practical, judgement-driven use of AI — not blind or lazy shortcuts.',
+    },
   ]
 
   templates.forEach(t => {
     const correct = cleanOption(t.correct)
     if (!correct) return
+    const options = [correct, t.distractor[0], t.distractor[1], t.distractor[2]]
+      .map(cleanOption)
+      .filter((o, i, arr) => o && arr.indexOf(o) === i) // de-dupe
+    while (options.length < 4) options.push(`Option ${options.length + 1}`)
     addQuestion(
       questions,
       t.question,
-      [correct, t.distractor[0], t.distractor[1], t.distractor[2]].map(cleanOption),
+      options,
       t.explanation,
       qi++
     )
   })
 
-  return questions.slice(0, 5)
+  // Applied question anchored on the Practice Challenge when available.
+  if (challenge) {
+    addQuestion(
+      questions,
+      'How should you demonstrate what you learned in this mission?',
+      [
+        challenge,
+        'Copy an answer directly from an AI tool without understanding it',
+        'Only read the mission and skip the practise task',
+        'Wait for someone else to complete the task for you',
+      ],
+      'The practice challenge asks you to complete the task with your own, real inputs.',
+      qi++
+    )
+  }
+
+  return questions.slice(0, 7)
 }
 
 function buildSystemPrompt(meta: CourseMeta, title: string): string {
@@ -801,7 +832,7 @@ async function main() {
       })
 
       // Quiz (content-derived)
-      const questions = buildQuiz(title, objectives, takeaways, missionNumber) as any
+      const questions = buildQuiz(title, objectives, takeaways, practiceChallenge, missionNumber) as any
       await prisma.quiz.upsert({
         where: { moduleId: module.id },
         update: { questions, passScore: PASS_SCORE, timeLimit: QUIZ_TIME_LIMIT },

@@ -88,6 +88,148 @@ export interface AdminLiveSession extends LiveSession {
   isActive: boolean;
 }
 
+// ── Admin panel types ────────────────────────────────────────────────────────
+
+export interface AdminCourseSummary {
+  id: string;
+  slug: string;
+  index: string;
+  title: string;
+  shortTitle: string;
+  tagline: string;
+  trackName: string;
+  audience: string;
+  category: string | null;
+  moduleCount: number;
+  totalXp: number;
+  isActive: boolean;
+  position: number;
+  missionCount: number;
+  submoduleCount: number;
+  quizQuestionCount: number;
+  enrollmentCount: number;
+  startedCount: number;
+  completionCount: number;
+  completionRate: number;
+}
+
+export interface AdminCourseDetail {
+  course: {
+    id: string;
+    slug: string;
+    index: string;
+    title: string;
+    shortTitle: string;
+    tagline: string;
+    trackName: string;
+    audience: string;
+    category: string | null;
+    moduleCount: number;
+    totalXp: number;
+    isActive: boolean;
+    position: number;
+    enrollmentCount: number;
+    createdAt: string;
+  };
+  modules: Array<{
+    missionNumber: number | null;
+    title: string;
+    description: string;
+    sessionType: string;
+    creditsReward: number;
+    submodules: number;
+    quizQuestions: number;
+    passScore: number | null;
+    assignmentMaxCredits: number | null;
+    completions: number;
+  }>;
+}
+
+export interface AdminUserSummary {
+  id: string;
+  name: string;
+  email: string;
+  role: "STUDENT" | "ADMIN";
+  provider: string;
+  createdAt: string;
+  credits: { balance: number; totalEarned: number };
+  enrolledCourses: number;
+  completedMissions: number;
+  quizzesPassed: number;
+  assignmentsSubmitted: number;
+  hasCredits: boolean;
+}
+
+export interface AdminUserDetail {
+  user: {
+    id: string;
+    name: string;
+    email: string;
+    role: "STUDENT" | "ADMIN";
+    provider: string;
+    avatar: string | null;
+    createdAt: string;
+    updatedAt: string;
+    credits: { balance: number; totalEarned: number };
+  };
+  enrolledCourses: Array<{
+    courseId: string;
+    slug: string;
+    title: string;
+    shortTitle: string;
+    icon: string | null;
+    accentColor: string | null;
+    moduleCount: number;
+    startedAt: string;
+    completedMissions: number;
+    totalMissions: number;
+  }>;
+  progress: {
+    completed: number;
+    total: number;
+    recent: Array<{
+      moduleId: number;
+      missionNumber: number | null;
+      title: string;
+      courseTitle: string | null;
+      courseSlug: string | null;
+      completed: boolean;
+      videoWatched: boolean;
+      quizPassed: boolean;
+      assignmentSubmitted: boolean;
+      completedAt: string | null;
+      updatedAt: string;
+    }>;
+  };
+  quizzes: {
+    passed: number;
+    total: number;
+    bestScoreAvg: number;
+    recent: Array<{ quizId: string; score: number; passed: boolean; submittedAt: string }>;
+  };
+  assignments: {
+    submitted: number;
+    pending: number;
+    approved: number;
+    recent: Array<{
+      assignmentId: string;
+      status: string;
+      aiScore: number | null;
+      submittedAt: string;
+      reviewedAt: string | null;
+    }>;
+  };
+  creditTransactions: Array<{
+    id: string;
+    userId: string;
+    type: string;
+    amount: number;
+    description: string;
+    referenceId: string | null;
+    createdAt: string;
+  }> | null;
+}
+
 export interface MissionItem {
   id: number;
   missionNumber: number;

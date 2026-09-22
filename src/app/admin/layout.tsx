@@ -1,15 +1,22 @@
 "use client";
 
 import * as React from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
-import { Loader2, ShieldCheck, ShieldAlert, Home, Sparkles } from "lucide-react";
+import { Loader2, ShieldCheck, ShieldAlert, Home, Sparkles, LayoutDashboard, BookOpen, Users, Video } from "lucide-react";
 import { useAuth } from "@/context/AuthContext";
 import { AuthCard } from "@/components/portal/AuthCard";
+
+const ADMIN_NAV = [
+  { href: "/admin/courses", label: "Courses", icon: BookOpen },
+  { href: "/admin/users", label: "Users", icon: Users },
+  { href: "/admin/live-sessions", label: "Live Sessions", icon: Video },
+];
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   const { user, loading, refreshUser } = useAuth();
   const router = useRouter();
+  const pathname = usePathname();
 
   if (loading) {
     return (
@@ -98,6 +105,36 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             </Link>
           </div>
         </div>
+        <nav className="mx-auto flex w-full max-w-7xl items-center gap-1 overflow-x-auto px-4 sm:px-6">
+          <Link
+            href="/admin"
+            className={`flex shrink-0 items-center gap-1.5 rounded-t-lg border-b-2 px-3 py-2 text-xs font-semibold transition-colors ${
+              pathname === "/admin"
+                ? "border-violet-400 text-violet-200"
+                : "border-transparent text-slate-500 hover:text-slate-200"
+            }`}
+          >
+            <LayoutDashboard className="h-3.5 w-3.5" />
+            Overview
+          </Link>
+          {ADMIN_NAV.map(({ href, label, icon: Icon }) => {
+            const active = pathname.startsWith(href);
+            return (
+              <Link
+                key={href}
+                href={href}
+                className={`flex shrink-0 items-center gap-1.5 rounded-t-lg border-b-2 px-3 py-2 text-xs font-semibold transition-colors ${
+                  active
+                    ? "border-violet-400 text-violet-200"
+                    : "border-transparent text-slate-500 hover:text-slate-200"
+                }`}
+              >
+                <Icon className="h-3.5 w-3.5" />
+                {label}
+              </Link>
+            );
+          })}
+        </nav>
       </header>
       <main className="relative z-10 mx-auto w-full max-w-7xl px-4 py-8 sm:px-6">{children}</main>
     </div>

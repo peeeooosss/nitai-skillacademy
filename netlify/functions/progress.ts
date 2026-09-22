@@ -99,6 +99,16 @@ export const handler: NetlifyHandler = async (event) => {
           },
         })
 
+        await prisma.creditTransaction.create({
+          data: {
+            userId: payload.userId,
+            type: 'EARNED',
+            amount: mod.creditsReward,
+            description: `Completed mission: ${mod.title}`,
+            referenceId: String(mod.id),
+          },
+        })
+
         return successResponse({
           message: 'Module completed',
           creditsEarned: mod.creditsReward,
@@ -165,6 +175,15 @@ export const handler: NetlifyHandler = async (event) => {
             userId: payload.userId,
             balance: mod.creditsReward,
             totalEarned: mod.creditsReward,
+          },
+        })
+        await prisma.creditTransaction.create({
+          data: {
+            userId: payload.userId,
+            type: 'EARNED',
+            amount: mod.creditsReward,
+            description: `Completed mission: ${mod.title}`,
+            referenceId: String(mod.id),
           },
         })
         creditsEarned = mod.creditsReward

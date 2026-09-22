@@ -82,6 +82,16 @@ export async function evaluateAndMaybeComplete(
         totalEarned: reward,
       },
     })
+
+    await prisma.creditTransaction.create({
+      data: {
+        userId,
+        type: 'EARNED',
+        amount: reward,
+        description: module ? `Completed mission: ${module.title}` : 'Mission completed',
+        referenceId: String(moduleId),
+      },
+    })
   }
 
   return { completed: true, newlyCompleted: true, moduleId, creditsRewarded: reward }

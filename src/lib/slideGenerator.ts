@@ -168,7 +168,7 @@ export function generateSlidesFromMarkdown(
     );
   });
 
-  const maxContentSlides = 3;
+  const maxContentSlides = 4;
   const processedSections = contentSections.slice(0, maxContentSlides);
 
   for (let i = 0; i < processedSections.length; i++) {
@@ -200,7 +200,7 @@ export function generateSlidesFromMarkdown(
           section: heading,
           title: heading,
           layout: "keypoints",
-          contentBlocks: [{ type: "grid", cards: cards.slice(0, 4) }],
+          contentBlocks: [{ type: "grid", cards: cards.slice(0, 6) }],
           accentColor: i % 2 === 0 ? "gold" : "cyan",
         });
         continue;
@@ -308,7 +308,7 @@ export function generateSlidesFromMarkdown(
   }
 
   if (slides.length > 7) {
-    slides.splice(1, slides.length - 6);
+    slides.splice(1, slides.length - 7);
   }
 
   return slides;

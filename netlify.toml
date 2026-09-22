@@ -35,6 +35,17 @@
   to = "/.netlify/functions/admin-live-sessions"
   status = 200
 
+# Admin courses & users (must precede /api/* wildcard)
+[[redirects]]
+  from = "/api/admin/courses"
+  to = "/.netlify/functions/admin-courses"
+  status = 200
+
+[[redirects]]
+  from = "/api/admin/users"
+  to = "/.netlify/functions/admin-users"
+  status = 200
+
 # Other API endpoints (courses, missions, enrollments, progress, quizzes, dashboard)
 [[redirects]]
   from = "/api/*"
