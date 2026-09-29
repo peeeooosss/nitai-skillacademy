@@ -13,27 +13,22 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { COURSES, COURSE_TABS } from "@/data/courses";
 import { COURSE_SLUGS } from "@/data/portal";
-import { useAuth } from "@/context/AuthContext";
 import type { CourseId, CourseCategory } from "@/types";
 
 interface CourseGridProps {
   highlightedId: CourseId | null;
   activeTab: "All" | CourseCategory;
   setActiveTab: (t: "All" | CourseCategory) => void;
-  onOpenLogin: () => void;
 }
 
-export function CourseGrid({ highlightedId, activeTab, setActiveTab, onOpenLogin }: CourseGridProps) {
-  const { user } = useAuth();
+export function CourseGrid({ highlightedId, activeTab, setActiveTab }: CourseGridProps) {
   const router = useRouter();
   const filtered = activeTab === "All" ? COURSES : COURSES.filter((c) => c.category === activeTab);
 
-  const handleEnroll = (id: CourseId) => {
+  const handleView = (id: CourseId) => {
     const slug = COURSE_SLUGS[id];
-    if (user && slug) {
-      router.push(`/portal/courses/${slug}`);
-    } else {
-      onOpenLogin();
+    if (slug) {
+      router.push(`/courses/${slug}`);
     }
   };
 
@@ -116,10 +111,10 @@ export function CourseGrid({ highlightedId, activeTab, setActiveTab, onOpenLogin
                     </div>
 
                     <Button
-                      onClick={() => handleEnroll(course.id)}
+                      onClick={() => handleView(course.id)}
                       className="group/btn mt-5 w-full bg-gradient-to-r from-violet-600 to-cyan-500 text-white hover:scale-[1.02]"
                     >
-                      {user ? "Enroll & Learn" : "Enroll Now"}
+                      Get This Course
                       <ArrowRight className="h-4 w-4 transition-transform group-hover/btn:translate-x-0.5" />
                     </Button>
                   </motion.article>

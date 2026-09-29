@@ -86,6 +86,21 @@ export const handler: NetlifyHandler = async (event) => {
         return successResponse({ message: 'Already enrolled', enrolled: true }, 200, origin)
       }
 
+      // Gate: courses with gated enrollment require the admin to have approved
+      // a request first. Open-enrollment courses can be joined directly.
+      if (!course.isOpenEnrollment) {
+        const approved = await prisma.courseRequest.findUnique({
+          where: { userId_courseId: { userId: payload.userId, courseId } },
+        })
+        if (!approved || approved.status !== 'APPROVED') {
+          return errorResponse(
+            'This course requires approval. Submit an access request first and our team will enable it for you.',
+            403,
+            origin,
+          )
+        }
+      }
+
       await prisma.userCourseEnrollment.create({
         data: { userId: payload.userId, courseId },
       })

@@ -46,6 +46,24 @@
   to = "/.netlify/functions/admin-users"
   status = 200
 
+# Admin course requests (must precede /api/* wildcard)
+[[redirects]]
+  from = "/api/admin/course-requests/*"
+  to = "/.netlify/functions/admin-course-requests"
+  status = 200
+
+# Public courses (no auth — landing pages)
+[[redirects]]
+  from = "/api/public/courses"
+  to = "/.netlify/functions/public-courses"
+  status = 200
+
+# Course access requests (student)
+[[redirects]]
+  from = "/api/course-requests/*"
+  to = "/.netlify/functions/course-requests"
+  status = 200
+
 # Other API endpoints (courses, missions, enrollments, progress, quizzes, dashboard)
 [[redirects]]
   from = "/api/*"

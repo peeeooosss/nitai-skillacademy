@@ -33,6 +33,7 @@ export interface CourseMeta {
   moduleCount: number;
   totalXp: number;
   position: number;
+  isOpenEnrollment?: boolean;
 }
 
 export interface EnrolledCourse extends CourseMeta {
@@ -86,6 +87,51 @@ export interface LiveSession {
 export interface AdminLiveSession extends LiveSession {
   courseId: string;
   isActive: boolean;
+}
+
+// ── Course access requests ────────────────────────────────────────────────────
+
+export type CourseRequestStatus = "PENDING" | "APPROVED" | "REJECTED" | "WAITLISTED";
+
+export interface PublicCourseMission {
+  id: string;
+  missionNumber: number;
+  title: string;
+  description: string;
+  sessionType: string;
+  creditsReward: number;
+  submodules: { index: number; title: string }[];
+}
+
+export interface PublicCourseDetail {
+  course: CourseMeta & { isOpenEnrollment: boolean };
+  missions: PublicCourseMission[];
+}
+
+export interface CourseRequestItem {
+  id: string;
+  courseId: string;
+  mobile: string;
+  email: string;
+  message: string | null;
+  status: CourseRequestStatus;
+  adminNotes?: string | null;
+  createdAt: string;
+  course?: {
+    id: string;
+    slug: string;
+    title: string;
+    shortTitle: string;
+    icon?: string;
+    accentColor?: string;
+  };
+}
+
+export interface AdminCourseRequest extends CourseRequestItem {
+  userId: string;
+  user?: { id: string; name: string; email: string };
+  reviewedAt?: string | null;
+  reviewedBy?: string | null;
 }
 
 // ── Admin panel types ────────────────────────────────────────────────────────

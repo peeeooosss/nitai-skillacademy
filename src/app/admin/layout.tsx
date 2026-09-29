@@ -3,7 +3,7 @@
 import * as React from "react";
 import { useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
-import { Loader2, ShieldCheck, ShieldAlert, Home, Sparkles, LayoutDashboard, BookOpen, Users, Video } from "lucide-react";
+import { Loader2, ShieldCheck, ShieldAlert, Home, Sparkles, LayoutDashboard, BookOpen, Users, Video, Inbox } from "lucide-react";
 import { useAuth } from "@/context/AuthContext";
 import { AuthCard } from "@/components/portal/AuthCard";
 
@@ -11,6 +11,7 @@ const ADMIN_NAV = [
   { href: "/admin/courses", label: "Courses", icon: BookOpen },
   { href: "/admin/users", label: "Users", icon: Users },
   { href: "/admin/live-sessions", label: "Live Sessions", icon: Video },
+  { href: "/admin/course-requests", label: "Access Requests", icon: Inbox },
 ];
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {

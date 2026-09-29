@@ -2,18 +2,26 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Home, ArrowRight } from "lucide-react";
 import { AuthCard } from "@/components/portal/AuthCard";
 import { useAuth } from "@/context/AuthContext";
 
-export function LoginClient() {
+function LoginInner() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const { user } = useAuth();
+  const redirect = searchParams.get("redirect");
+
+  const safeReturn = React.useMemo(() => {
+    if (!redirect) return "/portal";
+    if (redirect.startsWith("/") && !redirect.startsWith("//")) return redirect;
+    return "/portal";
+  }, [redirect]);
 
   React.useEffect(() => {
-    if (user) router.replace("/portal");
-  }, [user, router]);
+    if (user) router.replace(safeReturn);
+  }, [user, router, safeReturn]);
 
   return (
     <div className="relative flex min-h-screen w-full items-center justify-center bg-slate-950 p-4 text-slate-100 antialiased">
@@ -24,7 +32,7 @@ export function LoginClient() {
         <div className="rounded-3xl border border-white/10 bg-slate-900/80 p-7 backdrop-blur-xl shadow-2xl">
           <AuthCard
             onSuccess={() => {
-              setTimeout(() => router.push("/portal"), 500);
+              setTimeout(() => router.push(safeReturn), 500);
             }}
           />
         </div>
@@ -38,5 +46,13 @@ export function LoginClient() {
         </Link>
       </div>
     </div>
+  );
+}
+
+export function LoginClient() {
+  return (
+    <React.Suspense fallback={null}>
+      <LoginInner />
+    </React.Suspense>
   );
 }

@@ -14,16 +14,15 @@ import {
   Quote,
   Sparkles,
   ChevronDown,
+  FileBadge,
+  PhoneCall,
 } from "lucide-react";
 import { api, type CourseDetail } from "@/lib/api";
 import { courseIcon, hexToRgba } from "@/lib/courseIcons";
-import { useAuth } from "@/context/AuthContext";
 
 export default function CourseHomePage({ params }: { params: { slug: string } }) {
-  const { refreshUser } = useAuth();
   const [data, setData] = React.useState<CourseDetail | null>(null);
   const [error, setError] = React.useState("");
-  const [enrolling, setEnrolling] = React.useState(false);
   const [refreshKey, setRefreshKey] = React.useState(0);
   const [expanded, setExpanded] = React.useState<Set<number>>(new Set());
 
@@ -41,20 +40,6 @@ export default function CourseHomePage({ params }: { params: { slug: string } })
       .then(setData)
       .catch((e) => setError(e instanceof Error ? e.message : "Failed to load course"));
   }, [params.slug, refreshKey]);
-
-  const handleEnroll = async () => {
-    if (!data || data.enrolled) return;
-    setEnrolling(true);
-    try {
-      await api.post("/enrollments", { courseId: data.course.id });
-      await refreshUser();
-      setRefreshKey((k) => k + 1);
-    } catch (e) {
-      setError(e instanceof Error ? e.message : "Failed to enroll");
-    } finally {
-      setEnrolling(false);
-    }
-  };
 
   if (error) {
     return (
@@ -78,6 +63,37 @@ export default function CourseHomePage({ params }: { params: { slug: string } })
   const course = data.course;
   const Icon = courseIcon(course.icon);
   const accentHead = course.accentColor || "#a78bfa";
+
+  if (!data.enrolled) {
+    return (
+      <div className="overflow-hidden rounded-3xl border border-amber-400/20 bg-amber-400/[0.04]">
+        <div className="p-8 text-center">
+          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-400/10">
+            <Lock className="h-7 w-7 text-amber-300" />
+          </div>
+          <h1 className="mt-4 font-display text-xl font-bold text-white">{course.title}</h1>
+          <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-slate-400">
+            This course is unlocked after the academy team approves your access request. They&apos;ll reach out to
+            confirm your enrolment — then everything here opens up automatically.
+          </p>
+          <div className="mt-6 flex flex-col items-center justify-center gap-2 sm:flex-row">
+            <Link
+              href={`/courses/${course.slug}`}
+              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-violet-600 to-cyan-500 px-5 py-2.5 text-sm font-semibold text-white transition-transform hover:scale-[1.03]"
+            >
+              <FileBadge className="h-4 w-4" />
+              View Course &amp; Request Access
+            </Link>
+            <span className="inline-flex items-center gap-1.5 text-xs text-slate-500">
+              <PhoneCall className="h-3.5 w-3.5" />
+              Usually approved same day
+            </span>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   const { missions } = data;
   const completedMissions = missions.filter((m) => m.completed).length;
 
@@ -147,14 +163,13 @@ export default function CourseHomePage({ params }: { params: { slug: string } })
                 {completedMissions === 0 ? "Start First Mission" : "Resume Learning"}
               </Link>
             ) : (
-              <button
-                onClick={handleEnroll}
-                disabled={enrolling}
-                className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-violet-600 to-cyan-500 px-5 py-2.5 text-sm font-semibold text-white shadow-[0_0_25px_-8px_rgba(124,58,237,0.9)] transition-transform hover:scale-[1.03] disabled:opacity-60"
+              <Link
+                href={`/courses/${course.slug}`}
+                className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-violet-600 to-cyan-500 px-5 py-2.5 text-sm font-semibold text-white shadow-[0_0_25px_-8px_rgba(124,58,237,0.9)] transition-transform hover:scale-[1.03]"
               >
-                {enrolling ? <Loader2 className="h-4 w-4 animate-spin" /> : <ArrowRight className="h-4 w-4" />}
-                {enrolling ? "Enrolling..." : "Enroll Now — Open Enrollment"}
-              </button>
+                <ArrowRight className="h-4 w-4" />
+                Request Access
+              </Link>
             )}
           </div>
         </div>

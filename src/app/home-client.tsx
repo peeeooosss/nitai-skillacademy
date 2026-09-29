@@ -7,6 +7,7 @@ import { GlobalFooter } from "@/components/layout/GlobalFooter";
 import { SplitHero } from "@/components/homepage/SplitHero";
 import { AIAdvisor } from "@/components/homepage/AIAdvisor";
 import { LearnerStory } from "@/components/homepage/LearnerStory";
+import { CertificateDemo } from "@/components/homepage/CertificateDemo";
 import { CourseGrid } from "@/components/homepage/CourseGrid";
 import { ValueSystem } from "@/components/homepage/ValueSystem";
 import { OpportunityHub } from "@/components/homepage/OpportunityHub";
@@ -59,11 +60,11 @@ export function HomeClient() {
         <SplitHero onOpenLogin={() => openLoginGateway()} />
         <AIAdvisor onLaunchPathway={handleLaunchPathway} />
         <LearnerStory />
+        <CertificateDemo />
         <CourseGrid
           highlightedId={highlightedCourseId}
           activeTab={courseTab}
           setActiveTab={setCourseTab}
-          onOpenLogin={openLoginGateway}
         />
         <ProgrammesShowcase />
         <ValueSystem />
