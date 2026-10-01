@@ -10,6 +10,9 @@
 # next.js
 /.next/
 /out/
+# stray/duplicated build output dirs (e.g. "out 4/")
+/out*/
+out*/
 
 # production
 /build
@@ -36,3 +39,6 @@ next-env.d.ts
 
 # Local Netlify folder
 .netlify
+
+# session memory (local only — never commit)
+memory.md
