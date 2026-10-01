@@ -1,7 +1,15 @@
 import jwt from 'jsonwebtoken'
 import bcrypt from 'bcryptjs'
 
-const JWT_SECRET = process.env.JWT_SECRET || 'nitai-dev-secret-change-in-production'
+function requireEnv(name: string): string {
+  const value = process.env[name]
+  if (!value) {
+    throw new Error(`${name} environment variable is required`)
+  }
+  return value
+}
+
+const JWT_SECRET = requireEnv('JWT_SECRET')
 const JWT_EXPIRY = '7d'
 
 export interface JwtPayload {
