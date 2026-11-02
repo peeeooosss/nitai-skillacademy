@@ -1,7 +1,7 @@
 # Mission 8: My AI Showcase — Graduation Project
 
 ---
-### Module 1 · Welcome to Your Grand Finale
+### Sub-module 1 · Welcome to Your Grand Finale
 
 You've climbed seven missions. Now comes the mission where you put it all together - your **AI Showcase Project**. This is the project you'll show your class, your family, or your teacher, and it proves everything you've learned.
 
@@ -90,7 +90,7 @@ Choose → Plan → Build → Credit → Present
 **Answer:** A — Real-world work rewards completion and follow-through.
 
 ---
-### Module 2 · Step 1: Choose Your Idea (Pick ONE)
+### Sub-module 2 · Step 1: Choose Your Idea (Pick ONE)
 
 Any of these ideas work great - the key is to choose one you care about. Because you will spend real time on it, pick the idea you'd enjoy most. Then check with a parent or teacher: *'Is this idea allowed and safe?'*
 
@@ -180,7 +180,7 @@ Enjoyment + approval = a smooth project
 **Answer:** A — The artist part of you makes the project unique.
 
 ---
-### Module 3 · Step 2: Plan Before You Build (Remember Mission 3!)
+### Sub-module 3 · Step 2: Plan Before You Build (Remember Mission 3!)
 
 Use AI to plan - then do the work yourself. A clear plan turns a big scary project into small easy steps. Your plan is the blueprint you will follow with confidence.
 
@@ -267,7 +267,7 @@ Goal + 3 parts + your wording + 2-3 sessions = calm success
 **Answer:** A — Translated plans become blueprints you actually follow.
 
 ---
-### Module 4 · Step 3: Build It With Your Ninja Skills
+### Sub-module 4 · Step 3: Build It With Your Ninja Skills
 
 Now use every trick you learned in this course. Prompts from Mission 2, study-help explanations from Mission 3, creativity from Mission 4, presentation from Mission 6, and safety from Mission 7 - all come together here. This is the mission where they finally work as one team.
 
@@ -355,7 +355,7 @@ has your fingerprint on it.
 **Answer:** A — Your edits claim the work as your creation.
 
 ---
-### Module 5 · Step 4: The Honest AI Line on Every Project
+### Sub-module 5 · Step 4: The Honest AI Line on Every Project
 
 Add one simple line at the end of your project: *'I used AI to help brainstorm ideas and drafts. I designed, checked, and built this project myself.'* This line makes you look **smart and trustworthy** - exactly the kind of student teachers love.
 
@@ -442,7 +442,7 @@ Your line formula:
 **Answer:** A — It names the split honestly and looks strong.
 
 ---
-### Module 6 · Step 5: Present It Like a Pro + The Future of Your AI Superpower
+### Sub-module 6 · Step 5: Present It Like a Pro + The Future of Your AI Superpower
 
 Present it like a pro: show the before and after (the AI's first draft and what you improved), explain one thing you decided and why, tell them one thing you learned this course, and finish with your signature - your own proud touch.
 

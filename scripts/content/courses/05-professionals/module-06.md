@@ -1,7 +1,7 @@
 # Mission 6: Measuring and Presenting Your AI Gains
 
 ---
-### Module 1 · Measure, Don't Feel
+### Sub-module 1 · Measure, Don't Feel
 
 Feelings are not evidence. 'I feel faster' does not survive a manager review, but a time-and-quality number does. The first skill in presenting your AI gains is honestly measuring them - before data, before impact, before the story.
 
@@ -77,7 +77,7 @@ For each task you automate, capture a small set of numbers. Even two weeks of ho
 **Answer:** A — Even two weeks of real numbers beat adjectives.
 
 ---
-### Module 2 · The Before-and-After Table
+### Sub-module 2 · The Before-and-After Table
 
 The clearest report you can give anyone is a simple before-and-after table. Managers read tables faster than paragraphs, and numbers in rows carry more weight than the same numbers buried in prose.
 
@@ -152,7 +152,7 @@ Meeting summary| 45 min | 10 min| ~3 hrs     | same
 **Answer:** A — A focused top three-to-five table is persuasive; a dump is noise.
 
 ---
-### Module 3 · Quality and Consistency Gains
+### Sub-module 3 · Quality and Consistency Gains
 
 Time is only half the story. If all you did was produce the same work faster, the gain is modest. The stronger case is that the work is also better and more consistent - fewer review rounds, fewer errors, the same template every time.
 
@@ -228,7 +228,7 @@ Time is only half the story. If all you did was produce the same work faster, th
 **Answer:** A — AI catching errors before send is a measurable quality gain.
 
 ---
-### Module 4 · The One-Page Evidence Story
+### Sub-module 4 · The One-Page Evidence Story
 
 Everything you have measured comes together in one document: a one-page evidence story. Four sections - before, what changed, after, and next 90 days - are all you need. Anything longer gets skimmed; one page gets read.
 
@@ -304,7 +304,7 @@ The composition rule that matters most: make your role's output the star, and AI
 **Answer:** A — A next-90-days plan converts the win into trajectory.
 
 ---
-### Module 5 · Presenting It to Your Manager
+### Sub-module 5 · Presenting It to Your Manager
 
 The document gets you credibility; the conversation gets you the next authority. When you present, speak your manager's language - measurable, role-level, and reassuring. Tool names are interesting; hours found and review rounds cut are persuasive.
 
@@ -378,7 +378,7 @@ The one reassurance to have ready: everything is checked by you before it leaves
 **Answer:** A — Ask for the next authority - it converts a win into a larger role.
 
 ---
-### Module 6 · From One Win to the Next 90 Days
+### Sub-module 6 · From One Win to the Next 90 Days
 
 The course ends where your own growth plan begins. One working workflow is a proof point; the next 90 days turn it into a pattern. The loop is simple: consolidate what works, expand to the next tasks, share with a colleague, and upgrade to one harder task.
 

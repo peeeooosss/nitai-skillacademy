@@ -1,7 +1,7 @@
 # Mission 2: Market Validation with AI
 
 ---
-### Module 1 · Validation = Talking, Not Googling
+### Sub-module 1 · Validation = Talking, Not Googling
 
 Desk research cannot tell you if people will pay. **Only conversations reveal truth.** You can read a hundred market reports and still miss the one fact that matters: what your customer actually does with their money and time today.
 
@@ -95,7 +95,7 @@ Validation in one line:
 **Answer:** A — The decision, backed by evidence, is the point of validation.
 
 ---
-### Module 2 · Step 1: Turn Assumptions Into Hypotheses
+### Sub-module 2 · Step 1: Turn Assumptions Into Hypotheses
 
 Assumptions are comfortable; hypotheses are testable. Turn your Mission 1 one-liner into 3-5 falsifiable hypotheses, each with a clear definition of what would prove it true and what would prove it false.
 
@@ -189,7 +189,7 @@ Make them testable with a 10-interview plan.
 **Answer:** A — Three to five falsifiable hypotheses cover problem, solution, and market.
 
 ---
-### Module 3 · Step 2: Find 10 Real Customers (Not Friends)
+### Sub-module 3 · Step 2: Find 10 Real Customers (Not Friends)
 
 Do not handpick friendly people. Find people who genuinely have the problem - through LinkedIn, communities, directories of your target industry, local business groups, or suppliers to that industry.
 
@@ -284,7 +284,7 @@ Tone: curious peer, not pitch.
 **Answer:** A — Warm introductions from each conversation beat cold DMs.
 
 ---
-### Module 4 · Step 3: The Interview (Listen More Than You Talk)
+### Sub-module 4 · Step 3: The Interview (Listen More Than You Talk)
 
 The interview is where validation succeeds or fails. The rule is simple: **90% their story, 10% your idea.** Ask about their week, their workflow, and the last time this problem hurt them.
 
@@ -379,7 +379,7 @@ on current behaviour + money, and 2 'would you pay' probes.
 **Answer:** A — Pitching contaminates the data; describe only if asked, then probe price.
 
 ---
-### Module 5 · Step 4: Cheap Demand Signals (Before You Build)
+### Sub-module 5 · Step 4: Cheap Demand Signals (Before You Build)
 
 Conversations give you words; signals give you behaviour. Before you build anything, gather cheap demand signals: search and marketplace data, pre-orders, and competitor reactions.
 
@@ -474,7 +474,7 @@ Pre-orders over opinions.
 **Answer:** A — Gather cheap signals before building so you do not waste months.
 
 ---
-### Module 6 · Step 5: The Go / Pivot / Kill Meeting
+### Sub-module 6 · Step 5: The Go / Pivot / Kill Meeting
 
 After 10 conversations and signals, grade the evidence honestly and decide. This is the moment most founders avoid - and avoiding it is why months disappear.
 

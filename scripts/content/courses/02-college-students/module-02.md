@@ -1,7 +1,7 @@
 # Mission 2: Prompt Engineering for Academics
 
 ---
-### Module 1 · Why Prompting Is a Core Academic Skill
+### Sub-module 1 · Why Prompting Is a Core Academic Skill
 
 Tools do not hand you intelligence - they hand you drafts in response to a request. A vague question produces a vague answer; a precise prompt produces work you can actually use. That asymmetry is why prompting is the single highest-leverage academic skill with AI.
 
@@ -96,7 +96,7 @@ A great prompt pipeline:
 **Answer:** A — Each solid prompt is an asset for the next piece of work.
 
 ---
-### Module 2 · The 4-Part Prompt Framework (RCTF)
+### Sub-module 2 · The 4-Part Prompt Framework (RCTF)
 
 There is a professional frame used across AI work that makes prompts dramatically more useful: **RCTF** - Role, Context, Task, Format. Writing all four parts routinely doubles the usefulness of the output, and the frame is short enough to use under time pressure.
 
@@ -192,7 +192,7 @@ What each part prevents:
 **Answer:** A — Format pins the structure, tone, and length of the answer.
 
 ---
-### Module 3 · The Research to Draft to Refine Chain
+### Sub-module 3 · The Research to Draft to Refine Chain
 
 The best academic result does not come from a single magical prompt - it comes from a **chain** of prompts, each feeding the next. The professional loop is Research, then Draft, then Refine, and each step stays anchored to your topic instead of drifting.
 
@@ -285,7 +285,7 @@ What chaining avoids:
 **Answer:** A — Iteration through stages is how real writers refine work.
 
 ---
-### Module 4 · Controlling Outputs Like a Pro
+### Sub-module 4 · Controlling Outputs Like a Pro
 
 The fastest path to usable output is making the AI obey constraints. Length, depth, style, and hard rules are all things you can specify - and the model follows explicit instructions far more reliably than it reads hints between the lines. This module turns vague preferences into hard requirements.
 
@@ -381,7 +381,7 @@ Why it works:
 **Answer:** A — Rubrics already encode scope, standards, and citation rules.
 
 ---
-### Module 5 · Build a Reusable Prompt Bank
+### Sub-module 5 · Build a Reusable Prompt Bank
 
 Stop rewriting prompts from scratch. The professionals keep a personal library of prompts they reuse - one master prompt per recurring task, stored with a note on when to use it and versioned as it improves. This is your **prompt bank**, and it compounds.
 
@@ -477,7 +477,7 @@ The bank entry template:
 **Answer:** A — One polished, tested prompt beats several half-written ones.
 
 ---
-### Module 6 · The Self-Critique Loop (The 30-Second Upgrade)
+### Sub-module 6 · The Self-Critique Loop (The 30-Second Upgrade)
 
 Most bad AI output is a *first* output - and you can fix it in a single round. The self-critique loop is three quick moves: ask the AI to critique its own answer, ask it to repair the weak parts, then cross-check the result yourself. Thirty seconds of this routinely upgrades a C-quality reply into something worth handing in.
 

@@ -10,7 +10,7 @@ You are a senior skills-marketplace strategist + curriculum architect for NITAI 
 ## BACKGROUND
 
 Platform already has:
-- 12 AI courses (one per audience). Each course = "missions"; each mission file holds 4-5 submodules ("### Module K · Title") each with learning objectives, theory, examples, a practice challenge, and a 6-question mini-quiz. Quizzes auto-check pass (70%), assignments are graded, learners earn XP/credits.
+- 12 AI courses (one per audience). Each course = "missions"; each mission file holds 4-5 sub-modules ("### Sub-module K · Title") each with learning objectives, theory, examples, a practice challenge, and a 6-question mini-quiz. Quizzes auto-check pass (70%), assignments are graded, learners earn XP/credits.
 - "AI Didi" in-course AI mentor (context-aware per mission), live-session hosting, admin approval-based enrollment, certificates.
 - Pricing target: ₹1,500–₹3,000 per course, lifetime access, India-first audience (mostly mobile data users on WhatsApp).
 
@@ -32,7 +32,7 @@ Platform already has:
 ## TARGET FORMAT (fixed; don't fight it)
 
 - Every course becomes 24 missions in 6 phases (4 missions per phase).
-- Each mission = 4-5 submodules (Concept → Tool walkthrough → India-context use case → Hands-on project → Money/safety angle).
+- Each mission = 4-5 sub-modules (Concept → Tool walkthrough → India-context use case → Hands-on project → Money/safety angle).
 - Tone: simple English, Indian examples, occasional Hinglish warmth; mobile-app workflows (WhatsApp, Instagram, YouTube).
 - The money story matters in every course: ₹/month earning potential, not vague "opportunity".
 

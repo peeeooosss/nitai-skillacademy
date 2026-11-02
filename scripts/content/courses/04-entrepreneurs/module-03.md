@@ -1,7 +1,7 @@
 # Mission 3: AI-First Business Model Design
 
 ---
-### Module 1 · The Business Model Is Your Operating Manual
+### Sub-module 1 · The Business Model Is Your Operating Manual
 
 Before building anything, decide how money moves. A one-page business model prevents building an unfundable gadget - a product nobody can pay for in a way that keeps you alive.
 
@@ -99,7 +99,7 @@ The model is your operating manual:
 **Answer:** A — Keep it short and legible so it is actually used and tested.
 
 ---
-### Module 2 · Step 1: One-Page Business Model (AI-Assisted)
+### Sub-module 2 · Step 1: One-Page Business Model (AI-Assisted)
 
 Use a lean canvas or the seven-block summary: customer, problem, solution, revenue, costs, channel, and edge. Each block is one or two lines, in your customer's language where possible.
 
@@ -197,7 +197,7 @@ instead of guessing. Then draft the one-pager.
 **Answer:** A — Use the customer's own words from your Mission 2 interviews.
 
 ---
-### Module 3 · Step 2: Pick a Pricing Strategy (Not a Guess)
+### Sub-module 3 · Step 2: Pick a Pricing Strategy (Not a Guess)
 
 Pricing is a strategy decision, not a guess. There are four sane options for a lean startup: one-time, subscription, usage-based, and package/retainer.
 
@@ -292,7 +292,7 @@ given [how often they would use it]? List the risks of each.
 **Answer:** A — It is easier to start lower with clear framing than to raise an existing price.
 
 ---
-### Module 4 · Step 3: Cashflow Before You Spend
+### Sub-module 4 · Step 3: Cashflow Before You Spend
 
 Profit is an opinion; cash is a fact. Start with a simple cashflow map: what you must spend before the first rupee/dollar comes in, and what you can defer or avoid.
 
@@ -386,7 +386,7 @@ I should not spend on yet.
 **Answer:** A — Use AI to check the plan and flag anything you should not spend on yet.
 
 ---
-### Module 5 · Step 4: The Build / Buy / AI-Automate Decision
+### Sub-module 5 · Step 4: The Build / Buy / AI-Automate Decision
 
 For every part of your business, decide: build it yourself, buy a tool, or have AI automate it. This is a leverage decision, not a purity test.
 
@@ -480,7 +480,7 @@ real edge and should stay in-house.
 **Answer:** A — Flag anything that is your real edge and keep it in-house.
 
 ---
-### Module 6 · Step 5: Unit Economics for Your First Goal
+### Sub-module 6 · Step 5: Unit Economics for Your First Goal
 
 Unit economics answer one question: does each sale make money, or lose it? Keep it simple - price per unit, cost per unit, contribution margin, and the number of units to hit your first goal.
 

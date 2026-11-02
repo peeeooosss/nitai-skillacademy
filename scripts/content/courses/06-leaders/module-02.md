@@ -1,7 +1,7 @@
 # Mission 2: Building Your AI Adoption Roadmap
 
 ---
-### Module 1 · Start from Business Problems, Not Tools
+### Sub-module 1 · Start from Business Problems, Not Tools
 
 The most common roadmap failure is tool-first: 'we must adopt AI'. That produces a portfolio of purchases with no outcomes - budget spent, capability bought, nothing changed. The alternative is to start from problems you would solve anyway.
 
@@ -99,7 +99,7 @@ AI is the mechanism, not the justification.
 **Answer:** A — Cost-to-serve, customer service, errors and rework, and competitive speed.
 
 ---
-### Module 2 · Portfolio Thinking: Quick Wins, Core, Experiments
+### Sub-module 2 · Portfolio Thinking: Quick Wins, Core, Experiments
 
 A healthy AI portfolio holds three kinds of work at once: quick wins, core improvements, and experiments. The balance prevents you from betting everything on one long project or drowning in scattered pilots.
 
@@ -195,7 +195,7 @@ Strong in quick wins, disciplined on core, capped on experiments.
 **Answer:** A — Core improvements need 2-3 cycles to prove themselves - resist early kill.
 
 ---
-### Module 3 · Data: Your Hidden Prerequisite
+### Sub-module 3 · Data: Your Hidden Prerequisite
 
 AI models eat data. Your roadmap's real precondition is not the model - it is what the model can see. Most AI pilots fail on data quality or access, not model capability.
 
@@ -291,7 +291,7 @@ Data-foundation checklist before a use case:
 **Answer:** A — Consolidation before build is normal; fix the minimum foundations and iterate.
 
 ---
-### Module 4 · Governance, Risk, and Compliance from Day One
+### Sub-module 4 · Governance, Risk, and Compliance from Day One
 
 Bake governance in early - retrofitting it is painful. The instinct to 'move fast and fix later' fails badly with AI, because data, accuracy, and security problems compound quietly until they surface as incidents.
 
@@ -388,7 +388,7 @@ That is enough to begin - expand as you scale.
 **Answer:** A — Privacy, accuracy and accountability, bias and fairness, and security.
 
 ---
-### Module 5 · Budgeting and Sequencing in 90-Day Cycles
+### Sub-module 5 · Budgeting and Sequencing in 90-Day Cycles
 
 Roadmaps in months fail; roadmaps in 90-day cycles deliver. A quarter is long enough to produce a real result and short enough to keep attention and re-funding honest.
 
@@ -484,7 +484,7 @@ Every 90-day review:
 **Answer:** A — Review quick wins, core progress, and experiment kills, then update the roadmap.
 
 ---
-### Module 6 · Your One-Page Roadmap
+### Sub-module 6 · Your One-Page Roadmap
 
 Condense everything into one page with four boxes. Larger documents gather dust; one page gets followed. The constraint forces choices and keeps the whole organisation reading the same plan.
 

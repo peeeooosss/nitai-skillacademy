@@ -1,7 +1,7 @@
 # Mission 5: Freelance & Earn — AI-Powered Gigs You Can Do from Home
 
 ---
-### Module 1 · Earning from Home with AI
+### Sub-module 1 · Earning from Home with AI
 
 Freelancing means doing small paid jobs from home, on your own time. With AI, you can do many of these jobs faster and better.
 
@@ -96,7 +96,7 @@ gigs that fit me and how AI can help with each.
 **Answer:** A — AI helps you complete freelance work faster and better.
 
 ---
-### Module 2 · Step 1: Find Gigs That Fit Your Skills
+### Sub-module 2 · Step 1: Find Gigs That Fit Your Skills
 
 The right gig fits your skills, your time, and your comfort. Start with what you can already do well.
 
@@ -191,7 +191,7 @@ and a fair starting rate for each.
 **Answer:** A — Make sure the gig pays fairly for your time and effort.
 
 ---
-### Module 3 · Step 2: Writing Proposals and Profiles
+### Sub-module 3 · Step 2: Writing Proposals and Profiles
 
 To win gigs, you need a short, clear profile and a friendly proposal that shows you can do the job.
 
@@ -285,7 +285,7 @@ Keep it simple and honest, and mention price and time.
 **Answer:** A — Be honest about your skills so you deliver what you promise.
 
 ---
-### Module 4 · Step 3: Doing the Work Well and Fast
+### Sub-module 4 · Step 3: Doing the Work Well and Fast
 
 Once you win a gig, delivering good work on time earns you good reviews and more jobs. AI helps you work faster without losing quality.
 
@@ -378,7 +378,7 @@ how to keep it high quality.
 **Answer:** A — Good reviews bring more clients and better-paying gigs.
 
 ---
-### Module 5 · Step 4: Getting Paid Safely
+### Sub-module 5 · Step 4: Getting Paid Safely
 
 Earning is only useful if you get paid. Learn safe ways to receive money and protect yourself from cheats.
 
@@ -471,7 +471,7 @@ and payment terms with a client.
 **Answer:** A — Keep a record of every payment to protect your earnings.
 
 ---
-### Module 6 · Step 5: Building Repeat Clients
+### Sub-module 6 · Step 5: Building Repeat Clients
 
 One-time gigs pay once; repeat clients pay again and again. Good service and clear communication turn clients into regulars.
 

@@ -1,7 +1,7 @@
 # Mission 5: Confidentiality & AI Governance for Lawyers
 
 ---
-### Module 1 · The Duty of Confidentiality
+### Sub-module 1 · The Duty of Confidentiality
 
 Confidentiality is one of the lawyer's oldest duties. It survives the engagement and covers almost everything a client tells you.
 
@@ -94,7 +94,7 @@ protect client information when using AI.
 **Answer:** A — When unsure, do not paste client information.
 
 ---
-### Module 2 · Privilege and AI Tools
+### Sub-module 2 · Privilege and AI Tools
 
 Legal professional privilege protects certain communications from disclosure. Whether AI tool use preserves privilege depends on the tool, the vendor, and the jurisdiction.
 
@@ -187,7 +187,7 @@ to protect privilege. Note that rules vary by jurisdiction.
 **Answer:** A — Jurisdictions differ on AI and privilege, so check local rules.
 
 ---
-### Module 3 · Data Protection and Client Consent
+### Sub-module 3 · Data Protection and Client Consent
 
 Data protection law adds another layer: personal data has its own rules, and clients may need to consent to certain processing.
 
@@ -280,7 +280,7 @@ the safeguards to apply. Note jurisdictional variation.
 **Answer:** A — Data breaches carry regulatory penalties.
 
 ---
-### Module 4 · Vendor Risk and Tool Approval
+### Sub-module 4 · Vendor Risk and Tool Approval
 
 Every AI tool is a third party with access to your data. Vendor risk assessment decides which tools are safe enough for client work.
 
@@ -374,7 +374,7 @@ and contractual commitments. Note what answers are acceptable.
 **Answer:** A — Re-review vendor risk periodically as practices change.
 
 ---
-### Module 5 · Your Firm's AI Use Policy
+### Sub-module 5 · Your Firm's AI Use Policy
 
 A firm AI policy turns governance into daily practice: what tools are approved, what data may be used, and who supervises.
 
@@ -468,7 +468,7 @@ and consequences. Plain language.
 **Answer:** A — Review the policy regularly as AI tools change.
 
 ---
-### Module 6 · Accountability and Supervision
+### Sub-module 6 · Accountability and Supervision
 
 The buck stops with the lawyer. AI can assist, but a qualified lawyer must supervise and take responsibility for every output.
 

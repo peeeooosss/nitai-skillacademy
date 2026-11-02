@@ -1,7 +1,7 @@
 # Mission 4: AI-Assisted Video, Audio & Visuals
 
 ---
-### Module 1 · AI for Multilingual and Social-First Journalism
+### Sub-module 1 · AI for Multilingual and Social-First Journalism
 
 Most audiences now meet a story on a phone, in a feed, often in another language. AI helps you reach them by translating, transcribing, and reformatting one story into many.
 
@@ -94,7 +94,7 @@ audio, video, and social, plus a translation brief for
 **Answer:** A — AI speeds the repetitive work of reformatting and translating.
 
 ---
-### Module 2 · Step 1: Script for the Ear, Not the Eye
+### Sub-module 2 · Step 1: Script for the Ear, Not the Eye
 
 Audio and video scripts are written for the ear. Short sentences, plain words, and a clear through-line beat elegant written prose.
 
@@ -187,7 +187,7 @@ and pause markers. Keep all facts exactly as written.
 **Answer:** A — Adapting for the ear must keep all facts exactly as written.
 
 ---
-### Module 3 · Step 2: Turn One Story into Many Formats
+### Sub-module 3 · Step 2: Turn One Story into Many Formats
 
 One well-reported story can become a text article, a short video, an audio clip, a social thread, and a newsletter item. AI makes the reformatting fast.
 
@@ -282,7 +282,7 @@ newsletter item. Keep facts identical in all versions.
 **Answer:** A — Each format must fit its platform rather than being copy-pasted.
 
 ---
-### Module 4 · Step 3: Auto-Transcribe, Subtitle, and Translate
+### Sub-module 4 · Step 3: Auto-Transcribe, Subtitle, and Translate
 
 Transcription, subtitles, and translation are the biggest time-savers AI offers a newsroom. They also carry real accuracy risks: accents, names, and jargon are where errors hide.
 
@@ -376,7 +376,7 @@ I must verify against the original audio before quoting.
 **Answer:** A — Every automatic transcript needs human checking.
 
 ---
-### Module 5 · Step 4: Visuals and Thumbnails That Stay Honest
+### Sub-module 5 · Step 4: Visuals and Thumbnails That Stay Honest
 
 Visuals and thumbnails drive clicks, but they must stay honest. An image that implies something the story does not support is misinformation, even if the headline is accurate.
 
@@ -469,7 +469,7 @@ whether any element would need an AI-generated label.
 **Answer:** A — Prefer real photos from your reporting over generated ones.
 
 ---
-### Module 6 · Step 5: The Ethics of Synthetic Media
+### Sub-module 6 · Step 5: The Ethics of Synthetic Media
 
 Synthetic media - AI-generated voices, images, and video - can be used responsibly or abused. Journalists must know the line and hold it.
 

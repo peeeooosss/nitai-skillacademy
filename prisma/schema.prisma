@@ -242,8 +242,8 @@ model LiveSession {
   link          String
   scheduledAt   DateTime
   durationMins  Int          @default(60)
-  courseId      String
-  course        Course       @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  courseId      String?
+  course        Course?      @relation(fields: [courseId], references: [id], onDelete: Cascade)
   missionNumber Int?
   isActive      Boolean      @default(true)
   createdAt     DateTime     @default(now())
@@ -264,6 +264,8 @@ model UserProgress {
   assignmentSubmitted Boolean   @default(false)
   completed           Boolean   @default(false)
   completedSubmodules Json?
+  timeSpentSeconds    Int       @default(0)
+  lastActiveAt        DateTime?
   completedAt         DateTime?
   createdAt           DateTime  @default(now())
 

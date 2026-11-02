@@ -1,7 +1,7 @@
 # Mission 4: AI-Powered Calendars & Repurposing
 
 ---
-### Module 1 · Consistency Beats Virality
+### Sub-module 1 · Consistency Beats Virality
 
 One viral post is luck; consistent posting is a strategy. Audiences and algorithms reward creators who show up regularly.
 
@@ -94,7 +94,7 @@ and schedule, so consistency does not depend on motivation.
 **Answer:** A — A calendar makes consistency a system rather than willpower.
 
 ---
-### Module 2 · Step 1: The Content Pillars
+### Sub-module 2 · Step 1: The Content Pillars
 
 Content pillars are the three to five themes you always post about. They keep your channel coherent and your ideas flowing.
 
@@ -187,7 +187,7 @@ fit my [voice].
 **Answer:** A — Consistent pillars build a recognisable channel.
 
 ---
-### Module 3 · Step 2: Build a Month-Long Calendar
+### Sub-module 3 · Step 2: Build a Month-Long Calendar
 
 A month-long calendar maps every post before the month starts. You always know what is going out and when.
 
@@ -280,7 +280,7 @@ format and a working title. Leave two flexible slots.
 **Answer:** A — A calendar removes the daily 'what do I post' decision.
 
 ---
-### Module 4 · Step 3: Repurpose One Idea into Ten Posts
+### Sub-module 4 · Step 3: Repurpose One Idea into Ten Posts
 
 Repurposing is the highest-leverage creator skill: one strong idea becomes a short, a long video, a carousel, a caption, a newsletter, and more.
 
@@ -374,7 +374,7 @@ newsletter section. Adapt each to its platform. Voice: [tone].
 **Answer:** A — AI reformats one idea into many formats quickly.
 
 ---
-### Module 5 · Step 4: Batch Produce and Schedule
+### Sub-module 5 · Step 4: Batch Produce and Schedule
 
 Batching means producing several posts in one session instead of one at a time. It saves setup time and protects your creative energy.
 
@@ -467,7 +467,7 @@ and an edit-and-schedule order. Keep it efficient.
 **Answer:** A — A buffer keeps you consistent even in busy weeks.
 
 ---
-### Module 6 · Step 5: The Weekly Creator Review
+### Sub-module 6 · Step 5: The Weekly Creator Review
 
 A short weekly review keeps the system improving: what went out, what worked, and what to change next week.
 

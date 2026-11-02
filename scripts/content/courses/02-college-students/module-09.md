@@ -1,7 +1,7 @@
 # Mission 9: Portfolio Building for Internships
 
 ---
-### Module 1 · Your Portfolio Is a Story, Not a Folder
+### Sub-module 1 · Your Portfolio Is a Story, Not a Folder
 
 Recruiters spend seconds on your portfolio - it must tell a **story in that time**. A good portfolio answers three questions instantly: who you are in one line, what you have made with two to four strong real projects, and what you can do with proof in screenshots, demos, and results.
 
@@ -95,7 +95,7 @@ used by 12 hostelmates every week'
 **Answer:** A — The impact test is the curation filter.
 
 ---
-### Module 2 · The Three-Section Portfolio Plan
+### Sub-module 2 · The Three-Section Portfolio Plan
 
 Structure minimises effort and maximises signal. The three-section plan is About, Projects, and Proof. Host it simply - a GitHub README with images, a free Notion page, or a one-page site - because a clean simple surface beats a feature-heavy half-finished one.
 
@@ -187,7 +187,7 @@ Simple hosting targets:
 **Answer:** A — Fast scanning is how reviewers find the signal.
 
 ---
-### Module 3 · The STAR Case Study Frame
+### Sub-module 3 · The STAR Case Study Frame
 
 For each project, write a mini case study using **STAR**: Situation, Task, Action, and Result. The frame turns a project into a portable case narrative that works in a portfolio, in interviews, and in application essays.
 
@@ -279,7 +279,7 @@ Strong Result lines:
 **Answer:** A — Measured outcomes convert effort into proof.
 
 ---
-### Module 4 · Using AI to Draft, Not Fabricate
+### Sub-module 4 · Using AI to Draft, Not Fabricate
 
 Your portfolio is where honesty pays off most - because interviews will verify it. Use AI to polish the wording and structure of your own projects, but never to invent experience. An unverifiable claim unmasks instantly in a technical question-and-answer.
 
@@ -372,7 +372,7 @@ The precise-role rule:
 **Answer:** A — Demonstrable claims are the only claims that last.
 
 ---
-### Module 5 · Make It Scannable in Thirty Seconds
+### Sub-module 5 · Make It Scannable in Thirty Seconds
 
 Assume the reader has thirty seconds - design for it. Put at the top of each project page a one-line elevator pitch, one screenshot, one demo link, and three bullets covering what, why, and result. Format with short paragraphs, headings, and bullet lists, never walls of text.
 
@@ -465,7 +465,7 @@ Scannable formatting rules:
 **Answer:** A — That question answered is the scan test.
 
 ---
-### Module 6 · Honesty Rules That Protect You
+### Sub-module 6 · Honesty Rules That Protect You
 
 A set of honesty rules keeps your portfolio an asset rather than a liability. Every project exists and works, every claim is verifiable, every metric is real, and your role is accurate. One unwritten rule under them all: exaggeration in the portfolio is a test of honesty, and the interview is the check.
 

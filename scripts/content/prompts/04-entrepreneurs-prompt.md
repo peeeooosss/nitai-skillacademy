@@ -249,7 +249,7 @@ Submodules:
 
 ## Notes for Content Generation
 - Each mission file = `module-NN.md` (NN = mission number, zero-padded).
-- Each mission has 5 submodules (`### Module K · Title`).
+- Each mission expands every sub-module in its outline (typically 5) using `### Sub-module K · Title`.
 - Every submodule ends with a `**Example Quiz**` block (6 questions).
 - Tone: simple English, Indian examples, warm Hinglish, ₹ earning angle.
 - See `scripts/content/prompts/04-entrepreneurs-prompt.md` for the full generation prompt.
@@ -268,7 +268,7 @@ Each file's content:
 # Mission N: <Mission Title>
 
 ---
-### Module 1 · <Submodule Title>
+### Sub-module 1 · <Submodule Title>
 
 <intro paragraph(s), 150-250 words, simple English, Indian examples, warm Hinglish>
 
@@ -314,15 +314,15 @@ Each file's content:
 
 (6 questions total per submodule)
 
-### Module 2 · <Submodule Title>
-... (same structure, 4-5 submodules per mission)
+### Sub-module 2 · <Submodule Title>
+... (same structure, one block per sub-module in the mission outline)
 
 ---
 ```
 
 ### CRITICAL FORMAT RULES
 1. The FIRST line of every file is `# Mission N: <Title>` (one `#`, nothing before it).
-2. Submodules are separated by `### Module K · Title` (three hashes, space, "Module", space, number, space, middle-dot `·`, space, title). The middle dot is U+00B7.
+2. Sub-modules are separated by `### Sub-module K · Title` (three hashes, space, "Sub-module", space, number, space, middle-dot `·`, space, title). The middle dot is U+00B7.
 3. Use `## ` (two hashes) for sections inside a submodule: Learning Objectives, Key Takeaways, Practice Challenge, and any custom sections. Never use `## ` for submodule titles.
 4. `**Example Quiz**` must be written exactly as `**Example Quiz**` on its own line, placed at the END of each submodule (after Practice Challenge). The seeder strips everything from that marker into a separate quiz.
 5. Quiz questions: `1. Question text?` (number, dot, space). Options: `- A) option text` (dash, space, letter, close-paren, space). Answer: `**Answer:** A — explanation` (bold Answer, colon, space, letter, space, em-dash `—`, space, explanation). Exactly 6 questions per submodule.

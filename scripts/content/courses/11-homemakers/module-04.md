@@ -1,7 +1,7 @@
 # Mission 4: Starting a Micro-Business with AI
 
 ---
-### Module 1 · A Business You Can Start from Home
+### Sub-module 1 · A Business You Can Start from Home
 
 Many homemakers already have the skills to earn: cooking, tailoring, teaching, crafts, or organising. A micro-business starts small, from home, with what you have.
 
@@ -95,7 +95,7 @@ and how AI can help with each.
 **Answer:** A — Starting small reduces risk and lets you grow step by step.
 
 ---
-### Module 2 · Step 1: Find Your Skill and Your Customer
+### Sub-module 2 · Step 1: Find Your Skill and Your Customer
 
 A business works when your skill meets a real need. Find what you do well and who needs it.
 
@@ -188,7 +188,7 @@ they would pay for it.
 **Answer:** A — Test whether people will pay before investing your money.
 
 ---
-### Module 3 · Step 2: Name and Describe Your Business
+### Sub-module 3 · Step 2: Name and Describe Your Business
 
 A good name and a clear description help customers remember you and understand what you offer.
 
@@ -281,7 +281,7 @@ tagline, and a simple description I can use on WhatsApp.
 **Answer:** A — Keep your business description to one or two clear lines.
 
 ---
-### Module 4 · Step 3: Make Your Products or Menu
+### Sub-module 4 · Step 3: Make Your Products or Menu
 
 Whether you sell food, crafts, or services, you need a clear menu or product list with prices that earn you a profit.
 
@@ -374,7 +374,7 @@ profit, and suggest a short menu of 5 items to start.
 **Answer:** A — Consistent quality keeps customers returning and recommending you.
 
 ---
-### Module 5 · Step 4: Reach Customers on WhatsApp and Social Media
+### Sub-module 5 · Step 4: Reach Customers on WhatsApp and Social Media
 
 You do not need a big shop or expensive ads. WhatsApp status, local groups, and simple posts can reach many customers.
 
@@ -468,7 +468,7 @@ Include how to order and keep it warm and simple.
 **Answer:** A — Happy customers telling others grows your business steadily.
 
 ---
-### Module 6 · Step 5: Track Orders, Money, and Growth
+### Sub-module 6 · Step 5: Track Orders, Money, and Growth
 
 A business grows when you keep track of orders, money in and out, and what sells best.
 

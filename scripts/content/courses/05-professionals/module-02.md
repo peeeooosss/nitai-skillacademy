@@ -1,7 +1,7 @@
 # Mission 2: Automating Repetitive Tasks with AI
 
 ---
-### Module 1 · What 'Automate' Really Means Here
+### Sub-module 1 · What 'Automate' Really Means Here
 
 Automating with AI does not mean building full robot workflows or replacing your entire job. For most professionals it means a much simpler division of labour: **the AI does the drafting, formatting, and summarising; you do the deciding, checking, and sending.**
 
@@ -82,7 +82,7 @@ AUTOMATION PATTERN
 **Answer:** A — The professional always checks automated output - judgement stays human.
 
 ---
-### Module 2 · Safety Rules Before You Automate
+### Sub-module 2 · Safety Rules Before You Automate
 
 Safety is not something to bolt on later - it is the first step of any automation. Before you paste anything into an AI tool, run the three rules in this module. They are not fear; they are what a professional does by default, and they protect both you and your organisation.
 
@@ -156,7 +156,7 @@ The rules are short: no sensitive data, no auto-sending, and check the policy. T
 **Answer:** A — A quick check of company AI policy protects you and your work.
 
 ---
-### Module 3 · Automating Routine Emails
+### Sub-module 3 · Automating Routine Emails
 
 Routine emails are the easiest first automation in any role, because they follow the same shape every time: an audience, a situation, and a few points to land. Once you have a reusable prompt for one email type, you will never write that email from a blank page again.
 
@@ -234,7 +234,7 @@ Include these points: [points]. Tone: [tone].
 **Answer:** A — One well-reused prompt for a frequent email type can save about an hour a week.
 
 ---
-### Module 4 · Automating Summaries and Notes
+### Sub-module 4 · Automating Summaries and Notes
 
 Summarising meetings, articles, and reports is where AI genuinely shines. Raw notes that would take half an hour to condense can become a structured summary in seconds - decisions, actions, open items - so a good summary turns a two-hour meeting into a two-minute read for everyone involved.
 
@@ -313,7 +313,7 @@ actions with owners and dates, 3) what still needs discussion.
 **Answer:** A — Structured asks - decisions, actions, discussion points - give usable summaries.
 
 ---
-### Module 5 · Automating Formatting and Repurposing
+### Sub-module 5 · Automating Formatting and Repurposing
 
 A huge hidden time cost in every role is reformatting - turning a paragraph into bullets, bullets into a table, a report table into a narrative, or an internal note into a client-friendly version. None of this changes the underlying facts, and none of it needs real writing skill. That makes it the perfect job for AI.
 
@@ -393,7 +393,7 @@ Do not add information. Do not change numbers, names, or meaning.
 **Answer:** A — Reformatting repeats daily - once a prompt is saved, it takes seconds instead of minutes.
 
 ---
-### Module 6 · What NOT to Automate
+### Sub-module 6 · What NOT to Automate
 
 Knowing what to automate is only half the skill. The other half is knowing what must never run on autopilot. Every role has a short list of tasks that are confidential, impossible to verify, or consequential enough that they must stay human-managed - and a professional recognises them on sight.
 

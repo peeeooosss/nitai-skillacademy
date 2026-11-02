@@ -300,8 +300,8 @@ export function CourseLanding({ slug }: { slug: string }) {
         >
           <h2 className="font-display text-xl font-bold text-white">Your learning journey</h2>
           <p className="mt-1 text-sm text-slate-400">
-            {course.moduleCount} missions, each with bite-size interactive topics, a graded quiz, and credits for every
-            mission you complete.
+            {course.moduleCount} missions, each split into bite-size sub-modules with slides, an example quiz, and
+            credits for every mission you complete.
           </p>
 
           <div className="mt-6 space-y-3">
@@ -332,7 +332,7 @@ export function CourseLanding({ slug }: { slug: string }) {
                           <SessionIcon className="h-3 w-3" />
                           {(m.sessionType || "SELF-PACED").replace("_", " ")}
                         </span>
-                        <span>· {m.submodules.length} topics</span>
+                        <span>· {m.submodules.length} sub-modules</span>
                         <span className="inline-flex items-center gap-1 text-emerald-300/80">
                           <Award className="h-3 w-3" />+{m.creditsReward} credits
                         </span>
@@ -407,7 +407,7 @@ export function CourseLanding({ slug }: { slug: string }) {
                 <div className="mt-8 grid grid-cols-3 gap-3">
                   {[
                     { label: "Missions", value: String(course.moduleCount), color: "#fbbf24" },
-                    { label: "Topics", value: String(data.missions.reduce((acc, m) => acc + m.submodules.length, 0)), color: "#34d399" },
+                    { label: "Sub-modules", value: String(data.missions.reduce((acc, m) => acc + m.submodules.length, 0)), color: "#34d399" },
                     { label: "XP Earned", value: String(course.totalXp), color: "#22d3ee" },
                   ].map((s) => (
                     <div key={s.label} className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-center">

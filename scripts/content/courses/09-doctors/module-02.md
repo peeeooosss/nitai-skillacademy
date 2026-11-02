@@ -1,7 +1,7 @@
 # Mission 2: Clinical Documentation with AI
 
 ---
-### Module 1 · Documentation as Care, Not Admin
+### Sub-module 1 · Documentation as Care, Not Admin
 
 Clinical documentation is not just paperwork; it is the record that drives safe care, communication, and continuity. Poor notes cause harm.
 
@@ -94,7 +94,7 @@ the verification steps a clinician must perform.
 **Answer:** A — The clinical record must be true, accurate, and complete.
 
 ---
-### Module 2 · Step 1: Structure the Note Before You Dictate
+### Sub-module 2 · Step 1: Structure the Note Before You Dictate
 
 A note is easiest to write when its structure is already decided. Pick a standard format before you start dictating or drafting.
 
@@ -187,7 +187,7 @@ section where information is missing.
 **Answer:** A — Review that AI has not misplaced content between sections.
 
 ---
-### Module 3 · Step 2: Turn Raw Notes into a Clear Note
+### Sub-module 3 · Step 2: Turn Raw Notes into a Clear Note
 
 Raw notes are messy: fragments, abbreviations, and shorthand. Turning them into a clear clinical note is a task AI handles well.
 
@@ -280,7 +280,7 @@ flag anything ambiguous with [FLAG].
 **Answer:** A — Flag ambiguous content for clinician review rather than guessing.
 
 ---
-### Module 4 · Step 3: Summarising the Patient History
+### Sub-module 4 · Step 3: Summarising the Patient History
 
 A good history summary captures what matters for the current decision: relevant past events, conditions, medications, and context.
 
@@ -373,7 +373,7 @@ dates exact. Do not omit clinically relevant events.
 **Answer:** A — Always verify the summary against the original record.
 
 ---
-### Module 5 · Step 4: Referral Letters and Discharge Summaries
+### Sub-module 5 · Step 4: Referral Letters and Discharge Summaries
 
 Referral letters and discharge summaries are hand-offs: their quality decides how well the next clinician can act.
 
@@ -466,7 +466,7 @@ ask or plan, and safety-critical details. For clinician review.
 **Answer:** A — A clinician reviews and approves every draft before it is sent.
 
 ---
-### Module 6 · Step 5: The Clinician's Review and Sign-Off
+### Sub-module 6 · Step 5: The Clinician's Review and Sign-Off
 
 No AI-assisted document leaves your hands without your review and sign-off. This is where responsibility is fixed and errors are caught.
 

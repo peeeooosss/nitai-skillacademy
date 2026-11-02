@@ -1,7 +1,7 @@
 # Mission 1: AI in Clinical Practice: An Orientation
 
 ---
-### Module 1 · What AI Can and Cannot Do in Clinical Practice
+### Sub-module 1 · What AI Can and Cannot Do in Clinical Practice
 
 AI in clinical practice is a fast, well-read assistant - not a clinician. It can summarise, draft, and suggest; it cannot examine, judge, or take responsibility.
 
@@ -96,7 +96,7 @@ tasks that must stay with the clinician.
 **Answer:** A — AI can be inaccurate, so always verify its output.
 
 ---
-### Module 2 · The Clinician's Prompt Frame
+### Sub-module 2 · The Clinician's Prompt Frame
 
 Good clinical prompts have four parts: the clinical context, the task, the required format, and the safety constraints. Vague prompts produce unsafe, unusable output.
 
@@ -190,7 +190,7 @@ review only, flag uncertainty, no final diagnosis.
 **Answer:** A — AI must not give a final diagnosis; that is the clinician's call.
 
 ---
-### Module 3 · Clinical Guardrails: Safety, Bias, and Scope
+### Sub-module 3 · Clinical Guardrails: Safety, Bias, and Scope
 
 AI output can be wrong, biased, or out of date. Clinical guardrails are the habits that catch those problems before they reach a patient.
 
@@ -283,7 +283,7 @@ outside scope of practice, with the checks to perform.
 **Answer:** A — Verify facts and doses with independent, authoritative sources.
 
 ---
-### Module 4 · Your AI Tool Stack (Notes, Literature, Patient Info)
+### Sub-module 4 · Your AI Tool Stack (Notes, Literature, Patient Info)
 
 Clinical AI spans three jobs: documentation, literature, and patient information. Each has different risks and approved tools.
 
@@ -376,7 +376,7 @@ the privacy and approval criteria I should check.
 **Answer:** A — Never paste identifiable patient data into unapproved tools.
 
 ---
-### Module 5 · Setting Up a Safe AI Workflow
+### Sub-module 5 · Setting Up a Safe AI Workflow
 
 A safe AI workflow has defined steps: what you can paste, which tool you use, how you verify, and where the human sign-off happens.
 
@@ -470,7 +470,7 @@ sign-off point. Format it as a checklist.
 **Answer:** A — A checklist makes the safe workflow easy to follow.
 
 ---
-### Module 6 · Your First Week with AI
+### Sub-module 6 · Your First Week with AI
 
 Start small: one task, one approved tool, careful verification, and a daily note of what worked and what did not.
 

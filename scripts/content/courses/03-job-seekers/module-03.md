@@ -1,7 +1,7 @@
 # Mission 3: Skills Gap Analysis & The 30-Day Learning Plan
 
 ---
-### Module 1 · Prioritising Your Gaps
+### Sub-module 1 · Prioritising Your Gaps
 
 You know your gaps from Mission 1 - but boxes in your head do not get hired. A prioritised plan does. The single highest-leverage move in upskilling is sorting your gaps into three buckets that tell you exactly what to do first, what to do later, and what never to chase at all.
 
@@ -98,7 +98,7 @@ Reframing loop for any C-gap:
 **Answer:** A — Skills that recur across 3+ postings are the true must-close gaps.
 
 ---
-### Module 2 · Building Your 30-Day Learning Plan
+### Sub-module 2 · Building Your 30-Day Learning Plan
 
 A 30-day plan is the smallest container that shows real progress: four weeks, four deliverables, one integrated portfolio piece. It converts your A-gap list into a schedule with a visible outcome every week, so you are never guessing whether the learning is working.
 
@@ -195,7 +195,7 @@ passive videos.
 **Answer:** A — Do not catch up by cramming - just resume the next day.
 
 ---
-### Module 3 · Finding Quality Free Resources
+### Sub-module 3 · Finding Quality Free Resources
 
 AI lists 'great courses' cheerfully - and most lists are mediocre or outdated. The difference between learning quickly and wasting weeks is resource selection. Filter everything through the same test: official first, community-proven, hands-on, and free or cheap for the first week.
 
@@ -293,7 +293,7 @@ For [course/resource], tell me:
 **Answer:** A — Ask what is actually covered - AI repeats marketing claims uncritically.
 
 ---
-### Module 4 · Tracking Progress Honestly
+### Sub-module 4 · Tracking Progress Honestly
 
 Learning without tracking is hoping. A simple tracker keeps you accountable, makes progress visible, and turns two-month slumps into weekly wake-ups. The good news is that the tracker is tiny - two lines a day - because its job is momentum, not documentation.
 
@@ -390,7 +390,7 @@ Week 1 proof: config file working end to end
 **Answer:** A — A tiny tracker survives the month; an exhaustive journal system collapses by day four.
 
 ---
-### Module 5 · Turning Learning Into Evidence Fast
+### Sub-module 5 · Turning Learning Into Evidence Fast
 
 The moment you learn something, weaponise it - turn it into evidence you can show. Learning that stays in your head evaporates; learning that becomes a visible item compounds. The fastest way to build a portfolio is not to 'do a portfolio project' but to convert every skill you learn into a small piece of proof the same week you learn it.
 
@@ -488,7 +488,7 @@ The 5-line build-in-public template:
 **Answer:** A — A use-case with your real data is far more convincing to an interviewer than a tutorial clone.
 
 ---
-### Module 6 · The 30-Day Commitment Contract
+### Sub-module 6 · The 30-Day Commitment Contract
 
 A plan without a contract is a wish. The 30-day commitment contract is the accountability device that makes the plan real - a single pinned statement of the daily time, the weekly proof, and the honesty rules. It converts intention into a schedule you can check against.
 

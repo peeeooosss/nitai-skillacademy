@@ -1,7 +1,7 @@
 # Mission 5: Job-Search Automation & Applications
 
 ---
-### Module 1 · Building Your Job Search Command Center
+### Sub-module 1 · Building Your Job Search Command Center
 
 Scattered searching burns you out because every day is a fresh negotiation with your own attention. The command center replaces that with a **daily system**: sourced, tracked, tailored, followed-up, reviewed. Once the system is running, the search becomes a habit instead of a panic - and habits compound.
 
@@ -99,7 +99,7 @@ Good alert setup (10 minutes of work):
 **Answer:** A — Daily digests protect attention - 3-5 relevant roles beat a flood.
 
 ---
-### Module 2 · Automating Sourcing With AI
+### Sub-module 2 · Automating Sourcing With AI
 
 AI is excellent at finding and filtering roles fast - and dangerously confident about what it finds. The correct workflow is: let AI do the broad sourcing and ranking, then verify every single result yourself by clicking through to the real posting. AI files the shortcut; you own the ground truth.
 
@@ -196,7 +196,7 @@ The sourcing-to-shortlist flow (15-minute block):
 **Answer:** A — Verification is the step that converts AI suggestions into real leads.
 
 ---
-### Module 3 · The Apply-Matching Pipeline
+### Sub-module 3 · The Apply-Matching Pipeline
 
 A tailored application does more than a generic one - the research says 3-5x more replies. The apply-matching pipeline is a repeatable 15-20 minute recipe that converts any serious posting into a tailored resume, a role-match brief, and a 150-word cover letter. Run it once, and every future application is faster.
 
@@ -292,7 +292,7 @@ From this posting [paste] make a 5-line brief:
 **Answer:** A — Short letters skim well and a specific connection proves real attention to the role.
 
 ---
-### Module 4 · Follow-Ups That Don't Annoy
+### Sub-module 4 · Follow-Ups That Don't Annoy
 
 Follow-up converts silent applications into replies - and most people never send one, so the ones who do get noticed. Done right, a follow-up is a polite, specific, 80-word nudge at day 7-10 that reminds a recruiter you exist and still care. Done wrong, it is spam that costs you the opportunity it was meant to save.
 
@@ -389,7 +389,7 @@ A good follow-up sounds like:
 **Answer:** A — A specific detail from their posting converts a nudge into 'this person is serious'.
 
 ---
-### Module 5 · Reviewing Your Funnel Weekly
+### Sub-module 5 · Reviewing Your Funnel Weekly
 
 Thirty minutes a week of funnel review is the difference between a search that repeats its mistakes and one that compounds. The funnel is the numbers: sourced, applied, replies, interviews, offers. Counting it weekly tells you exactly which stage is broken - and there is always exactly one broken stage to fix next week.
 
@@ -483,7 +483,7 @@ The weekly funnel summary (30-minute review):
 **Answer:** A — Measurement replaces mood - your own counts tell you exactly what is broken.
 
 ---
-### Module 6 · The 90-Day Application Cadence
+### Sub-module 6 · The 90-Day Application Cadence
 
 A 90-day search splits naturally into three phases: foundation and first applications, proof and momentum, then a full weekly cadence. Each phase has one job, and each sets up the next - no phase requires intensity, only consistency. This module puts the whole search together with the honesty rules that keep it defensible.
 

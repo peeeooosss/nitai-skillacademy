@@ -98,7 +98,7 @@ export default function AdminLiveSessionsPage() {
       link: s.link,
       scheduledAt: toLocalInput(s.scheduledAt),
       durationMins: s.durationMins,
-      courseId: s.courseId,
+      courseId: s.courseId ?? "ALL",
       missionNumber: s.missionNumber != null ? String(s.missionNumber) : "",
       isActive: s.isActive,
     });
@@ -123,7 +123,7 @@ export default function AdminLiveSessionsPage() {
         link: form.link,
         scheduledAt: form.scheduledAt ? new Date(form.scheduledAt).toISOString() : undefined,
         durationMins: form.durationMins,
-        courseId: form.courseId,
+        courseId: form.courseId === "ALL" ? null : form.courseId || null,
         missionNumber: form.missionNumber ? parseInt(form.missionNumber, 10) : undefined,
         isActive: form.isActive,
       };
@@ -240,6 +240,7 @@ export default function AdminLiveSessionsPage() {
           <div>
             <label className={labelCls}>Course</label>
             <select value={form.courseId} onChange={(e) => field("courseId")(e.target.value)} className={inputCls}>
+              <option value="ALL">All Courses</option>
               {courses.map((c) => (
                 <option key={c.id} value={c.id}>
                   {c.title}
@@ -380,7 +381,7 @@ export default function AdminLiveSessionsPage() {
                     )}
                   </div>
                   <p className="mt-0.5 text-[11px] text-slate-400">
-                    {s.course?.title ?? s.courseId}
+                    {s.course?.title ?? "All Courses"}
                     {s.missionNumber ? ` · Mission ${s.missionNumber}` : ""}
                     {" · "}
                     {when.toLocaleString(undefined, {

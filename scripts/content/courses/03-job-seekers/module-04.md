@@ -1,7 +1,7 @@
 # Mission 4: AI Mock Interviews & Case Studies
 
 ---
-### Module 1 · Your 90-Second Opening
+### Sub-module 1 · Your 90-Second Opening
 
 Every interview opens with 'tell me about yourself' - and most candidates waste it on chronology. This module compresses your entire story into ninety seconds with four parts: **Now, Transition, Proof, Here**. Perfect this one answer and you set the tone for everything that follows.
 
@@ -95,7 +95,7 @@ and under 160 words. Then give me 2 alternative openings.
 **Answer:** A — The proof line - one achievement with a number - carries the most credibility.
 
 ---
-### Module 2 · The AI Mock-Interview Loop
+### Sub-module 2 · The AI Mock-Interview Loop
 
 Interview skill is built by repetition - not by reading about interviews. The AI mock-interview loop gives you three session types that train every common question pattern: behavioural, technical, and case-style. Run them in a cycle, answer out loud, and let AI score and push back after each answer.
 
@@ -190,7 +190,7 @@ Log 3 fixes after every session - see your weakest pattern shrink
 **Answer:** A — Two rotated reps per week is the minimum that shows steady progress.
 
 ---
-### Module 3 · The Post-Session Debrief
+### Sub-module 3 · The Post-Session Debrief
 
 Mock interviews without a debrief are practice without a mirror. The post-session debrief converts every session into a short, concrete fix-list: exactly three weaknesses, one strength to scale, and one drill per weakness. Repeat this after every session and the same weakness visibly shrinks across sessions - that shrinking is proof you are improving.
 
@@ -284,7 +284,7 @@ drill to improve it this week.
 **Answer:** A — Starting cold against your known weaknesses is how sessions compound.
 
 ---
-### Module 4 · The 5 Question Archetypes
+### Sub-module 4 · The 5 Question Archetypes
 
 Nearly every interview question compresses into five patterns. If you prepare one answer framework for each archetype, you are prepared for almost any interview - because the interviewer is asking the same five questions in different disguises. This module gives you the framework for each and the research habits that make the answers land.
 
@@ -380,7 +380,7 @@ should ask the interviewer that show real interest.
 **Answer:** A — Use a real failure and what you changed - never 'I work too hard'.
 
 ---
-### Module 5 · Preparing for Take-Home Tasks
+### Sub-module 5 · Preparing for Take-Home Tasks
 
 Many roles send a take-home assignment: analyse a dataset, build a small automation, prepare a document. These assignments look casual but are scored hard - on process, not just output. This module shows how to beat them professionally: restate scope, over-explain your method, time-box the work, and stay honest about AI.
 
@@ -476,7 +476,7 @@ The take-home workflow:
 **Answer:** A — On-time, over-explained, honest work signals reliability - a late perfect submission does not.
 
 ---
-### Module 6 · Running a 90-Day Application Cadence
+### Sub-module 6 · Running a 90-Day Application Cadence
 
 The job search is a system, not a random event - and a system only works when run weekly. This mission's cadence is the operating rhythm: 4-5 tailored applications, 1 brand update, 2 mock reps, and 1 funnel review, every week, without interruption. The cadence is deliberately sustainable because sustainability beats intensity in a long search.
 

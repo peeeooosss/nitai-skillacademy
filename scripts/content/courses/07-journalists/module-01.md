@@ -1,7 +1,7 @@
 # Mission 1: AI in the Newsroom: Your Toolkit
 
 ---
-### Module 1 · What AI Is (and Isn't) in the Newsroom
+### Sub-module 1 · What AI Is (and Isn't) in the Newsroom
 
 AI is not a source and not an editor. It is a very fast assistant that has read a great deal and follows instructions carefully. **You give the instructions, check the output, and own the result.**
 
@@ -94,7 +94,7 @@ and give 5 rules for using it without risking accuracy.
 **Answer:** A — Every AI claim is a lead, not a fact - verify before publishing.
 
 ---
-### Module 2 · The Context–Task–Format Prompt Frame
+### Sub-module 2 · The Context–Task–Format Prompt Frame
 
 Good prompts follow a simple three-part frame: **Context – Task – Format.** Tell the AI who you are and what the situation is, what you want done, and how you want the answer delivered.
 
@@ -189,7 +189,7 @@ Format: five bullet points, one sentence each, plain English.
 **Answer:** A — Treat the first response as a draft and ask for revisions.
 
 ---
-### Module 3 · Building Your Newsroom Prompt Toolkit
+### Sub-module 3 · Building Your Newsroom Prompt Toolkit
 
 The most valuable prompts are the ones you reuse. A prompt toolkit is a saved set of prompts for the tasks you do again and again: background briefs, interview prep, summaries, and headline options.
 
@@ -284,7 +284,7 @@ I can reuse with different stories.
 **Answer:** A — Name prompts by task so they are easy to find and reuse.
 
 ---
-### Module 4 · AI Tools for Reporters: What to Open
+### Sub-module 4 · AI Tools for Reporters: What to Open
 
 You do not need a dozen tools. Most newsroom AI work happens in a general chat assistant, a transcription tool, and a translation tool. Know what each is for and what each is bad at.
 
@@ -379,7 +379,7 @@ required before publication. Include a note on sensitive data.
 **Answer:** A — Every AI output needs a human check before publication.
 
 ---
-### Module 5 · The Ask–Check–Improve–Save Loop
+### Sub-module 5 · The Ask–Check–Improve–Save Loop
 
 Every AI task in this course follows the same loop: **Ask, Check, Improve, Save.** It turns a one-off prompt into a reliable newsroom habit.
 
@@ -473,7 +473,7 @@ a journalist must verify before the output can be used.
 **Answer:** A — Never skip Check - accuracy is the journalist's core duty.
 
 ---
-### Module 6 · Newsroom Guardrails from Day One
+### Sub-module 6 · Newsroom Guardrails from Day One
 
 Guardrails are the rules that keep AI use safe and ethical. Set them now, before the pressure of deadline, so good habits are automatic.
 

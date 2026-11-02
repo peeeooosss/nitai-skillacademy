@@ -1,7 +1,7 @@
 # Mission 1: The AI Landscape for Business Leaders
 
 ---
-### Module 1 · AI Is a Leadership Topic
+### Sub-module 1 · AI Is a Leadership Topic
 
 Many leaders hear 'AI' and file it under IT. That is a costly category error. AI is a **strategy, cost, talent, and risk decision wearing a technical coat**. Who uses it, where, on what data, and under what controls are all leadership calls - not engineering ones.
 
@@ -103,7 +103,7 @@ You lead AI by asking strong questions - not by coding.
 **Answer:** A — Leaders understand enough to direct and govern; the technical work is delegated.
 
 ---
-### Module 2 · The Four Capabilities Behind AI
+### Sub-module 2 · The Four Capabilities Behind AI
 
 Almost every AI product you will evaluate reduces to four capabilities: **classification, prediction, generation, and retrieval**. When a vendor says 'AI-powered', the honest answer to 'which of these four is doing the work?' determines what the product can actually do for your business.
 
@@ -202,7 +202,7 @@ The honest answer reveals real utility vs marketing.
 **Answer:** A — Buying the wrong capability for the problem shows up as poor results and wasted spend.
 
 ---
-### Module 3 · Three Places AI Creates Value
+### Sub-module 3 · Three Places AI Creates Value
 
 Value from AI concentrates in three places: **efficiency, experience, and growth**. Every credible business case should sit clearly in one of them. If a proposal is not in a named bucket, keep asking until it is - value you cannot name, you cannot fund.
 
@@ -298,7 +298,7 @@ If it does not sit in a bucket with a measure, do not fund it yet.
 **Answer:** A — A bucket plus a measure and an owner makes the case accountable.
 
 ---
-### Module 4 · Cutting Through the Hype
+### Sub-module 4 · Cutting Through the Hype
 
 Vendors use words loosely: 'AI-native', 'machine learning', 'large language models'. The words are chosen to impress, not to inform. Your defence is not expertise but a short set of clear questions that hype cannot survive.
 
@@ -396,7 +396,7 @@ Then ask: 'What happened in your last three failed deployments?'
 **Answer:** A — How a vendor speaks about failures reveals far more than polished demos.
 
 ---
-### Module 5 · Classification vs Generative - What Your Business Needs
+### Sub-module 5 · Classification vs Generative - What Your Business Needs
 
 Two conversations dominate the AI market, and they are very different. **Predictive/classification AI** is reliable, narrow, and proven - pricing, fraud, demand, sorting. **Generative AI (LLMs)** is flexible, broad, and dramatic - drafting, search, assistants, code.
 
@@ -493,7 +493,7 @@ A balanced start:
 **Answer:** A — Start with the boring, clear-number classification wins; pilot generative where safe.
 
 ---
-### Module 6 · Your First 30 Days as an AI Leader
+### Sub-module 6 · Your First 30 Days as an AI Leader
 
 You do not need a strategy document on day one. You need a focused first 30 days that builds your own literacy, surfaces real problems, and produces one small pilot. Thirty days of this beats a year of reading AI newsletters.
 

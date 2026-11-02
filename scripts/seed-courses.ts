@@ -464,31 +464,34 @@ function parseExampleQuiz(markdown: string): { markdown: string; quiz: ExampleQu
   return { markdown: body, quiz: valid.length > 0 ? valid : null }
 }
 
-// Parse "### Module N · Topic Title" blocks into ordered sub-modules.
-// Content runs until the next "### Module" heading so that "## " / "### "
+// Parse "### Sub-module N · Topic Title" blocks into ordered sub-modules.
+// Legacy "### Module N · Topic Title" headings are still accepted so older
+// content keeps seeding while the whole curriculum migrates to the explicit
+// Mission → Sub-module hierarchy.
+// Content runs until the next sub-module heading so that "## " / "### "
 // level-2 sections (Learning Objectives, concepts, Key Takeaways, etc.)
 // stay inside the owning submodule's markdown.
+const SUBMODULE_HEADING_RE = /^###\s+(?:Sub-?module|Module)\s*(\d+)\s*(?:[·.\-:]\s*)?(.*)$/i
+const SUBMODULE_STOP_RE = /^###\s+(?:Sub-?module|Module)\s*\d+\b/i
+
 function parseSubmodules(content: string): Submodule[] | null {
   const lines = content.split('\n')
   const modules: Submodule[] = []
   let current: Submodule | null = null
 
-  const headingRe = /^###\s+Module\s*(\d+)[\s·.\-:]*?([^\s·.\-:]+.*)$/i
-  const stopRe = /^###\s+Module\s*\d+\b/i
-
   for (const raw of lines) {
     const line = raw.replace(/\s*$/, '')
-    const match = line.match(headingRe)
+    const match = line.match(SUBMODULE_HEADING_RE)
     if (match) {
       current = {
         index: parseInt(match[1], 10),
-        title: cleanOption(match[2].replace(/^Module\s*\d+[\s·.\-:]*/i, '')),
+        title: cleanOption(match[2]),
         markdown: line,
       }
       modules.push(current)
       continue
     }
-    if (current && stopRe.test(raw)) {
+    if (current && SUBMODULE_STOP_RE.test(raw)) {
       current = null
       continue
     }
@@ -642,6 +645,81 @@ function buildQuiz(
   return questions.slice(0, 7)
 }
 
+// Mission-level graded quiz for sub-module-structured missions.
+// Built from the mission as a whole (every sub-module heading + aggregated
+// takeaways) instead of accidentally inheriting the first sub-module's
+// Learning Objectives / Key Takeaways sections.
+function buildMissionQuizFromSubmodules(
+  missionTitle: string,
+  submodules: Submodule[],
+  idx: number
+): Array<{ question: string; options: string[]; correctIndex: number; explanation: string }> {
+  const subtitle = missionTitle.replace(/^Mission\s+\d+\s*:\s*/i, '') || missionTitle
+  const questions: Array<{ question: string; options: string[]; correctIndex: number; explanation: string }> = []
+  let qi = 0
+
+  addQuestion(
+    questions,
+    'What is the main focus of this mission?',
+    [
+      `Mastering "${subtitle}"`,
+      'Learning an unrelated foreign language',
+      'Memorising facts without any practise',
+      'Avoiding technology tools entirely',
+    ],
+    `This mission focuses on ${subtitle}.`,
+    qi++
+  )
+
+  submodules.slice(0, 3).forEach((sub, i) => {
+    const d = rotate(GENERIC_DISTRACTORS, idx + i)
+    addQuestion(
+      questions,
+      `Which of these is a sub-module of "${subtitle}"?`,
+      [sub.title, d[0], d[1], d[2]],
+      `"${sub.title}" is one of the sub-modules in this mission.`,
+      qi++
+    )
+  })
+
+  const takeaways = submodules
+    .flatMap(sub => parseBullets(parseSection(sub.markdown, 'Key Takeaways')))
+    .filter(Boolean)
+  if (takeaways.length > 0) {
+    const d = rotate(GENERIC_DISTRACTORS, idx + 3)
+    addQuestion(
+      questions,
+      'Which of the following is a key takeaway from this mission?',
+      [takeaways[0], d[0], d[1], d[2]],
+      'Key takeaways summarise the most important points across the mission.',
+      qi++
+    )
+  }
+
+  const challenge = submodules
+    .map(sub => parseSection(sub.markdown, 'Practice Challenge'))
+    .find(Boolean)
+  if (challenge) {
+    const step = cleanOption(challenge.replace(/[#*`>]/g, '').split('\n')[1] ?? challenge)
+    if (step) {
+      addQuestion(
+        questions,
+        'How should you demonstrate what you learned in this mission?',
+        [
+          step,
+          'Copy an answer directly from an AI tool without understanding it',
+          'Only read the mission and skip the practise task',
+          'Wait for someone else to complete the task for you',
+        ],
+        'The practice challenge asks you to complete the task with your own, real inputs.',
+        qi++
+      )
+    }
+  }
+
+  return questions.slice(0, 7)
+}
+
 function buildSystemPrompt(meta: CourseMeta, title: string): string {
   return `You are Nitai's AI Didi — a warm, encouraging AI mentor for the "${meta.title}" course in the Nitai Skill Academy.
 
@@ -687,6 +765,12 @@ Complete the practice challenge from this mission to demonstrate what you learne
 - Your written reflection (100+ words)`
 }
 
+// Keep the public duration honest: the mission count comes from the files
+// that actually exist, not from a hardcoded target in the course metadata.
+function durationFor(meta: CourseMeta, missionCount: number): string {
+  return meta.duration.replace(/^\d+\s+Missions?/i, `${missionCount} Missions`)
+}
+
 function listMissionFiles(dir: string): string[] {
   const files = fs.readdirSync(dir).filter(f => /^module-\d+\.md$/.test(f))
   files.sort((a, b) => {
@@ -726,7 +810,7 @@ async function main() {
         audience: meta.audience,
         category: meta.category,
         outcomes: meta.outcomes,
-        duration: meta.duration,
+        duration: durationFor(meta, missionFiles.length),
         icon: meta.icon,
         accentColor: meta.accentColor,
         position: meta.position,
@@ -743,7 +827,7 @@ async function main() {
         audience: meta.audience,
         category: meta.category,
         outcomes: meta.outcomes,
-        duration: meta.duration,
+        duration: durationFor(meta, missionFiles.length),
         icon: meta.icon,
         accentColor: meta.accentColor,
         position: meta.position,
@@ -831,8 +915,13 @@ async function main() {
         },
       })
 
-      // Quiz (content-derived)
-      const questions = buildQuiz(title, objectives, takeaways, practiceChallenge, missionNumber) as any
+      // Quiz (content-derived). Sub-module missions get a mission-wide quiz;
+      // legacy flat missions keep the section-derived quiz.
+      const questions = (
+        submodules && submodules.length > 0
+          ? buildMissionQuizFromSubmodules(title, submodules, missionNumber)
+          : buildQuiz(title, objectives, takeaways, practiceChallenge, missionNumber)
+      ) as any
       await prisma.quiz.upsert({
         where: { moduleId: module.id },
         update: { questions, passScore: PASS_SCORE, timeLimit: QUIZ_TIME_LIMIT },

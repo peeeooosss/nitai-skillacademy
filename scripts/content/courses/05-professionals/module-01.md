@@ -1,7 +1,7 @@
 # Mission 1: AI for Your Role: Zero to Workflow
 
 ---
-### Module 1 · AI Is a Fast Assistant, Not Magic
+### Sub-module 1 · AI Is a Fast Assistant, Not Magic
 
 AI tools are best understood not as magic but as a very fast, careful assistant who has read a great deal and follows instructions precisely. It does not think the way you do - it predicts the most useful next text based on your instructions and its training. Your job is simple: give clear instructions, check the output, and improve it. Nothing in this course needs a technical degree, only a real work task and a habit of checking.
 
@@ -87,7 +87,7 @@ leadership team. List each issue and a suggested fix.
 **Answer:** A — AI drafts; you decide. You carry responsibility for the final work.
 
 ---
-### Module 2 · The Four-Step Loop: Ask, Check, Improve, Save
+### Sub-module 2 · The Four-Step Loop: Ask, Check, Improve, Save
 
 Every activity in this course follows the same simple loop, and by the end of this mission it should feel automatic. The loop is: **Ask, Check, Improve, Save.** It turns a one-off chat with AI into a repeatable professional workflow, and it is the difference between using AI as a toy and using it as a working tool.
 
@@ -170,7 +170,7 @@ blocked and why, 3) the plan for next week. Keep it under 150 words.
 **Answer:** A — Saving good prompts and outputs gives you a reusable toolkit.
 
 ---
-### Module 3 · The Context - Task - Format Frame
+### Sub-module 3 · The Context - Task - Format Frame
 
 Most professional prompts fit one simple frame with three parts. Once you can write prompts this way, you can apply the same structure to emails, reports, summaries, and decks - almost everything else in this course is a variation on these three ingredients.
 
@@ -253,7 +253,7 @@ short paragraph and a table.
 **Answer:** A — Formatting - memo, table, bullets - makes the output directly usable.
 
 ---
-### Module 4 · First Workflow: Your Own Real Task
+### Sub-module 4 · First Workflow: Your Own Real Task
 
 Theory is useful, but this is where you start building. Your first workflow is one small, real task from your own week - a routine email, a meeting summary, a short report section - run end to end through the loop.
 
@@ -330,7 +330,7 @@ Follow the four steps in order; the whole thing should take under fifteen minute
 **Answer:** A — You are building a real workflow, not studying theory.
 
 ---
-### Module 5 · Where to Find Your First Hour Back
+### Sub-module 5 · Where to Find Your First Hour Back
 
 In every working day there is lost time hiding in small, repetitive tasks - drafting emails, summarising notes, structuring plans, reformatting documents. These are exactly what AI is best at, and they are the easiest place to create your first hour back.
 
@@ -405,7 +405,7 @@ You do not need a work-study to find them. You need one honest, boring day of no
 **Answer:** A — A visible time saving - routine drafting to quick checking - is the fastest credibility win.
 
 ---
-### Module 6 · Your Prompt Toolkit and Next Steps
+### Sub-module 6 · Your Prompt Toolkit and Next Steps
 
 Prompts that work are assets, exactly like a good spreadsheet template or a well-designed email signature. If you do not save them, you pay the cost of writing them again from scratch every single time.
 

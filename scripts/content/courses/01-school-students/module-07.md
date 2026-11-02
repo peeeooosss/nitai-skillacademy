@@ -1,7 +1,7 @@
 # Mission 7: AI Ethics — Privacy, Honesty, Real vs Fake
 
 ---
-### Module 1 · The AI Superpower Comes With Rules
+### Sub-module 1 · The AI Superpower Comes With Rules
 
 AI is powerful - and with great power comes great responsibility. This mission is about using your AI superpower **safely, honestly, and kindly**. Think of your AI knowledge as three protection shields you carry everywhere.
 
@@ -92,7 +92,7 @@ Your three shields:
 **Answer:** A — The third shield helps you spot fakes.
 
 ---
-### Module 2 · Shield 1: Protect Your Privacy
+### Sub-module 2 · Shield 1: Protect Your Privacy
 
 AI tools store your chats. That means whatever you type can live longer than the moment of asking - so you must be careful with the words and details you share. The golden privacy rule: *if you wouldn't write it on the class board, don't type it to AI.*
 
@@ -183,7 +183,7 @@ don't type it to AI.
 **Answer:** A — You review past prompts and rewrite them safely.
 
 ---
-### Module 3 · Shield 2: Honesty — Always Tell the Truth About AI
+### Sub-module 3 · Shield 2: Honesty — Always Tell the Truth About AI
 
 Honesty means being clear when AI helped you. Write your schoolwork yourself, and be proud of using AI as a coach. If a project allows AI help, write a small line: *'I used AI to brainstorm ideas; I wrote and designed the rest myself.'*
 
@@ -273,7 +273,7 @@ I did myself: ______
 **Answer:** A — Specific honesty is even more impressive than the generic line.
 
 ---
-### Module 4 · Shield 3: Real vs Fake — Become a Fact Detective
+### Sub-module 4 · Shield 3: Real vs Fake — Become a Fact Detective
 
 AI can create pictures, videos, and voices that look and sound completely real. These are called **deepfakes**. And AI can also write fake news that spreads fast. To stay safe, you need the detective's toolkit - F.A.C.T.
 
@@ -361,7 +361,7 @@ F-A-C-T. Then act on it.
 **Answer:** A — Tracing origins reveals if an image is real or edited.
 
 ---
-### Module 5 · The Kindness Rule
+### Sub-module 5 · The Kindness Rule
 
 Words matter - even computer words. Don't ask AI to write mean, hateful, or scary things about anyone, not even 'as a joke.' And never create fake images to embarrass or bully classmates - that is serious and can hurt deeply.
 
@@ -449,7 +449,7 @@ a trusted adult.
 **Answer:** A — Brave bystanders stop bullying by speaking up.
 
 ---
-### Module 6 · Your Personal AI Safety Code
+### Sub-module 6 · Your Personal AI Safety Code
 
 Make your own 5-line Safety Code. Start with these lines, then add your own. A code you can see is a code you remember - and codes work best when you review them every week.
 

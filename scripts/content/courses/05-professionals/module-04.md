@@ -1,7 +1,7 @@
 # Mission 4: AI Reports, Emails & Presentations
 
 ---
-### Module 1 · Beat the Blank Page with an Outline
+### Sub-module 1 · Beat the Blank Page with an Outline
 
 Staring at an empty document is expensive - it costs time, momentum, and confidence. The fastest fix is to ask AI for an outline first, not a draft. An outline gives you a skeleton to fill, cut, and reorder, and it turns writing from an act of creation into an act of editing.
 
@@ -78,7 +78,7 @@ Act as a [role]. Outline a [report/deck] for [audience] covering
 **Answer:** A — Role, audience, topics, and desired structure produce a usable skeleton.
 
 ---
-### Module 2 · Emails That Get Read
+### Sub-module 2 · Emails That Get Read
 
 A work email that does not get read - or gets replied to with confusion - costs far more than the minutes it took to write. The pattern in this module is built around one idea: make the reader's job trivial. Clear situation, one clear ask, tone that fits, and a length that respects the reader's time.
 
@@ -155,7 +155,7 @@ Readers decide in the first lines whether to reply, defer, or delete.
 **Answer:** A — Tone should fit your audience and relationship - not everything is formal.
 
 ---
-### Module 3 · Reports from Messy Inputs
+### Sub-module 3 · Reports from Messy Inputs
 
 Reports usually start as messy notes, spreadsheets, and chat threads - not as clean data. That mess is exactly where AI earns its keep: you hand over the raw material plus a structure, and the AI organises the patterns into a report shape you can check and finalise.
 
@@ -234,7 +234,7 @@ moved this month and why, 4) risks and actions.
 **Answer:** A — Ask AI to flag anything it cannot verify - you close the loop.
 
 ---
-### Module 4 · Presentations That Flow
+### Sub-module 4 · Presentations That Flow
 
 Bad decks fail in the storyline, not the slide design. Most presentation time is wasted on colours and animations while the story meanders. The professional move is to plan the storyline first - every slide carries one headline finding, one visual idea, and one takeaway.
 
@@ -310,7 +310,7 @@ takeaway.
 **Answer:** A — Test flow from the audience side and cut, reorder, or tighten.
 
 ---
-### Module 5 · Tone and Language for Your Audience
+### Sub-module 5 · Tone and Language for Your Audience
 
 The same content changes completely with its audience. Leadership wants decisions and risks; a technical team wants methods and numbers; customers want benefits in their words. None of this is guessable from the topic alone - which is exactly why most generic outputs miss the mark.
 
@@ -386,7 +386,7 @@ The fix: state the audience explicitly, and let the AI adjust tone, depth, and e
 **Answer:** A — Generate two tone versions and choose - fast and low risk.
 
 ---
-### Module 6 · One-Session Report + Deck Workflow
+### Sub-module 6 · One-Session Report + Deck Workflow
 
 Reports and decks usually share the same source material, yet most people build them as two separate painful projects. This module combines them into one focused session with a shared outline - and the second time you run it, it takes a fraction of the effort because your prompts become your templates.
 

@@ -1,7 +1,7 @@
 # Mission 3: Shooting & Editing Faster with AI
 
 ---
-### Module 1 · Plan the Shoot Before You Press Record
+### Sub-module 1 · Plan the Shoot Before You Press Record
 
 Most wasted time happens before recording: unclear goals, missing shots, and endless retakes. A short plan fixes that.
 
@@ -94,7 +94,7 @@ and notes on location, light, and audio.
 **Answer:** A — Noting location, light, and audio prevents problems.
 
 ---
-### Module 2 · Step 1: The Shot List and B-Roll
+### Sub-module 2 · Step 1: The Shot List and B-Roll
 
 A shot list is every shot you need, in order. B-roll is the extra footage that covers cuts and adds interest.
 
@@ -187,7 +187,7 @@ and add interest.
 **Answer:** A — A shot list ensures you capture everything you need.
 
 ---
-### Module 3 · Step 2: Auto-Captions and Subtitles
+### Sub-module 3 · Step 2: Auto-Captions and Subtitles
 
 Captions are no longer optional: most people watch on mute. Auto-captioning tools turn your audio into text in seconds.
 
@@ -280,7 +280,7 @@ words likely misheard by auto-captions.
 **Answer:** A — Readable captions use good size and contrast.
 
 ---
-### Module 4 · Step 3: AI-Assisted Editing (Cut, Silence, Filler)
+### Sub-module 4 · Step 3: AI-Assisted Editing (Cut, Silence, Filler)
 
 AI editors can remove silences, filler words, and bad takes automatically. That turns an hour of editing into minutes.
 
@@ -373,7 +373,7 @@ edit on [platform]. Keep the key points and best moments.
 **Answer:** A — AI turns an hour of editing into minutes.
 
 ---
-### Module 5 · Step 4: Thumbnails and Covers That Convert
+### Sub-module 5 · Step 4: Thumbnails and Covers That Convert
 
 On many platforms the thumbnail or cover is what earns the click. It has to be clear, emotional, and readable at a glance.
 
@@ -466,7 +466,7 @@ They must be clear at small size and honest to the content.
 **Answer:** A — A cover must honestly match the content.
 
 ---
-### Module 6 · Step 5: The 30-Minute Edit
+### Sub-module 6 · Step 5: The 30-Minute Edit
 
 A repeatable edit process turns raw footage into a finished post in about half an hour: assemble, cut, caption, polish, export.
 

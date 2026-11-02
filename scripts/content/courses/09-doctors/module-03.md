@@ -1,7 +1,7 @@
 # Mission 3: AI-Assisted Literature Review
 
 ---
-### Module 1 · Evidence First, AI Second
+### Sub-module 1 · Evidence First, AI Second
 
 AI can help you find and digest literature, but it is not a source of evidence. The evidence is in the studies, not in the model.
 
@@ -94,7 +94,7 @@ Do not provide citations; I will verify sources myself.
 **Answer:** A — Always verify citations against the actual paper before citing.
 
 ---
-### Module 2 · Step 1: Turn a Clinical Question into a Search
+### Sub-module 2 · Step 1: Turn a Clinical Question into a Search
 
 A good literature search starts with a well-framed question. The PICO structure - population, intervention, comparison, outcome - turns a vague topic into a searchable question.
 
@@ -188,7 +188,7 @@ Boolean combinations. Do not invent citations.
 **Answer:** A — Saving the strategy lets you repeat and update the search.
 
 ---
-### Module 3 · Step 2: Screening Abstracts with AI
+### Sub-module 3 · Step 2: Screening Abstracts with AI
 
 Screening is the slow part of a review: deciding which papers meet your criteria. AI can speed the first pass by sorting abstracts.
 
@@ -281,7 +281,7 @@ the reason. I will verify your decisions.
 **Answer:** A — Spot-check AI classifications because it can misclassify.
 
 ---
-### Module 4 · Step 3: Appraising the Evidence
+### Sub-module 4 · Step 3: Appraising the Evidence
 
 Appraisal is judging how much you can trust a study: its design, risk of bias, and applicability to your patients.
 
@@ -375,7 +375,7 @@ to [population]. Do not give a final quality verdict.
 **Answer:** A — Applicability to your population decides how useful a study is.
 
 ---
-### Module 5 · Step 4: Synthesising Findings for Your Team
+### Sub-module 5 · Step 4: Synthesising Findings for Your Team
 
 A synthesis brings many studies into a clear answer: what is consistent, what conflicts, and what it means for practice.
 
@@ -468,7 +468,7 @@ evidence, and implications for [practice]. No new citations.
 **Answer:** A — Base every claim on a source you have verified.
 
 ---
-### Module 6 · Step 5: Keeping a Reference and Notes System
+### Sub-module 6 · Step 5: Keeping a Reference and Notes System
 
 A reference and notes system keeps your evidence organised and reproducible: every paper, decision, and note in one place.
 

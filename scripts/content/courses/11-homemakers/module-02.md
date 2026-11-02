@@ -1,7 +1,7 @@
 # Mission 2: Talking to AI — Your First Conversations
 
 ---
-### Module 1 · You Do Not Need Special Words
+### Sub-module 1 · You Do Not Need Special Words
 
 Many people worry they will say the wrong thing to AI. You will not. AI understands ordinary, everyday language.
 
@@ -94,7 +94,7 @@ ordinary questions I can ask.
 **Answer:** A — Treat AI like a conversation with a helpful person.
 
 ---
-### Module 2 · Step 1: Ask a Clear Question
+### Sub-module 2 · Step 1: Ask a Clear Question
 
 The clearer your question, the better the answer. A vague question gets a vague reply; a specific one gets something useful.
 
@@ -188,7 +188,7 @@ for me simply.
 **Answer:** A — You only need clear, everyday words, not fancy language.
 
 ---
-### Module 3 · Step 2: Give AI Context About You
+### Sub-module 3 · Step 2: Give AI Context About You
 
 AI gives better help when it knows a little about you: your family, your home, your needs, and your language.
 
@@ -282,7 +282,7 @@ Do not ask for private details.
 **Answer:** A — A little context goes a long way in improving answers.
 
 ---
-### Module 4 · Step 3: Ask for the Right Format
+### Sub-module 4 · Step 3: Ask for the Right Format
 
 You can ask AI to give the answer in the shape you want: a list, a table, steps, a short paragraph, or a simple explanation.
 
@@ -376,7 +376,7 @@ follow easily.
 **Answer:** A — Mention the format you want directly in your question.
 
 ---
-### Module 5 · Step 4: Improve the Answer by Talking Back
+### Sub-module 5 · Step 4: Improve the Answer by Talking Back
 
 AI answers are a starting point, not the end. You can talk back: ask it to change, shorten, simplify, or try again.
 
@@ -470,7 +470,7 @@ same information.
 **Answer:** A — You stay in charge and keep refining until it fits your needs.
 
 ---
-### Module 6 · Step 5: Checking the Answer Before You Trust It
+### Sub-module 6 · Step 5: Checking the Answer Before You Trust It
 
 AI can sometimes be wrong, especially with numbers, dates, health, and money. Always check important answers.
 

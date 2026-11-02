@@ -1,7 +1,7 @@
 # Mission 2: Talking to AI — Asking Questions the Smart Way
 
 ---
-### Module 1 · What Is a Prompt?
+### Sub-module 1 · What Is a Prompt?
 
 A **prompt** is simply the message you type or say to an AI tool. It is your question, your instruction, or your request - the words you feed the machine. When you understand prompts, you control what AI does for you.
 
@@ -93,7 +93,7 @@ Think of AI like a new classmate who is super smart but needs you to be **clear*
 **Answer:** A — Vague prompts make AI guess - and the answer gets messy.
 
 ---
-### Module 2 · The REC Recipe: Role, Explain, Check
+### Sub-module 2 · The REC Recipe: Role, Explain, Check
 
 A truly great prompt has three parts. Remember the magic word **REC**. When you give the AI a role, explain exactly what you need, and check how the answer should look, you get exactly what you asked for - almost every time.
 
@@ -192,7 +192,7 @@ Example role lines:
 **Answer:** A — Check sets the shape of the final answer.
 
 ---
-### Module 3 · Good vs Bad Questions: Side by Side
+### Sub-module 3 · Good vs Bad Questions: Side by Side
 
 Let's build a detective's eye for prompts. Compare each pair below and spot what makes the second one better. Once you see the pattern, you can improve any question you write.
 
@@ -293,7 +293,7 @@ Four qualities of a good prompt:
 **Answer:** A — Those four qualities create strong prompts.
 
 ---
-### Module 4 · Level-Up Tricks for Better Answers
+### Sub-module 4 · Level-Up Tricks for Better Answers
 
 Once you have mastered REC, add these extra tricks to become an AI superstar. Each one is small, but together they produce dramatically better answers. The professionals call one of these tricks 'few-shot prompting' - teaching by example.
 
@@ -389,7 +389,7 @@ Trick checklist:
 **Answer:** A — Tables organise facts clearly for quick reading.
 
 ---
-### Module 5 · The Ask → Improve → Re-ask Loop
+### Sub-module 5 · The Ask → Improve → Re-ask Loop
 
 Great AI users never accept the first answer. They **improve it** with a simple loop: ask, look at the answer, and re-ask with more detail. Every expert knows that the first version is almost never the best one - the fifth version often is.
 
@@ -481,7 +481,7 @@ Example re-asks:
 **Answer:** A — Each re-ask sharpens the answer - keep going.
 
 ---
-### Module 6 · Common Mistakes to Avoid + Your 10-Minute Practice
+### Sub-module 6 · Common Mistakes to Avoid + Your 10-Minute Practice
 
 Let's finish the mission by catching the classic mistakes - the ones almost every new user makes at least once. Once you can name them, you can avoid them.
 

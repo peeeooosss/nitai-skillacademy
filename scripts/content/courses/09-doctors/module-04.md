@@ -1,7 +1,7 @@
 # Mission 4: Patient Communication & Education with AI
 
 ---
-### Module 1 · Plain Language Is a Clinical Skill
+### Sub-module 1 · Plain Language Is a Clinical Skill
 
 Patients who understand their condition and plan are safer and more engaged. Plain language is a clinical skill, not a simplification.
 
@@ -94,7 +94,7 @@ and use a warm, respectful tone.
 **Answer:** A — Keep a warm, respectful tone in patient communication.
 
 ---
-### Module 2 · Step 1: Translate Clinical Jargon into Plain Language
+### Sub-module 2 · Step 1: Translate Clinical Jargon into Plain Language
 
 Clinical terms like myocardial infarction or idiopathic are barriers. Translating them into everyday words helps patients understand and act.
 
@@ -187,7 +187,7 @@ short explanation and an example.
 **Answer:** A — Confirm understanding rather than assuming it.
 
 ---
-### Module 3 · Step 2: Patient Education Handouts
+### Sub-module 3 · Step 2: Patient Education Handouts
 
 Handouts let patients take information home. A good handout is short, clear, and actionable, with the key points first.
 
@@ -280,7 +280,7 @@ flags for when to seek help. Plain language, [grade] level.
 **Answer:** A — Verify every clinical claim before sharing a handout.
 
 ---
-### Module 4 · Step 3: Preparing for Difficult Conversations
+### Sub-module 4 · Step 3: Preparing for Difficult Conversations
 
 Difficult conversations - bad news, poor prognosis, errors - need preparation. AI can help you plan what to say, but the conversation itself is human.
 
@@ -373,7 +373,7 @@ lead with empathy. I will deliver it myself.
 **Answer:** A — AI helps you prepare; you deliver the conversation yourself.
 
 ---
-### Module 5 · Step 4: Multilingual and Low-Literacy Communication
+### Sub-module 5 · Step 4: Multilingual and Low-Literacy Communication
 
 Patients who speak another language or have low literacy face extra barriers. Clear, translated, and visual communication helps close the gap.
 
@@ -466,7 +466,7 @@ a professional interpreter or cultural check.
 **Answer:** A — Use professional interpreters for consent and key conversations.
 
 ---
-### Module 6 · Step 5: The Shared Decision-Making Conversation
+### Sub-module 6 · Step 5: The Shared Decision-Making Conversation
 
 Shared decision-making means deciding with the patient, not for them. It combines the best evidence with the patient's values and preferences.
 

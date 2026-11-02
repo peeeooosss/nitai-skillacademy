@@ -1,7 +1,7 @@
 # Mission 3: Contract Review with AI Analysis
 
 ---
-### Module 1 · What AI Can and Cannot Do in Contract Review
+### Sub-module 1 · What AI Can and Cannot Do in Contract Review
 
 AI is genuinely useful in contract review: it reads fast, extracts terms, and flags patterns. But it does not understand your client's commercial context or the negotiation history.
 
@@ -95,7 +95,7 @@ Give examples of each.
 **Answer:** A — AI extracts and flags; the lawyer signs off.
 
 ---
-### Module 2 · Step 1: The Review Checklist
+### Sub-module 2 · Step 1: The Review Checklist
 
 A contract review is only as good as its checklist. A structured checklist ensures nothing important is missed, every time.
 
@@ -189,7 +189,7 @@ the standard position and the risk if missing.
 **Answer:** A — Flag every deviation from your standard position.
 
 ---
-### Module 3 · Step 2: Flagging Risk Clauses
+### Sub-module 3 · Step 2: Flagging Risk Clauses
 
 Certain clauses carry outsized risk: unlimited liability, broad indemnities, auto-renewal, unilateral variation, and one-sided termination. AI helps you find them fast.
 
@@ -284,7 +284,7 @@ negotiation position.
 **Answer:** A — Prepare a negotiation position and fallback language for each risk.
 
 ---
-### Module 4 · Step 3: Comparing Against Your Playbook
+### Sub-module 4 · Step 3: Comparing Against Your Playbook
 
 A negotiation playbook records your standard positions and fallbacks for each clause. AI can compare a contract against the playbook and report every deviation.
 
@@ -377,7 +377,7 @@ position, and rank the deviations by importance.
 **Answer:** A — The lawyer decides how to respond to each deviation.
 
 ---
-### Module 5 · Step 4: Obligations, Dates, and Deadlines
+### Sub-module 5 · Step 4: Obligations, Dates, and Deadlines
 
 Contracts create obligations with dates: payments, deliveries, notices, renewals, and termination windows. Missing a date can cost a client dearly.
 
@@ -470,7 +470,7 @@ consequence of a miss. Flag anything ambiguous.
 **Answer:** A — Always verify the extracted obligations against the contract text.
 
 ---
-### Module 6 · Step 5: The Lawyer's Sign-Off
+### Sub-module 6 · Step 5: The Lawyer's Sign-Off
 
 AI can review a thousand contracts, but only a lawyer can sign off. The sign-off is the professional act that carries responsibility.
 

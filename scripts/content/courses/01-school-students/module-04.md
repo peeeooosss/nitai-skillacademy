@@ -1,7 +1,7 @@
 # Mission 4: AI Art & Creative Projects
 
 ---
-### Module 1 · AI Can Create — But You Are the Artist
+### Sub-module 1 · AI Can Create — But You Are the Artist
 
 AI tools can create pictures, stories, poems, music, and even videos from just a prompt. This sounds like magic, but remember the golden rule: **AI is the paintbrush. YOU are the artist.**
 
@@ -91,7 +91,7 @@ Your artist thermostat:
 **Answer:** A — Your edits and decisions stamp the work as yours.
 
 ---
-### Module 2 · Writing a Great Creative Prompt
+### Sub-module 2 · Writing a Great Creative Prompt
 
 Creative prompts love **extra detail**. For pictures, use a four-part recipe: what it is, where and when, how it looks, and the mood. For stories, tell AI who it is for and what must happen. The more detail you give, the closer the result matches your imagination.
 
@@ -185,7 +185,7 @@ Try it now:
 **Answer:** A — Style and colour describe how the image looks.
 
 ---
-### Module 3 · Editing & Iterating — Where Real Creativity Happens
+### Sub-module 3 · Editing & Iterating — Where Real Creativity Happens
 
 The first result is rarely perfect. The best artists **iterate** - they improve step by step. 'Make the robot hold a book instead of a watering can', 'change the colours to purple and blue', 'make the story longer with a second character'. Each small change moves you closer to your vision.
 
@@ -276,7 +276,7 @@ The artist's checklist for every project:
 **Answer:** A — AI drafts; humans decide and finish.
 
 ---
-### Module 4 · Creative Project Ideas (Pick One)
+### Sub-module 4 · Creative Project Ideas (Pick One)
 
 Ready to build something real? Choose ONE of the ideas below, or invent your own. The best projects combine AI's speed with your taste - a strong idea plus edits only you would make.
 
@@ -369,7 +369,7 @@ Project plan in 4 lines:
 **Answer:** A — Speed plus your personal taste wins every time.
 
 ---
-### Module 5 · Responsible Art Rules (Very Important)
+### Sub-module 5 · Responsible Art Rules (Very Important)
 
 Great creativity comes with great responsibility. Follow these rules always. They keep you honest, kind, and safe - and they protect real human artists too.
 
@@ -461,7 +461,7 @@ Before you share, ask:
 **Answer:** A — A grown-up's check keeps your sharing safe.
 
 ---
-### Module 6 · Your Finished Creative Project (Show & Tell)
+### Sub-module 6 · Your Finished Creative Project (Show & Tell)
 
 When your project is finished, do these three things: add your signature, prepare one smooth sentence about how you made it, and share it safely. Then reflect - because that reflection is the proof of the artist inside you.
 

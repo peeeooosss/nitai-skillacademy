@@ -1,7 +1,7 @@
 # Mission 1: Career Mapping: AI-Augmented Roles That Fit You
 
 ---
-### Module 1 · The 'Role + AI' Mindset
+### Sub-module 1 · The 'Role + AI' Mindset
 
 Headlines scream that AI will take jobs, but the useful reality is sharper and far more encouraging: **AI replaces tasks, not whole jobs.** From HR to banking to marketing to operations, almost every career is becoming augmented rather than automated away. The skill that wins is not fighting the change - it is riding it intentionally.
 
@@ -100,7 +100,7 @@ The three-task audit to run on your current role:
 **Answer:** A — Candidates who answer 'how have you used AI?' with concrete examples stand out.
 
 ---
-### Module 2 · Four Kinds of AI-Augmented Career Paths
+### Sub-module 2 · Four Kinds of AI-Augmented Career Paths
 
 AI-augmented careers fall into four categories, and knowing where you fit - or want to fit - gives you a target instead of a vague ambition. Each path rewards different skills, and each has its own typical jobs. Once you can name the category you want, every resume edit and every upskilling decision becomes easier to make.
 
@@ -197,7 +197,7 @@ Quick self-check to place yourself:
 **Answer:** A — Domain experience transfers to automation roles - 'logistics to logistics-automation specialist'.
 
 ---
-### Module 3 · Mapping Your Skills to a Target Role
+### Sub-module 3 · Mapping Your Skills to a Target Role
 
 A target role is a compass: once you have one, every application, every course, and every conversation points the same direction. But choosing a target blindly is guesswork. This module turns that guesswork into a five-step process that produces a realistic, motivating shortlist and a single 'North Star' role.
 
@@ -291,7 +291,7 @@ typical tasks, salary range, and 2 core AI skills needed.
 **Answer:** A — Close the 2 cheapest gaps first for the fastest visible progress.
 
 ---
-### Module 4 · Decoding Job Postings
+### Sub-module 4 · Decoding Job Postings
 
 Job postings are written to attract and filter. Read them like a recruiter would - as documents full of signals - and you will know exactly what your resume needs to say and which companies to skip. The skill of decoding a posting is a job-search skill in itself, and it takes maybe ten minutes to learn.
 
@@ -388,7 +388,7 @@ Extract from this job description:
 **Answer:** A — A flag is a caution, not an auto-reject - verify with real questions at interview time.
 
 ---
-### Module 5 · Keeping Your Story Honest
+### Sub-module 5 · Keeping Your Story Honest
 
 Job search is a numbers game and a story game - this course gives you both. But honesty is the non-negotiable that runs underneath everything: your resume, your interviews, and your portfolio must all tell the same truthful story. Every shortcut that feels clever today becomes a credibility problem next week.
 
@@ -484,7 +484,7 @@ The demonstrability test for any story:
 **Answer:** A — Honest learning-in-progress phrasing is increasingly valued by recruiters.
 
 ---
-### Module 6 · Your First 90-Day Career Plan
+### Sub-module 6 · Your First 90-Day Career Plan
 
 Direction without a timeline is a wish. The 90-day plan turns your career mapping into a schedule you can follow day by day, with a visible deliverable every stage. It is deliberately simple: learn for 30 days, prove for 30 days, apply for 30 days - and it fits around a full-time job, because it asks for 45 focused minutes a day, not heroic weekends.
 

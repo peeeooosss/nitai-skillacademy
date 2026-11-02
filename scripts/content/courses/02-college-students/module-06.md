@@ -1,7 +1,7 @@
 # Mission 6: AI Coding Assistants & Simple Scripts
 
 ---
-### Module 1 · Code Is a Superpower and AI Is Your Co-Pilot
+### Sub-module 1 · Code Is a Superpower and AI Is Your Co-Pilot
 
 You do not need to be a computer scientist to benefit from code - writing even simple scripts gives you a superpower: **automation**. Repetitive, boring, error-prone work becomes a thirty-second command instead of an hour of manual clicking.
 
@@ -93,7 +93,7 @@ How AI changes coding for beginners:
 **Answer:** A — AI's help is writing, explaining, and debugging code - not essays.
 
 ---
-### Module 2 · The Three Modes of an AI Coding Assistant
+### Sub-module 2 · The Three Modes of an AI Coding Assistant
 
 AI coding assistants come in three modes, and each fits a different task. Chat mode is best for one-off scripts and learning. Inline editor mode assists while you type your own code. Agent mode edits files across a whole project - powerful once you understand the basics.
 
@@ -187,7 +187,7 @@ Chat mode advantages:
 **Answer:** A — Agent mode is powerful for multi-file tasks.
 
 ---
-### Module 3 · Recommended Stack and Setup
+### Sub-module 3 · Recommended Stack and Setup
 
 Your week-six toolkit is small and free: an editor, an AI assist, a way to run Python, and one good extension. The setup goal for this mission is deliberately tiny - print 'hello from your course' in Python with AI's help - because momentum beats grandeur when you are learning.
 
@@ -282,7 +282,7 @@ Your setup goal:
 **Answer:** A — Oversubscribing tools wastes time and adds friction.
 
 ---
-### Module 4 · The Copy-Run-Understand Loop
+### Sub-module 4 · The Copy-Run-Understand Loop
 
 Never paste code you do not understand into your brain's 'done' pile. The Copy-Run-Understand loop keeps every AI-written line grounded in your own understanding: copy the code for a specific task, run it, then understand it by having the AI explain it line by line and tweaking it yourself.
 
@@ -377,7 +377,7 @@ to make it {goal}.'
 **Answer:** A — Understanding, not execution alone, is the done criterion.
 
 ---
-### Module 5 · Writing a Script That Actually Helps You
+### Sub-module 5 · Writing a Script That Actually Helps You
 
 The way to really learn coding is to automate one real pain point. This module lists college-friendly automation ideas - renaming files, combining grade sheets, converting messy CSVs, formatting references - and walks you through picking one and shipping it with AI.
 
@@ -471,7 +471,7 @@ Add lots of comments.
 **Answer:** A — Fewer dependencies, easier debugging, and smoother running.
 
 ---
-### Module 6 · Best Practices: Low Cost, High Value
+### Sub-module 6 · Best Practices: Low Cost, High Value
 
 A few habits make AI-assisted coding safe and scalable. Never run code that asks for passwords or deletes data without reading it. Keep scripts organised in folders with a one-line comment above each. Prefer standard libraries and small scripts for student tasks.
 

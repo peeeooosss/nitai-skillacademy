@@ -36,8 +36,12 @@ export const handler: NetlifyHandler = async (event) => {
 
       const progressRows = await prisma.userProgress.findMany({
         where: { userId: payload.userId },
+        include: { module: { select: { courseId: true } } },
       })
       const progressByModule = new Map(progressRows.map(p => [p.moduleId, p]))
+      const timeSpentSeconds = progressRows
+        .filter(p => p.module.courseId === course.id)
+        .reduce((sum, p) => sum + (p.timeSpentSeconds || 0), 0)
 
       const missions = course.modules
         .filter(m => m.missionNumber != null)
@@ -52,10 +56,10 @@ export const handler: NetlifyHandler = async (event) => {
             .slice()
             .sort((a, b) => a.index - b.index)
           const completedSet = new Set<number>((pr?.completedSubmodules as number[] | null) || [])
-          const submodules = rawSubmodules.map((s, si) => ({
+          const submodules = rawSubmodules.map((s) => ({
             index: s.index,
             title: s.title,
-            unlocked: si === 0 || completedSet.has(rawSubmodules[si - 1].index),
+            unlocked,
             completed: completedSet.has(s.index),
           }))
           return {
@@ -108,6 +112,8 @@ export const handler: NetlifyHandler = async (event) => {
           completedMissions,
           totalMissions: missions.length,
           percent: missions.length ? Math.round((completedMissions / missions.length) * 100) : 0,
+          timeSpentSeconds,
+          timeSpentHours: Math.round((timeSpentSeconds / 3600) * 10) / 10,
         },
         currentMission,
         missions,
@@ -141,11 +147,18 @@ export const handler: NetlifyHandler = async (event) => {
       const completedByModule = new Map(
         progress.filter(p => p.completed).map(p => [p.moduleId, true]),
       )
+      const timeByCourse = new Map<string, number>()
+      for (const p of progress) {
+        const courseId = p.module.courseId
+        if (!courseId) continue
+        timeByCourse.set(courseId, (timeByCourse.get(courseId) || 0) + (p.timeSpentSeconds || 0))
+      }
 
       const list = courses.map(c => {
         const missions = c.modules.filter(m => m.missionNumber != null)
         const completedMissions = missions.filter(m => completedByModule.has(m.id)).length
         const enrolled = enrolledCourseIds.has(c.id)
+        const timeSpentSeconds = timeByCourse.get(c.id) || 0
         return {
           id: c.id,
           slug: c.slug,
@@ -169,6 +182,8 @@ export const handler: NetlifyHandler = async (event) => {
             completedMissions,
             totalMissions: missions.length,
             percent: missions.length ? Math.round((completedMissions / missions.length) * 100) : 0,
+            timeSpentSeconds,
+            timeSpentHours: Math.round((timeSpentSeconds / 3600) * 10) / 10,
           },
         }
       })

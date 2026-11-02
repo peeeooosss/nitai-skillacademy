@@ -1,7 +1,7 @@
 # Mission 6: Personal Brand, Portfolio & Offer Negotiation
 
 ---
-### Module 1 · Your Brand Is Your Proof
+### Sub-module 1 · Your Brand Is Your Proof
 
 Nobody needs you to be famous. You need to be **findable and provable**: when someone searches your name, they should see evidence that you can do the thing you claim. That is the whole definition of a personal brand in a job search - not followers, not aesthetics, but proof a stranger can verify in under sixty seconds.
 
@@ -98,7 +98,7 @@ The brand audit - run once a month:
 **Answer:** A — Every piece should answer: can this person actually do what they say?
 
 ---
-### Module 2 · Building the Three-Proof Brand
+### Sub-module 2 · Building the Three-Proof Brand
 
 The proof brand is built from three fast pieces - a project page, disciplined GitHub, and small consistent content. Each piece is deliberately cheap to build and maintain, because the value is in showing up weekly, not in one heroic build. Two to three hours gets the site live; five lines a week keeps the content engine running.
 
@@ -195,7 +195,7 @@ The clean-repo checklist:
 **Answer:** A — Disclosing AI assistance is honesty - and increasingly a plus in hiring.
 
 ---
-### Module 3 · Handling the Offer Stage
+### Sub-module 3 · Handling the Offer Stage
 
 The offer stage is where a search gets won or quietly lost - not by the interview, but by how you handle the moment of decision. This module protects you with the moves that separate prepared candidates from surprised ones: reference-checking the company, giving a researched salary band, spotting offer red flags, and protecting your timeline when multiple processes run.
 
@@ -290,7 +290,7 @@ When asked 'what salary are you expecting?':
 **Answer:** A — Written offers are real offers - verbal ones evaporate without a paper trail.
 
 ---
-### Module 4 · Negotiation: Scripts and Rules
+### Sub-module 4 · Negotiation: Scripts and Rules
 
 Most negotiators lose by being unprepared, not by being rude. The difference between a candidate who gets a better package and one who accepts the first number is almost always a prepared script. AI can build that script in minutes - but you must know the rules that keep it warm, honest, and effective.
 
@@ -388,7 +388,7 @@ polite.
 **Answer:** A — A counter inside the researched band is grounded - it holds the frame of fairness.
 
 ---
-### Module 5 · Deciding: Accept, Decline, or Walk Away
+### Sub-module 5 · Deciding: Accept, Decline, or Walk Away
 
 When offers arrive, your decision system takes over - because impulse 'yes' and fear-based 'no' are both unreliable drivers. The framework here is three moves: score the package against YOUR weighted criteria, compare the role to your Tier-1 story, and sleep on it for 24-48 hours before deciding anything.
 
@@ -485,7 +485,7 @@ The decision sequence when an offer lands:
 **Answer:** A — If you would not want the role at 20% less, salary is driving a wrong-path choice.
 
 ---
-### Module 6 · The Application-to-Offer System
+### Sub-module 6 · The Application-to-Offer System
 
 You now have every piece: brand, search system, mocks, materials, and proof projects. The final act is assembling them into one rotating loop - the application-to-offer system - and committing to run it weekly for 90 days. Every piece feeds the next, and the loop only works if you run it through rejections without breaking the rhythm.
 

@@ -3,7 +3,7 @@
 import * as React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Calendar, Video, Signal, CheckCircle2, Loader2, ExternalLink } from "lucide-react";
+import { Calendar, Video, Signal, CheckCircle2, Loader2, ExternalLink, Globe } from "lucide-react";
 import { api, type LiveSession } from "@/lib/api";
 import { courseIcon, hexToRgba } from "@/lib/courseIcons";
 
@@ -25,7 +25,8 @@ function SessionCard({
 }) {
   const meta = PLATFORM_META[session.platform] ?? PLATFORM_META.OTHER;
   const when = new Date(session.scheduledAt);
-  const Icon = courseIcon(session.course.icon || "");
+  const courseAccent = session.course?.accentColor || accent;
+  const Icon = session.course ? courseIcon(session.course.icon || "") : Globe;
 
   return (
     <motion.article
@@ -37,9 +38,9 @@ function SessionCard({
       <div className="flex items-start justify-between">
         <span
           className="flex h-11 w-11 items-center justify-center rounded-2xl"
-          style={{ background: hexToRgba(session.course.accentColor || accent, 0.15) }}
+          style={{ background: hexToRgba(courseAccent, 0.15) }}
         >
-          <Icon className="h-5 w-5" style={{ color: session.course.accentColor || accent }} />
+          <Icon className="h-5 w-5" style={{ color: courseAccent }} />
         </span>
         <span
           className="rounded-full border px-2.5 py-1 text-[10px] font-semibold"
@@ -51,7 +52,7 @@ function SessionCard({
 
       <div className="mt-4">
         <div className="text-[10px] font-semibold uppercase tracking-wider text-slate-500">
-          {session.course.shortTitle || session.course.title}
+          {session.course ? session.course.shortTitle || session.course.title : "All Courses"}
           {session.missionNumber ? ` · Mission ${session.missionNumber}` : ""}
         </div>
         <h3 className="mt-1 font-display text-base font-bold leading-snug text-white">{session.title}</h3>
@@ -84,7 +85,7 @@ function SessionCard({
           Join Live
           <ExternalLink className="h-3.5 w-3.5" />
         </a>
-        {session.missionNumber && (
+        {session.missionNumber && session.course && (
           <Link
             href={`/portal/courses/${session.course.slug}/mission/${session.missionNumber}`}
             className="rounded-xl border border-white/10 px-3.5 py-2.5 text-xs font-semibold text-slate-300 transition-colors hover:bg-white/5 hover:text-white"

@@ -32,10 +32,16 @@ export const handler: NetlifyHandler = async (event) => {
     })
     const enrolledCourseIds = enrollments.map(e => e.courseId)
 
+    // Users who are not enrolled in any course should not see global sessions.
+    if (enrolledCourseIds.length === 0) {
+      const empty = params.courseSlug ? { sessions: [] } : { upcoming: [], past: [] }
+      return successResponse(empty, 200, origin)
+    }
+
     const sessions = await prisma.liveSession.findMany({
       where: {
         isActive: true,
-        courseId: { in: enrolledCourseIds },
+        OR: [{ courseId: { in: enrolledCourseIds } }, { courseId: null }],
       },
       include: {
         course: {
@@ -54,7 +60,9 @@ export const handler: NetlifyHandler = async (event) => {
       scheduledAt: s.scheduledAt.toISOString(),
       durationMins: s.durationMins,
       missionNumber: s.missionNumber,
+      courseId: s.courseId,
       course: s.course,
+      isAllCourses: s.courseId === null,
     })
 
     // Per-course/mission lookup → used by the mission player Live step.
@@ -63,7 +71,7 @@ export const handler: NetlifyHandler = async (event) => {
       const mission = params.mission ? parseInt(params.mission, 10) : null
 
       const scoped = sessions.filter(s => {
-        if (s.course.slug !== courseSlug) return false
+        if (s.courseId !== null && s.course?.slug !== courseSlug) return false
         if (mission != null && s.missionNumber !== mission) return false
         if (mission == null && s.missionNumber != null) return false
         return true

@@ -1,7 +1,7 @@
 # Mission 4: AI as a Case Tool: Fact Patterns & Research
 
 ---
-### Module 1 · From Facts to Issues: Building the Frame
+### Sub-module 1 · From Facts to Issues: Building the Frame
 
 Legal analysis begins with facts. The skill is moving from a messy fact pattern to a clear set of legal issues - and AI can help you organise, but not decide.
 
@@ -94,7 +94,7 @@ note the facts needed and the facts still missing.
 **Answer:** A — Research follows the legal issues framed from the facts.
 
 ---
-### Module 2 · Step 1: Organise the Fact Pattern
+### Sub-module 2 · Step 1: Organise the Fact Pattern
 
 A disorganised fact pattern hides the issues. Organising it - chronologically, by party, and by transaction - reveals the structure of the case.
 
@@ -187,7 +187,7 @@ contradictions, gaps, or events lacking evidence.
 **Answer:** A — Verify AI's organisation against the underlying documents.
 
 ---
-### Module 3 · Step 2: Issue Spotting with AI
+### Sub-module 3 · Step 2: Issue Spotting with AI
 
 Issue spotting is where junior lawyers learn and where AI can help - as a checklist of possibilities, not a conclusion. AI can suggest issues you might miss; you decide which are live.
 
@@ -280,7 +280,7 @@ rank them by strength. Treat all as candidates to verify.
 **Answer:** A — Discard issues without factual support.
 
 ---
-### Module 4 · Step 3: Research the Issues
+### Sub-module 4 · Step 3: Research the Issues
 
 With the live issues framed, research becomes targeted. AI helps you find the authorities for each issue; you verify and read them.
 
@@ -373,7 +373,7 @@ unverified leads and note which I should read in full.
 **Answer:** A — Record the citation for every authority you rely on.
 
 ---
-### Module 5 · Step 4: Build the Argument Outline
+### Sub-module 5 · Step 4: Build the Argument Outline
 
 An argument outline sets out each point, its authority, and its application to the facts. AI can scaffold the outline; you supply the reasoning.
 
@@ -467,7 +467,7 @@ and conclusion. Order by strength.
 **Answer:** A — Address weak points rather than hiding them.
 
 ---
-### Module 6 · Step 5: Anticipate the Other Side
+### Sub-module 6 · Step 5: Anticipate the Other Side
 
 A strong case anticipates the counterarguments. AI is useful for generating the other side's best points, so you can prepare a response.
 

@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
+    "typecheck:scripts": "tsc --noEmit -p scripts/tsconfig.json",
+    "audit:curriculum": "npx tsx scripts/audit-curriculum.ts",
     "format": "prettier --write .",
     "ui:add": "npx shadcn@latest add"
   },

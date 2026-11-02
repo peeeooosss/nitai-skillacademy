@@ -1,7 +1,7 @@
 # Mission 7: No-Code & Automation for Your Startup
 
 ---
-### Module 1 · You Are Now an Automation-First Founder
+### Sub-module 1 · You Are Now an Automation-First Founder
 
 Automation-first is a mindset: before doing a task manually, ask whether a tool or AI can do it. This is how a solo founder competes with teams.
 
@@ -98,7 +98,7 @@ no-code flow to remove it, with the hours it should save.
 **Answer:** A — Start small with one task to build confidence and early wins.
 
 ---
-### Module 2 · Step 1: Map the Flow (Pipeline Thinking)
+### Sub-module 2 · Step 1: Map the Flow (Pipeline Thinking)
 
 Before automating, map the flow: what triggers it, what steps happen, and what the output is. Pipeline thinking turns messy work into a clear diagram.
 
@@ -192,7 +192,7 @@ and which must stay human.
 **Answer:** A — It separates automatable steps from steps that must stay human.
 
 ---
-### Module 3 · Step 2: Your Automation Won't Have Boxes — It Has Magic Glue
+### Sub-module 3 · Step 2: Your Automation Won't Have Boxes — It Has Magic Glue
 
 Old-school automation was boxes and arrows in enterprise software. Yours is **magic glue**: small no-code connectors that link the tools you already use.
 
@@ -286,7 +286,7 @@ Prefer fewer tools and a short chain.
 **Answer:** A — Fewer tools and shorter chains stay maintainable.
 
 ---
-### Module 4 · Step 3: Build Three Working Automations
+### Sub-module 4 · Step 3: Build Three Working Automations
 
 Three automations are enough to feel the leverage: one for **capture** (leads or orders), one for **follow-up** (replies or reminders), and one for **records** (logging or reporting).
 
@@ -380,7 +380,7 @@ Use [tools]. Include how to test each one.
 **Answer:** A — Testing each automation catches silent failures early.
 
 ---
-### Module 5 · Step 4: The Traps (And How to Not Fall In)
+### Sub-module 5 · Step 4: The Traps (And How to Not Fall In)
 
 Automation has predictable traps: over-engineering, brittle chains, and automating a broken process. Each one wastes time and erodes trust in the system.
 
@@ -473,7 +473,7 @@ Suggest simplifications and the tests I should run.
 **Answer:** A — Simple, reliable automations earn their keep; remove the rest.
 
 ---
-### Module 6 · Step 5: Measure the Win in Hours
+### Sub-module 6 · Step 5: Measure the Win in Hours
 
 The value of automation is measured in hours saved, not in how clever the flow is. Track the time each automation returns and keep only the winners.
 

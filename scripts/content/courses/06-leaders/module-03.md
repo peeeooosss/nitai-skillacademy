@@ -1,7 +1,7 @@
 # Mission 3: Evaluating AI Tools, Vendors & Build vs Buy
 
 ---
-### Module 1 · Define Needs Before Vendors
+### Sub-module 1 · Define Needs Before Vendors
 
 Never invite a vendor to define your problem - they will define it in their favour. Write your needs first, in business language, before any demo shapes your thinking.
 
@@ -98,7 +98,7 @@ Write it before any vendor meeting.
 **Answer:** A — Clear needs let weak-fit vendors disqualify themselves in the first meeting.
 
 ---
-### Module 2 · Build vs Buy vs Integrate
+### Sub-module 2 · Build vs Buy vs Integrate
 
 There are three honest routes, not two: buy, integrate, and build. Most organisations' sweet spot is integration - wiring proven AI services into existing systems.
 
@@ -194,7 +194,7 @@ Default to integrate; buy for narrow needs; build only with a moat.
 **Answer:** A — Default to integrate; buy for narrow needs; build only with a genuine moat.
 
 ---
-### Module 3 · Vendor Questions That Reveal Truth
+### Sub-module 3 · Vendor Questions That Reveal Truth
 
 A short, sharp question set outperforms any demo. Demos are designed to impress; questions are designed to reveal. Five questions will tell you more about a vendor than an hour of slides.
 
@@ -293,7 +293,7 @@ The last answer tells you their true maturity.
 **Answer:** A — Specific, falsifiable answers signal a real product; vague reassurance is a pitch.
 
 ---
-### Module 4 · Compare Costs Honestly
+### Sub-module 4 · Compare Costs Honestly
 
 The sticker price is the smallest number on the invoice. Vendors sell on license price because it is easy to compare, while the costs that actually matter - migration, training, running, and exit - stay hidden until later.
 
@@ -390,7 +390,7 @@ Ask for three-year TCO and a written exit plan.
 **Answer:** A — Migration and exit are the most commonly under-estimated costs in AI purchases.
 
 ---
-### Module 5 · The Vendor Scorecard
+### Sub-module 5 · The Vendor Scorecard
 
 Score every candidate against the same criteria, with weights you chose before seeing demos. Weights make the decision transparent and defensible.
 
@@ -488,7 +488,7 @@ Weighted total             100%      ~7.3       ~6.9
 **Answer:** A — Business impact typically leads, followed by fit, data/security, cost, and evidence.
 
 ---
-### Module 6 · Run a Real Evaluation This Week
+### Sub-module 6 · Run a Real Evaluation This Week
 
 Close the mission with a live evaluation on one tool you are genuinely considering. Real evaluations are how you learn to buy AI well; the first one changes the way you see every future demo.
 

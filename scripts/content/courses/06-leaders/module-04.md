@@ -1,7 +1,7 @@
 # Mission 4: Leading Change: AI-Ready Teams
 
 ---
-### Module 1 · Adoption Is a People Problem
+### Sub-module 1 · Adoption Is a People Problem
 
 The best tool fails if a terrified or confused team refuses to use it. Adoption is behaviour change before it is technology. As a leader, most of your job is setting the conditions for that change - not picking the model.
 
@@ -96,7 +96,7 @@ Set these conditions and behaviour follows.
 **Answer:** A — Fear and confusion beat capability - adoption is a people problem first.
 
 ---
-### Module 2 · Communicate the Why
+### Sub-module 2 · Communicate the Why
 
 People accept hard change when they understand why and how it affects them. Four messages matter: what is happening, why now, what it means for you, and what stays.
 
@@ -193,7 +193,7 @@ Repeat them. Trust forms by repetition.
 **Answer:** A — One honest town hall in your own voice beats ten poster campaigns.
 
 ---
-### Module 3 · Skills, Roles, and Upskilling
+### Sub-module 3 · Skills, Roles, and Upskilling
 
 AI changes jobs, but mostly it reshapes them - some parts shrink, others grow. Plan for three moves: update existing roles, create AI-adjacent roles, and upskill intentionally.
 
@@ -288,7 +288,7 @@ Train to the real future work before you ask for it.
 **Answer:** A — A small weekly practice habit normalises AI use and builds confidence.
 
 ---
-### Module 4 · Incentives and Habits That Stick
+### Sub-module 4 · Incentives and Habits That Stick
 
 Launch excitement fades unless new behaviour becomes habit. Design for the habit rather than relying on willpower or a single launch event.
 
@@ -384,7 +384,7 @@ Cue -> action -> reward. Run the engine.
 **Answer:** A — Building AI into an existing routine makes the cue automatic.
 
 ---
-### Module 5 · Managing Resistance and Fear
+### Sub-module 5 · Managing Resistance and Fear
 
 Resistance is usually fear in disguise: 'will I lose my job?' Address it with evidence and honesty - not slogans. Silence makes the fear louder.
 
@@ -478,7 +478,7 @@ Respond to resistance with evidence and honesty:
 **Answer:** A — Ownership plus a proven pilot converts doubt into evidence and advocacy.
 
 ---
-### Module 6 · Sustaining Momentum Past Launch
+### Sub-module 6 · Sustaining Momentum Past Launch
 
 Adoption is won in the quiet months two through six, not on launch day. Launch events are easy; sustained follow-through is where results are made.
 

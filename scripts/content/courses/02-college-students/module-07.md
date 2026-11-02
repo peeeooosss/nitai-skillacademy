@@ -1,7 +1,7 @@
 # Mission 7: AI Agents & Automation Basics
 
 ---
-### Module 1 · From Chat to Action: What Is an Agent?
+### Sub-module 1 · From Chat to Action: What Is an Agent?
 
 Until now, AI *talked*. **Agents** let AI *act* - call tools, fetch web pages, read files, send messages, and chain steps to finish a task on their own. This is where AI goes from a study tool to a productivity engine.
 
@@ -94,7 +94,7 @@ Managing an agent like a junior:
 **Answer:** A — Agents ask only when they cannot proceed on their own.
 
 ---
-### Module 2 · The Automation Mindset: Find the Bot-Able Task
+### Sub-module 2 · The Automation Mindset: Find the Bot-Able Task
 
 The automation mindset is a filter you run over your own work to find what should be automated. Look for work that is **repetitive, rule-based, and digital**. The signs are concrete: you have done it five times this month, it follows a template, it touches files or forms, and mistakes are recoverable.
 
@@ -186,7 +186,7 @@ The weekly scan:
 **Answer:** A — Reversible, low-risk actions are safe to automate.
 
 ---
-### Module 3 · Map the Workflow First
+### Sub-module 3 · Map the Workflow First
 
 Agents fail when you skip planning. Before you build anything, **map the workflow**: write the task as a checklist of concrete steps, define the trigger and the stop rule, and note every tool the agent will touch. The map is the strategy; the tool is just the executor.
 
@@ -280,7 +280,7 @@ Tools: {email, files, sites}
 **Answer:** A — The stop rule is what counts as completion.
 
 ---
-### Module 4 · Build With No-Code First
+### Sub-module 4 · Build With No-Code First
 
 Start agents without writing much code. Use no-code automation platforms where you visually wire steps, browser assistants for tasks that live in web pages, and free tiers for almost everything a college workflow needs.
 
@@ -374,7 +374,7 @@ The scaling rule:
 **Answer:** A — Those three nodes are the whole visual pipeline.
 
 ---
-### Module 5 · Rules for Trustworthy Agents
+### Sub-module 5 · Rules for Trustworthy Agents
 
 Agents act in your name, so you must supervise them like a manager. The five rules are least privilege, human-in-the-loop, logs, time-boxing, and secrets. Together they convert 'can it do the task?' into the question that actually matters: what happens when it does it wrong?
 
@@ -466,7 +466,7 @@ The supervision stack:
 **Answer:** A — Prompts and scripts are the wrong home for passwords and tokens.
 
 ---
-### Module 6 · Agents That Go Wrong (and How to Catch It)
+### Sub-module 6 · Agents That Go Wrong (and How to Catch It)
 
 Agents fail in predictable ways, and each failure mode has a checkpoint. Hallucinated intermediate steps need citation checks. Scope creep needs one-task agents with stop rules. Runaway loops need time-boxes. Wrong tool use needs log watching.
 

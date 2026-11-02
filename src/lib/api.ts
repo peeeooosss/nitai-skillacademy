@@ -75,17 +75,18 @@ export interface LiveSession {
   scheduledAt: string;
   durationMins: number;
   missionNumber: number | null;
+  courseId: string | null;
   course: {
     slug: string;
     title: string;
     shortTitle: string;
     icon?: string;
     accentColor?: string;
-  };
+  } | null;
+  isAllCourses: boolean;
 }
 
 export interface AdminLiveSession extends LiveSession {
-  courseId: string;
   isActive: boolean;
 }
 
@@ -300,6 +301,8 @@ export interface CourseDetail {
     completedMissions: number;
     totalMissions: number;
     percent: number;
+    timeSpentSeconds: number;
+    timeSpentHours: number;
   };
   currentMission: { missionNumber: number; title: string } | null;
   missions: MissionItem[];
@@ -377,6 +380,7 @@ export interface DashboardData {
     currentStreak: number;
     completedMissions: number;
     totalHours: number;
+    totalSeconds: number;
     enrolledCourses: number;
   };
   enrolledCourses: Array<{
@@ -388,7 +392,13 @@ export interface DashboardData {
     icon: string;
     accentColor: string;
     moduleCount: number;
-    progress: { completedMissions: number; totalMissions: number; percent: number };
+    progress: {
+      completedMissions: number;
+      totalMissions: number;
+      percent: number;
+      timeSpentSeconds: number;
+      timeSpentHours: number;
+    };
     currentMission: { missionNumber: number; title: string } | null;
     startedAt: string;
   }>;

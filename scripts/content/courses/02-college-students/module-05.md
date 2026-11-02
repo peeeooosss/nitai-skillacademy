@@ -1,7 +1,7 @@
 # Mission 5: Data Analysis & Visualisation with AI
 
 ---
-### Module 1 · Data Literacy Is a Career Fuel
+### Sub-module 1 · Data Literacy Is a Career Fuel
 
 Almost every job now involves reading numbers - sales figures, survey results, costs, experiments, student data. Data literacy sets you apart in every field, not just tech ones. The good news: with AI you no longer need a statistics degree to do serious data work.
 
@@ -92,7 +92,7 @@ What AI now makes possible:
 **Answer:** A — AI removes the stats-degree barrier to data work.
 
 ---
-### Module 2 · The Data Workflow (With AI as Analyst-Buddy)
+### Sub-module 2 · The Data Workflow (With AI as Analyst-Buddy)
 
 Great data work follows a repeatable pipeline: **Describe, Clean, Analyse, Visualise, Explain**. Each step has a clear prompt and a clear job, and together they turn a messy dataset into a defensible insight. AI rides along at every step as the analyst-buddy.
 
@@ -186,7 +186,7 @@ Strong: 'Compare group A and group B on metric Y'
 **Answer:** A — Understanding the data's structure comes before touching anything.
 
 ---
-### Module 3 · The Code Buddy Method (No Prior Coding Needed)
+### Sub-module 3 · The Code Buddy Method (No Prior Coding Needed)
 
 You do not need to be a programmer to analyse data with AI. The Code Buddy Method is a loop: ask AI to write a small analysis script, run it step by step in a free environment, and when it errors paste the error back and let the AI fix it. This 'copy, run, fix' loop is how thousands of students now analyse real data.
 
@@ -280,7 +280,7 @@ The copy-run-fix loop:
 **Answer:** A — Context from the actual error produces precise fixes.
 
 ---
-### Module 4 · Choosing the Right Chart
+### Sub-module 4 · Choosing the Right Chart
 
 The chart must fit the **question**, not your mood. Choosing the right visual is a skill and AI is genuinely good at it - if you prompt with your question type. The rule is simple: match the chart family to the relationship you are trying to show.
 
@@ -374,7 +374,7 @@ tells the story best, and why?
 **Answer:** A — Scatter reveals how two variables move together.
 
 ---
-### Module 5 · Interpreting Results Honestly
+### Sub-module 5 · Interpreting Results Honestly
 
 The most common data mistake is not technical - it is **over-claiming**. When you interpret results you must stay inside what the data actually supports. The classic traps are correlation versus causation, small samples, and comparing things that are not like for like.
 
@@ -465,7 +465,7 @@ alternatively explain this pattern?
 **Answer:** A — Credible analysts are trusted analysts.
 
 ---
-### Module 6 · The AI-Data Trap List
+### Sub-module 6 · The AI-Data Trap List
 
 When you trust AI with numbers, watch for a specific list of traps. AI can invent statistics, analyse columns that do not exist, garnish your conclusion with facts not in the data, and project overconfidence in a neat chart. Each trap is a failure to ground the AI in your actual dataset.
 

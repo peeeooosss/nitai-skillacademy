@@ -56,7 +56,7 @@ export const handler: NetlifyHandler = async (event) => {
         return errorResponse('Module not found', 404, origin)
       }
 
-      const submodules = ((mod.submodules as { index: number }[] | null) || [])
+      const submodules = ((mod.submodules as { index: number; title?: string }[] | null) || [])
         .slice()
         .sort((a, b) => a.index - b.index)
 
@@ -118,7 +118,7 @@ export const handler: NetlifyHandler = async (event) => {
         }, 200, origin)
       }
 
-      // ── Module-sequential completion (missions with sub-modules) ───────────
+      // ── Sub-module completion (missions with sub-modules) ─────────────────
       if (typeof submoduleIndex !== 'number' || !Number.isInteger(submoduleIndex)) {
         return errorResponse('submoduleIndex is required for this mission', 400, origin)
       }
@@ -136,61 +136,61 @@ export const handler: NetlifyHandler = async (event) => {
         return successResponse({ message: 'Module already completed', completed: false, creditsEarned: 0 }, 200, origin)
       }
 
-      // Enforce sequential unlocking: module N can only be completed after N-1.
-      if (position > 0 && !doneSet.has(submodules[position - 1].index)) {
-        return errorResponse('Complete the previous module first', 400, origin)
-      }
-
       doneSet.add(submoduleIndex)
       const allDone = submodules.every(s => doneSet.has(s.index))
       const completedSubmodules = [...doneSet].sort((a, b) => a - b)
 
-      await prisma.userProgress.upsert({
-        where: { userId_moduleId: { userId: payload.userId, moduleId } },
-        update: {
-          completedSubmodules,
-          completed: allDone,
-          completedAt: allDone ? new Date() : existing?.completedAt ?? null,
-          weekId: mod.weekId,
-        },
-        create: {
-          userId: payload.userId,
-          moduleId,
-          weekId: mod.weekId,
-          completedSubmodules,
-          completed: allDone,
-          completedAt: allDone ? new Date() : null,
-        },
-      })
+      // Split the mission reward evenly; pay the remainder when the mission finishes.
+      const baseCredits = Math.floor(mod.creditsReward / submodules.length)
+      const remainderCredits = mod.creditsReward % submodules.length
+      const creditsEarned = baseCredits + (allDone ? remainderCredits : 0)
 
-      let creditsEarned = 0
-      if (allDone) {
-        await prisma.userCredit.upsert({
-          where: { userId: payload.userId },
+      await prisma.$transaction(async (tx) => {
+        await tx.userProgress.upsert({
+          where: { userId_moduleId: { userId: payload.userId, moduleId } },
           update: {
-            balance: { increment: mod.creditsReward },
-            totalEarned: { increment: mod.creditsReward },
+            completedSubmodules,
+            completed: allDone,
+            completedAt: allDone ? new Date() : existing?.completedAt ?? null,
+            weekId: mod.weekId,
           },
           create: {
             userId: payload.userId,
-            balance: mod.creditsReward,
-            totalEarned: mod.creditsReward,
+            moduleId,
+            weekId: mod.weekId,
+            completedSubmodules,
+            completed: allDone,
+            completedAt: allDone ? new Date() : null,
           },
         })
-        await prisma.creditTransaction.create({
-          data: {
-            userId: payload.userId,
-            type: 'EARNED',
-            amount: mod.creditsReward,
-            description: `Completed mission: ${mod.title}`,
-            referenceId: String(mod.id),
-          },
-        })
-        creditsEarned = mod.creditsReward
-      }
+
+        if (creditsEarned > 0) {
+          await tx.userCredit.upsert({
+            where: { userId: payload.userId },
+            update: {
+              balance: { increment: creditsEarned },
+              totalEarned: { increment: creditsEarned },
+            },
+            create: {
+              userId: payload.userId,
+              balance: creditsEarned,
+              totalEarned: creditsEarned,
+            },
+          })
+          await tx.creditTransaction.create({
+            data: {
+              userId: payload.userId,
+              type: 'EARNED',
+              amount: creditsEarned,
+              description: `Completed sub-module: ${submodules[position].title ?? `Sub-module ${submoduleIndex}`}`,
+              referenceId: `${mod.id}:${submoduleIndex}`,
+            },
+          })
+        }
+      })
 
       return successResponse({
-        message: allDone ? 'Mission completed' : 'Module completed',
+        message: allDone ? 'Mission completed' : 'Sub-module completed',
         completed: allDone,
         submodulesCompleted: completedSubmodules.length,
         submodulesTotal: submodules.length,

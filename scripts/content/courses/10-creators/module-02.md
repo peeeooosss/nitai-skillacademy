@@ -1,7 +1,7 @@
 # Mission 2: Scripting & Ideation with AI
 
 ---
-### Module 1 · Where Ideas Come From
+### Sub-module 1 · Where Ideas Come From
 
 Ideas are not magic; they come from inputs. Your audience's questions, your own experience, other niches, and the news are all renewable sources.
 
@@ -95,7 +95,7 @@ with a hook angle for each.
 **Answer:** A — AI multiplies your inputs; you supply the source material.
 
 ---
-### Module 2 · Step 1: Build an Idea Bank
+### Sub-module 2 · Step 1: Build an Idea Bank
 
 An idea bank is a running list of content ideas, always being filled. When you sit down to create, you never start from a blank page.
 
@@ -188,7 +188,7 @@ for each. Group them by content pillar.
 **Answer:** A — A full bank means you always have somewhere to start.
 
 ---
-### Module 3 · Step 2: Hooks That Stop the Scroll
+### Sub-module 3 · Step 2: Hooks That Stop the Scroll
 
 The hook decides whether anyone sees the rest. On a feed, you have about two seconds to earn attention.
 
@@ -282,7 +282,7 @@ patterns. Keep them truthful and in a [tone] voice.
 **Answer:** A — Keep hooks truthful and in your own voice.
 
 ---
-### Module 4 · Step 3: Script the Short (Hook-Value-Payoff)
+### Sub-module 4 · Step 3: Script the Short (Hook-Value-Payoff)
 
 Short-form scripts have a simple skeleton: hook, value, payoff. The hook earns attention, the value delivers, the payoff rewards the watch.
 
@@ -375,7 +375,7 @@ idea, and a payoff at the end. Tone: [voice].
 **Answer:** A — Cutting filler keeps the pace fast for retention.
 
 ---
-### Module 5 · Step 4: Script the Long (Story Arc)
+### Sub-module 5 · Step 4: Script the Long (Story Arc)
 
 Longer videos need a story arc, not just information. A beginning that sets up a problem, a middle that develops it, and an end that resolves it.
 
@@ -468,7 +468,7 @@ each section and a lesson at the end. Tone: [voice].
 **Answer:** A — Outlining the arc first keeps the video focused.
 
 ---
-### Module 6 · Step 5: The Idea-to-Script Workflow
+### Sub-module 6 · Step 5: The Idea-to-Script Workflow
 
 A workflow turns a raw idea into a finished script in repeatable steps: capture, choose, outline, draft, tighten.
 

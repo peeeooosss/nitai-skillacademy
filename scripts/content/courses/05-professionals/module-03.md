@@ -1,7 +1,7 @@
 # Mission 3: Prompting Like a Pro at Work
 
 ---
-### Module 1 · Give the AI a Role
+### Sub-module 1 · Give the AI a Role
 
 The single biggest upgrade you can make to any prompt is to give the AI a role. Saying 'Act as a senior financial analyst...' or 'You are an experienced HR partner...' changes the depth, tone, and vocabulary of the answer more than almost anything else you can type.
 
@@ -80,7 +80,7 @@ with [constraints].
 **Answer:** A — Role plus task and constraints is the professional pattern.
 
 ---
-### Module 2 · Name the Audience and Constraints
+### Sub-module 2 · Name the Audience and Constraints
 
 Audience and constraints are the two details professionals forget most in their prompts. Without them, the AI silently chooses its own length, complexity, and structure - and usually picks something that does not fit your situation.
 
@@ -160,7 +160,7 @@ with the recommendation and the decision needed.
 **Answer:** A — Constraints - under a page, no jargon, as a table - control the output shape.
 
 ---
-### Module 3 · Ask for Structure and Format
+### Sub-module 3 · Ask for Structure and Format
 
 Never accept an unstructured wall of text when you need something usable. The AI will happily produce a long paragraph where you needed a table, bullets, or a numbered list - unless you ask for the structure you want.
 
@@ -237,7 +237,7 @@ comparison table with columns: Option, Benefit, Risk, Effort.
 **Answer:** A — Ask for the format you will actually use; paste-ready output saves editing time.
 
 ---
-### Module 4 · Iterate Like a Professional
+### Sub-module 4 · Iterate Like a Professional
 
 The first AI answer is a draft, not a result. Professionals treat it that way and improve it deliberately - one revision instruction at a time. This small habit separates the people who get usable work from the people who keep starting over.
 
@@ -313,7 +313,7 @@ Round 4: Give me three options instead, with costs.
 **Answer:** A — Read the draft first - your revision should target a real gap.
 
 ---
-### Module 5 · The Classic Prompt Mistakes
+### Sub-module 5 · The Classic Prompt Mistakes
 
 Most wasted time with AI comes from five repeatable mistakes, not from the tools themselves. Each mistake costs at least one extra round-trip - and the fix for every one of them is free. That is why prompting skill is the highest-ROI habit in this course.
 
@@ -392,7 +392,7 @@ Once you can spot these five mistakes in your own prompts, you will stop fightin
 **Answer:** A — Prompt quality - not the tool - is usually the real fix for poor output.
 
 ---
-### Module 6 · Your Reusable Prompt Patterns
+### Sub-module 6 · Your Reusable Prompt Patterns
 
 By now you should have several patterns in your toolkit. That collection - not any single answer - is the real output of this mission. Every pattern you write once and reuse ten times pays for itself many times over.
 

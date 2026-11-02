@@ -11,8 +11,11 @@
 /.next/
 /out/
 # stray/duplicated build output dirs (e.g. "out 4/")
+# Keep this root-anchored so content dirs like scripts/content/outlines
+# are not accidentally ignored.
 /out*/
-out*/
+/out.*/
+/out */
 
 # production
 /build

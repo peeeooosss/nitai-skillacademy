@@ -1,7 +1,7 @@
 # Mission 6: Lean Ops — Marketing, Finance & Legal with AI
 
 ---
-### Module 1 · Lean Ops = Systems Before They Hurt
+### Sub-module 1 · Lean Ops = Systems Before They Hurt
 
 Operations feel optional when you are small - until they do not. Lean ops means building simple systems **before** the pain arrives, not after.
 
@@ -98,7 +98,7 @@ each. Keep them lean and avoid bureaucracy I do not need.
 **Answer:** A — Simple systems keep ops calm so your attention goes to the edge.
 
 ---
-### Module 2 · Marketing: the Month-One Engine (Small Budget, Daily Habits)
+### Sub-module 2 · Marketing: the Month-One Engine (Small Budget, Daily Habits)
 
 Month-one marketing is not a campaign; it is an engine of daily habits. Small, consistent actions beat occasional bursts, especially on a small budget.
 
@@ -192,7 +192,7 @@ metric to watch. Keep it sustainable for a solo founder.
 **Answer:** A — One metric keeps the engine honest and readable.
 
 ---
-### Module 3 · Finance: Know Every Rupee (AI Assists, You Decide)
+### Sub-module 3 · Finance: Know Every Rupee (AI Assists, You Decide)
 
 You do not need an accountant to run lean finances, but you do need to know every rupee or dollar moving in and out. **AI assists the tracking; you make the decisions.**
 
@@ -286,7 +286,7 @@ Show how AI can categorise entries while I verify.
 **Answer:** A — Categorise with AI but always verify the entries.
 
 ---
-### Module 4 · Legal & Contracts: The First-Customer Safety Net
+### Sub-module 4 · Legal & Contracts: The First-Customer Safety Net
 
 Legal basics are not about being paranoid; they are a safety net for your first customers. A simple contract, clear terms, and basic compliance prevent most early disasters.
 
@@ -383,7 +383,7 @@ Then list the points where I should consult a professional.
 **Answer:** A — AI explains clauses; verify anything important with a professional.
 
 ---
-### Module 5 · Automate Admin Before It Autopilots You
+### Sub-module 5 · Automate Admin Before It Autopilots You
 
 Admin creeps up on solo founders: invoices, follow-ups, scheduling, records. Left unmanaged, admin autopilots your day instead of you automating it.
 
@@ -480,7 +480,7 @@ flow. For each, give the trigger, the action, and how to test it.
 **Answer:** A — Test each automation and check outputs until you trust it.
 
 ---
-### Module 6 · The "AI Does Operations" Boundaries
+### Sub-module 6 · The "AI Does Operations" Boundaries
 
 AI can do a lot of operations, but it cannot own judgement, relationships, or accountability. Knowing the boundaries keeps you out of trouble and keeps trust intact.
 

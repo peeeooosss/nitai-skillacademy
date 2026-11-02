@@ -1,7 +1,7 @@
 # Mission 3: Market Prices & Government Schemes via AI
 
 ---
-### Module 1 · Know Today's Price Picture
+### Sub-module 1 · Know Today's Price Picture
 
 Farmers have historically decided what to sell, where, and to whom with thin information. AI compresses days of phone calls and mandi visits into a ten-minute planning session. But the point is not that AI gives you prices - it is that AI helps you understand the prices you look up.
 
@@ -98,7 +98,7 @@ The price-interpretation question:
 **Answer:** A — Verify the official price before any negotiation.
 
 ---
-### Module 2 · Why Prices Differ
+### Sub-module 2 · Why Prices Differ
 
 Prices differ for clear reasons, and understanding them helps you decide where and when to sell. The four main reasons are quality and grades, season and supply, mandi versus eNAM, and distance and transport. Once you see why prices differ, you can choose your selling route instead of accepting the first offer.
 
@@ -195,7 +195,7 @@ Compare selling my [crop] at [local mandi] vs eNAM vs direct:
 **Answer:** A — eNAM auctions across districts for transparent price discovery.
 
 ---
-### Module 3 · Find Your Government Schemes
+### Sub-module 3 · Find Your Government Schemes
 
 Schemes change every year and differ by state, so AI cannot give you perfect facts - but it is brilliant at **finding and explaining** candidates for you to verify. This module shows how to ask for a scheme list and how to double-check it before applying.
 
@@ -291,7 +291,7 @@ Mark which are most practical for me.
 **Answer:** A — KCC (Kisan Credit Card) provides loan support at subsidised rates.
 
 ---
-### Module 4 · The Golden Money Rules
+### Sub-module 4 · The Golden Money Rules
 
 Money advice deserves the strictest checks. The five golden rules in this module protect families every harvest season - they cover verification, scams, privacy, records, and free help. Write them in your phone notes and keep them there permanently.
 
@@ -390,7 +390,7 @@ When in doubt, hang up and ask your agri officer.
 **Answer:** A — Your agri officer is paid to help you with schemes - never pay anyone for this.
 
 ---
-### Module 5 · The Mandi Decision Walkthrough
+### Sub-module 5 · The Mandi Decision Walkthrough
 
 A complete money decision combines prices, options, and verification. This module walks through the five steps: check the official price, ask AI to compare selling routes, verify findings, decide with a small test lot, and record the result.
 
@@ -488,7 +488,7 @@ When the comparison is close, test small:
 **Answer:** A — The AI comparison adds the real costs most people forget.
 
 ---
-### Module 6 · Schemes, Numbers, and Records
+### Sub-module 6 · Schemes, Numbers, and Records
 
 Getting money from schemes is a paperwork discipline. The difference between farmers who receive scheme benefits and those who do not is usually not eligibility - it is records, dates, and follow-up. This module covers the habits that turn an application into actual money.
 

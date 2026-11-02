@@ -1,7 +1,7 @@
 # Mission 2: Research & Fact-Checking with AI
 
 ---
-### Module 1 · AI as a Research Assistant, Not a Source
+### Sub-module 1 · AI as a Research Assistant, Not a Source
 
 AI can point you toward leads and explain background quickly, but it cannot stand behind a claim. **AI is a research assistant, never a source you can cite.**
 
@@ -96,7 +96,7 @@ be verified before use.
 **Answer:** A — Verification remains the reporter's responsibility.
 
 ---
-### Module 2 · Step 1: Scope the Question
+### Sub-module 2 · Step 1: Scope the Question
 
 Good fact-checking starts with a sharp question. Vague topics produce vague research; a precise question produces verifiable answers.
 
@@ -189,7 +189,7 @@ and the authoritative primary sources to check first.
 **Answer:** A — Noting dates prevents presenting stale facts as current.
 
 ---
-### Module 3 · Step 2: Find Leads and Background Fast
+### Sub-module 3 · Step 2: Find Leads and Background Fast
 
 AI speeds up the early hunt: background explainers, search terms, and lists of who to contact. The goal is a short list of leads worth chasing, not a finished story.
 
@@ -282,7 +282,7 @@ affected people. Mark each as a lead to verify, not a fact.
 **Answer:** A — Never publish an AI-suggested quote - quotes must come from real sources.
 
 ---
-### Module 4 · Step 3: Verify Every Claim (The Two-Source Rule)
+### Sub-module 4 · Step 3: Verify Every Claim (The Two-Source Rule)
 
 Verification is the heart of the job. The two-source rule is the standard: no significant claim goes to print without at least two independent, authoritative sources.
 
@@ -375,7 +375,7 @@ and flag any circular reporting I should avoid.
 **Answer:** A — Keeping the evidence supports the story and defends it later.
 
 ---
-### Module 5 · Step 4: Spot AI Hallucinations and Fake Citations
+### Sub-module 5 · Step 4: Spot AI Hallucinations and Fake Citations
 
 AI hallucinations are confident, plausible, and wrong. They include invented studies, fake quotes, and citations to sources that do not exist.
 
@@ -469,7 +469,7 @@ source would look like. Then flag the riskiest claims.
 **Answer:** A — Flag the riskiest claims so the closest verification goes where it matters.
 
 ---
-### Module 6 · Step 5: The Fact-Check Log
+### Sub-module 6 · Step 5: The Fact-Check Log
 
 A fact-check log records every claim, its sources, and the verification status. It is your evidence trail and your protection.
 

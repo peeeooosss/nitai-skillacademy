@@ -1,7 +1,7 @@
 # Mission 1: AI Foundations & Your Roadmap to College Success
 
 ---
-### Module 1 · Why This Course Matters To YOU
+### Sub-module 1 · Why This Course Matters To YOU
 
 Whether you are studying engineering, commerce, medicine, arts, or law, AI is now a standard tool in every field. Its not a fancy extra anymore; it is how work gets done - in labs, audits, courtrooms, hospitals, and newsrooms alike. Learning it now gives you three clear edges that compound across your entire college career.
 
@@ -96,7 +96,7 @@ The pilot analogy to remember:
 **Answer:** A — Learning early means the skill compounds through every later course.
 
 ---
-### Module 2 · What AI Really Is (An Honest College-Level View)
+### Sub-module 2 · What AI Really Is (An Honest College-Level View)
 
 Lets replace the hype with a clear mental model. **Artificial Intelligence (AI)** is the broad field of systems that perform tasks requiring intelligence - understanding language, recognising images, analysing data, and making decisions. Under that umbrella sit machine learning, large language models, generative AI, and agents, each doing a distinct job.
 
@@ -192,7 +192,7 @@ Predictor model consequences:
 **Answer:** A — Fluency without verification is why you must check everything.
 
 ---
-### Module 3 · What AI Can NOT Do (An Honest Look)
+### Sub-module 3 · What AI Can NOT Do (An Honest Look)
 
 To use AI well you must know its limits as precisely as its powers. The limits are not temporary bugs - they are structural features of how these models work. The four that matter most in college are hallucination, knowledge cutoffs, missing context, and the learning trap.
 
@@ -288,7 +288,7 @@ The context you must supply:
 **Answer:** A — These personal academic details must come from you.
 
 ---
-### Module 4 · Your 10-Mission Roadmap
+### Sub-module 4 · Your 10-Mission Roadmap
 
 This course is organised as ten clear missions, each covering one slice of AI for academic and career success. Think of the map as a staircase - every mission builds on the previous one, and by the end you hold a portfolio piece plus genuine AI fluency.
 
@@ -388,7 +388,7 @@ How the missions chain together:
 **Answer:** A — Sequential gating keeps pacing steady and prevents skill gaps.
 
 ---
-### Module 5 · Getting Set Up (Your Week-1 Toolkit)
+### Sub-module 5 · Getting Set Up (Your Week-1 Toolkit)
 
 Before any deep work, you need a small toolkit. The goal is not to collect every AI tool - it is to calibrate **one or two** per category and learn where each is trustworthy. A tiny stack you actually use beats a massive stack you abandon.
 
@@ -485,7 +485,7 @@ The calibration drill:
 **Answer:** A — Minimal stacks reduce friction and are more likely to be used.
 
 ---
-### Module 6 · The Academic Rule (Non-Negotiable)
+### Sub-module 6 · The Academic Rule (Non-Negotiable)
 
 Using AI well in college is not only about technique - it is about integrity. The academic rule is simple and absolute: follow your institution's policy, disclose your use honestly, and never submit AI output as your own assessed work unless the policy explicitly allows it.
 

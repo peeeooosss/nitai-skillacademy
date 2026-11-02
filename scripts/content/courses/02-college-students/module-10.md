@@ -1,7 +1,7 @@
 # Mission 10: Placement Prep, Ethics & Final Project
 
 ---
-### Module 1 · The Finish Line Is a Launchpad
+### Sub-module 1 · The Finish Line Is a Launchpad
 
 Mission 10 is not a goodbye - it is the **compression of everything into a launch package**. By the end you will hold a portfolio you can present in under ninety seconds, an elevator story of who you are and what you make, an interview practice routine rehearsed with AI, and an ethics framework you can defend in one sentence.
 
@@ -94,7 +94,7 @@ The compression drill:
 **Answer:** A — Dream-company lists are not part of the deliverable package.
 
 ---
-### Module 2 · AI-Assisted Interview Practice
+### Sub-module 2 · AI-Assisted Interview Practice
 
 Rehearse with AI like a real drill, not a script. The routine has three layers: build a question bank for your target role, simulate a live interviewer who gives feedback after each answer, and record your best answers under a sixty-second limit.
 
@@ -187,7 +187,7 @@ and the next question.
 **Answer:** A — Immediate feedback fixes answers as you go.
 
 ---
-### Module 3 · Presenting Your Project Live
+### Sub-module 3 · Presenting Your Project Live
 
 A live demo beats a rehearsed speech. Present in a crisp structure: a sixty-second pitch of the problem, your build, the result, and what you would do next; walk the core flow live; show one thing that broke and how you fixed it; and end with an invitation question.
 
@@ -280,7 +280,7 @@ The live-walk rules:
 **Answer:** A — Purpose first, then build, result, and direction.
 
 ---
-### Module 4 · The Ethics Framework: Your Permanent Guide
+### Sub-module 4 · The Ethics Framework: Your Permanent Guide
 
 Carry one framework that answers any AI-ethics question. Five words - **transparency, ownership, fairness, verification, judgment** - filter almost every dilemma professors and hiring managers throw at students. Memorise them and run any scenario through them.
 
@@ -375,7 +375,7 @@ The ten-second filter:
 **Answer:** A — Fairness is about bias, not size or price.
 
 ---
-### Module 5 · Your Placement-Ready Package
+### Sub-module 5 · Your Placement-Ready Package
 
 Assemble the four deliverable pieces that close the course: a current portfolio link, a rehearsed sixty-second project pitch, an interview question bank with STAR answers, and an AI-usage statement. Check each against your university's placement requirements and verify it is honest.
 
@@ -469,7 +469,7 @@ decisions, verification, and final wording.'
 **Answer:** A — Those three are the readiness run.
 
 ---
-### Module 6 · Your Next Ninety Days (After Graduation)
+### Sub-module 6 · Your Next Ninety Days (After Graduation)
 
 Graduation is not the end of the learning loop - the skills compound if you keep them fed. The next ninety days are the launch of a lifelong skill stack, and the plan is deliberately simple: keep shipping, join a community, hold a learning budget, and re-run the ethics filter.
 

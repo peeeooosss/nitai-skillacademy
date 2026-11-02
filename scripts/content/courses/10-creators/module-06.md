@@ -1,7 +1,7 @@
 # Mission 6: Monetising Your Audience with AI
 
 ---
-### Module 1 · Audience First, Money Second
+### Sub-module 1 · Audience First, Money Second
 
 Money follows trust. Creators who put the audience first build the kind of trust that makes every monetisation option work better.
 
@@ -94,7 +94,7 @@ offer, in what order, and what to avoid.
 **Answer:** A — Promote only what genuinely helps your audience.
 
 ---
-### Module 2 · Step 1: Map Your Monetisation Options
+### Sub-module 2 · Step 1: Map Your Monetisation Options
 
 Creators have many ways to earn: sponsorships, products, services, memberships, affiliate links, and digital goods. Each fits different audiences and sizes.
 
@@ -189,7 +189,7 @@ affiliates for my stage, and recommend which to start with.
 **Answer:** A — Multiple income streams reduce dependence on one source.
 
 ---
-### Module 3 · Step 2: Sponsored Content That Keeps Trust
+### Sub-module 3 · Step 2: Sponsored Content That Keeps Trust
 
 Sponsorships pay well, but a bad fit or hidden ad can damage trust fast. The rule is simple: only work with products you would recommend anyway, and disclose clearly.
 
@@ -282,7 +282,7 @@ and write the ad in my [tone] voice.
 **Answer:** A — Saying no to bad fits protects your audience's trust.
 
 ---
-### Module 4 · Step 3: Your Own Product or Service
+### Sub-module 4 · Step 3: Your Own Product or Service
 
 Your own product or service is often the most durable income: you set the price, you own the relationship, and it can scale.
 
@@ -375,7 +375,7 @@ how to validate each, and how to price the first one.
 **Answer:** A — Scale the offers that customers actually buy.
 
 ---
-### Module 5 · Step 4: Pricing Your Work
+### Sub-module 5 · Step 4: Pricing Your Work
 
 Pricing is a decision, not a guess. Price on the value you deliver, not on how long it took you.
 
@@ -468,7 +468,7 @@ based on the outcome, and how to communicate the value.
 **Answer:** A — Raise prices as your skills and results improve.
 
 ---
-### Module 6 · Step 5: The Creator Business Plan
+### Sub-module 6 · Step 5: The Creator Business Plan
 
 A one-page creator business plan keeps you focused: who you serve, what you make, how you earn, and what you are building toward.
 

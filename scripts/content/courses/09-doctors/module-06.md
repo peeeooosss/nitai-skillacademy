@@ -1,7 +1,7 @@
 # Mission 6: Health Data Privacy & Responsible AI Use
 
 ---
-### Module 1 · Patient Data Is Not Training Data
+### Sub-module 1 · Patient Data Is Not Training Data
 
 Patient data is protected, confidential, and belongs in approved systems only. It is not material to feed public AI models.
 
@@ -94,7 +94,7 @@ and the approved channels to use.
 **Answer:** A — Never paste identifiable patient data into consumer AI tools.
 
 ---
-### Module 2 · De-identification and What It Misses
+### Sub-module 2 · De-identification and What It Misses
 
 De-identification removes names and identifiers, but it is not perfect. Combinations of details can still identify a patient.
 
@@ -187,7 +187,7 @@ list what to remove before use.
 **Answer:** A — When unsure whether data is safe, do not paste it.
 
 ---
-### Module 3 · Consent, Transparency, and the Patient
+### Sub-module 3 · Consent, Transparency, and the Patient
 
 Patients have a right to know how their data is used, including when AI is involved. Transparency builds trust and is often a legal requirement.
 
@@ -280,7 +280,7 @@ how it is protected, and how to ask questions.
 **Answer:** A — Respect a patient's choice to object to AI involvement.
 
 ---
-### Module 4 · Vendor Risk and Clinical Tool Approval
+### Sub-module 4 · Vendor Risk and Clinical Tool Approval
 
 Not every AI vendor handles health data safely. Before a tool touches patient information, it needs scrutiny and approval.
 
@@ -374,7 +374,7 @@ should ask, and the red flags that should block approval.
 **Answer:** A — Re-review vendors regularly as their terms and tools change.
 
 ---
-### Module 5 · Your Practice's AI Use Policy
+### Sub-module 5 · Your Practice's AI Use Policy
 
 A practice AI policy sets the rules: which tools are approved, what data may be used, who reviews output, and who is accountable.
 
@@ -468,7 +468,7 @@ accountability. Keep it practical and clear.
 **Answer:** A — Review the policy as tools and regulations change.
 
 ---
-### Module 6 · Accountability and Clinical Governance
+### Sub-module 6 · Accountability and Clinical Governance
 
 AI does not change who is accountable: the clinician and the practice remain responsible for patient care and data.
 

@@ -1,7 +1,7 @@
 # Mission 4: AI for Assignments, Reports & Citations
 
 ---
-### Module 1 · The Assignments Workflow: Plan to Rubric to Polish
+### Sub-module 1 · The Assignments Workflow: Plan to Rubric to Polish
 
 The professional way to use AI on assessed work is a **four-stage pipeline**: Plan, Draft, Rubric, Polish. Each stage is a different prompt and a different mindset - you stay the project manager of the assignment, and the work stays yours.
 
@@ -96,7 +96,7 @@ The project manager mindset:
 **Answer:** A — You define the brief, gate edits, and own the submission.
 
 ---
-### Module 2 · Stage 1 and 2: Outline Then Section Drafts
+### Sub-module 2 · Stage 1 and 2: Outline Then Section Drafts
 
 Stage one is **outline first, always**. A short prompt turns the brief into a five-section structure with a one-line thesis per section and the places where you will need evidence. You revise that outline against your course material before any drafting begins.
 
@@ -190,7 +190,7 @@ Add a topic sentence and a transition to the next.
 **Answer:** A — The outline is the skeleton every section draft hangs on.
 
 ---
-### Module 3 · Stage 3: Rubric-Driven Refinement
+### Sub-module 3 · Stage 3: Rubric-Driven Refinement
 
 The rubric is the exam paper - and the AI can read it too. Stage three pastes the rubric and your draft side by side and asks the AI to score each row, then to repair the two weakest bands. This turns polishing from guesswork into a checklist.
 
@@ -283,7 +283,7 @@ to meet the top-band description.
 **Answer:** A — Scoring out of 10 exposes the gaps precisely.
 
 ---
-### Module 4 · Stage 4: Polish Like an Editor
+### Sub-module 4 · Stage 4: Polish Like an Editor
 
 Polish is not the same as rewriting. It is a set of targeted passes - clarity, flow, and redundancy - each run on sections rather than the whole document so your identity does not blur into AI-generic prose. The goal is a text that sounds like you, but sharper.
 
@@ -377,7 +377,7 @@ Why section-scoped polish:
 **Answer:** A — The argument and voice stay yours; only the surface sharpens.
 
 ---
-### Module 5 · Citations: AI Formats, YOU Verify
+### Sub-module 5 · Citations: AI Formats, YOU Verify
 
 Generative AI is a **formatter**, never a source. Its citation rule is simple: use it to convert references you already hold into the required style, never to find references from scratch, and verify every entry against the real item before submission.
 
@@ -471,7 +471,7 @@ How the disaster happens:
 **Answer:** A — A manager points to the stored real item for fast checks.
 
 ---
-### Module 6 · Voice, Integrity and Disclosure
+### Sub-module 6 · Voice, Integrity and Disclosure
 
 Assessed work should read as **yours**. Three habits protect you: draft from your own notes and use AI as editor, disclose your use exactly as your policy requires, and double-check submissions with your course's checks while keeping an AI-usage log.
 

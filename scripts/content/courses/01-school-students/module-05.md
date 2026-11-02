@@ -1,7 +1,7 @@
 # Mission 5: AI for Science Fun & Math Help
 
 ---
-### Module 1 · Science + AI = Curiosity Accelerator
+### Sub-module 1 · Science + AI = Curiosity Accelerator
 
 Science is all about asking 'why' and 'what if.' AI is brilliant at helping you explore - it explains ideas, suggests experiments, and never gets tired of your questions. But the best science habit is: **predict first, then ask.**
 
@@ -89,7 +89,7 @@ Your teacher is the final check.
 **Answer:** A — Teachers and textbooks are your most trustworthy check.
 
 ---
-### Module 2 · The Explain → Test → Teach Method
+### Sub-module 2 · The Explain → Test → Teach Method
 
 This is a famous way to truly learn science - and AI makes it easy. Scientists say that explaining a topic to someone else is the fastest way to master it yourself. The method works whether the 'someone' is your little brother, your grandmother, or even a rubber duck!
 
@@ -177,7 +177,7 @@ Stumbling = exactly what to revisit
 **Answer:** A — Any listener works - the teaching is what matters.
 
 ---
-### Module 3 · Math + AI = Personal Coach
+### Sub-module 3 · Math + AI = Personal Coach
 
 Math can feel frustrating - but AI turns it into a private coach. There are four ways to ask for help, from lightest to deepest: first step only, break it down, find the mistake, or make it real. Choose the level you need, and never ask for the full answer first.
 
@@ -266,7 +266,7 @@ Then: pick a help level, not a full answer.
 **Answer:** A — Coaching builds your skill; doing it for you builds nothing.
 
 ---
-### Module 4 · 'What If' Science Games
+### Sub-module 4 · 'What If' Science Games
 
 AI turns science into games you can play in your head. 'What if the Moon were twice as close?' 'What if humans had eagle eyes?' 'What if chocolate grew on trees?' Each question makes your brain think like a scientist - predicting, imagining, and connecting ideas.
 
@@ -354,7 +354,7 @@ Endless questions = endless learning.
 **Answer:** A — There are endless questions in the universe.
 
 ---
-### Module 5 · Safety First + Checking Your Sources
+### Sub-module 5 · Safety First + Checking Your Sources
 
 Before you try any experiment, lock in these rules. Curiosity is great - safety is greater. Never run experiments you find online without asking a parent or teacher first, and keep home experiments to safe kitchen items.
 
@@ -441,7 +441,7 @@ Only then, a checked fact.
 **Answer:** A — Teachers and textbooks are the final judges of facts.
 
 ---
-### Module 6 · Build a Mini Science Project with AI
+### Sub-module 6 · Build a Mini Science Project with AI
 
 Now let's make something real - a small, safe science project you can show off. With a grown-up's approval, pick a safe experiment like making a balloon inflate with baking soda + vinegar, watching salt melt ice, or making a paper boat that floats.
 

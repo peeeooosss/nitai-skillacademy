@@ -1,7 +1,7 @@
 # Mission 5: Growth & Analytics with AI
 
 ---
-### Module 1 · The Numbers That Matter for Creators
+### Sub-module 1 · The Numbers That Matter for Creators
 
 Vanity metrics like follower count feel good but say little. The numbers that matter show whether people watch, stay, and come back.
 
@@ -95,7 +95,7 @@ numbers matter most for growth, what they suggest, and
 **Answer:** A — AI helps interpret analytics and suggest actions.
 
 ---
-### Module 2 · Step 1: Read Your Retention Curve
+### Sub-module 2 · Step 1: Read Your Retention Curve
 
 The retention curve shows how many viewers are still watching at each moment. Where it drops tells you exactly what to fix.
 
@@ -188,7 +188,7 @@ and suggest fixes to test next time.
 **Answer:** A — Test one change at a time so you know what worked.
 
 ---
-### Module 3 · Step 2: Find What Actually Works
+### Sub-module 3 · Step 2: Find What Actually Works
 
 With data, patterns emerge: certain topics, hooks, and formats consistently outperform others. Finding them tells you where to focus.
 
@@ -281,7 +281,7 @@ formats, lengths. Tell me what to do more and less of.
 **Answer:** A — Focus effort on the topics and formats that actually work.
 
 ---
-### Module 4 · Step 3: Double Down on Winners
+### Sub-module 4 · Step 3: Double Down on Winners
 
 Once you know what works, the fastest growth comes from making more of it, not from constantly chasing new formats.
 
@@ -374,7 +374,7 @@ to reuse for each.
 **Answer:** A — Reinvent only when the data shows it is needed.
 
 ---
-### Module 5 · Step 4: Comment and Community Growth
+### Sub-module 5 · Step 4: Comment and Community Growth
 
 Comments are not just engagement; they are free research and a relationship. Replying builds community and surfaces new content ideas.
 
@@ -467,7 +467,7 @@ and suggest 5 content ideas from the questions.
 **Answer:** A — Turn recurring questions into your next posts.
 
 ---
-### Module 6 · Step 5: The Growth Experiment Loop
+### Sub-module 6 · Step 5: The Growth Experiment Loop
 
 Growth is a loop: form a hypothesis, test it, read the result, keep what works, repeat. It turns content into a series of small, informed bets.
 

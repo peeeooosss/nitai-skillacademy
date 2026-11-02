@@ -1,7 +1,7 @@
 # Mission 4: Farming on WhatsApp & Local-Language Voice AI
 
 ---
-### Module 1 · Two Habits Turn Your Phone Into a Farm Assistant
+### Sub-module 1 · Two Habits Turn Your Phone Into a Farm Assistant
 
 You do not need to learn typing. Two everyday habits turn your phone into a farm assistant: **voice input** and **WhatsApp + AI services**. Voice lets you speak in your own language while the app writes and answers; WhatsApp brings official agri services and well-run community groups into your existing chats.
 
@@ -97,7 +97,7 @@ Two habits, one farm assistant:
 **Answer:** A — She asked AI with voice for causes, then confirmed treatment with the Kisan Call Centre.
 
 ---
-### Module 2 · Voice Is Your Fastest Skill
+### Sub-module 2 · Voice Is Your Fastest Skill
 
 Voice removes the last barrier between you and the tool. Open ChatGPT, Gemini, or a voice-first assistant, tap the mic, and speak naturally: 'My chilli leaves are turning yellow - what should I do?' The assistant answers in the same language, fast.
 
@@ -192,7 +192,7 @@ Ask each with the mic in your own language.
 **Answer:** A — Three questions a week - one weather, one crop, one market - builds the habit.
 
 ---
-### Module 3 · AI as Your Group Moderator
+### Sub-module 3 · AI as Your Group Moderator
 
 Village WhatsApp groups swing between two extremes: useless forwards and genuinely useful advisories. AI turns the chaos into structure. You can summarise a message, judge whether it is likely true, and turn group questions into advisory drafts - all in seconds.
 
@@ -288,7 +288,7 @@ Before forwarding anything:
 **Answer:** A — Attach the verified source so members can trust and check it.
 
 ---
-### Module 4 · Local-Language Voice AI and Government Services
+### Sub-module 4 · Local-Language Voice AI and Government Services
 
 The biggest farming decisions often depend on official services: weather advisories, pest alerts, scheme information, and expert answers. Many of these now run in local languages over phone calls and WhatsApp, and AI helps you use them better. You can draft your questions, understand the replies, and prepare follow-ups.
 
@@ -385,7 +385,7 @@ Before you call the Kisan Call Centre:
 **Answer:** A — Write down the expert's advice and the date, and follow up if needed.
 
 ---
-### Module 5 · Turning Voice Notes Into Records
+### Sub-module 5 · Turning Voice Notes Into Records
 
 Farmers keep records in their heads - which plot, which input, which result. Voice notes let you record everything in seconds, and AI turns those notes into organised records. This is how you build a farm history without typing a single word.
 
@@ -481,7 +481,7 @@ Ask AI to organise your farm notes:
 **Answer:** A — Records reveal patterns, costs, and results you would otherwise miss.
 
 ---
-### Module 6 · Getting Real Help From the Kisan Call Centre
+### Sub-module 6 · Getting Real Help From the Kisan Call Centre
 
 The Kisan Call Centre is one of India's best-kept free resources: a real expert, in your language, on a normal phone call. Yet many farmers never use it because they do not know what to ask. AI bridges that gap by helping you prepare a clear, complete question.
 

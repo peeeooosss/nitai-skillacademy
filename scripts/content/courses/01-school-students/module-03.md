@@ -1,7 +1,7 @@
 # Mission 3: AI for Homework, Study Help & Projects
 
 ---
-### Module 1 · The Golden Rule of Study AI
+### Sub-module 1 · The Golden Rule of Study AI
 
 Your teachers give you homework so you can **learn** - and learning happens in *your* brain, not the AI's. So the golden rule is simple: **AI should help you learn faster - never do your homework for you.**
 
@@ -92,7 +92,7 @@ Coach + practice → stronger every day
 **Answer:** A — Homework trains your own thinking muscle.
 
 ---
-### Module 2 · The Copy-and-Explain Method
+### Sub-module 2 · The Copy-and-Explain Method
 
 When you are stuck on homework, use the **copy-and-explain** method. The name can trick you - you do NOT copy the answer. You copy your *problem* into AI, and AI explains how to walk through it so YOU do the thinking.
 
@@ -182,7 +182,7 @@ Copy-and-explain in 4 lines:
 **Answer:** A — Struggling then succeeding is how your brain stores facts deeply.
 
 ---
-### Module 3 · Create Your Own Practice Tests
+### Sub-module 3 · Create Your Own Practice Tests
 
 Tests feel scary when they surprise you. Practise with your **own questions** before the real thing. AI makes it easy to build a personal test in seconds - and self-testing is scientifically proven to boost memory more than rereading notes. That is called **active recall**.
 
@@ -270,7 +270,7 @@ Friday: AI marks you + explains mistakes
 **Answer:** A — Retrieving answers yourself builds stronger memory.
 
 ---
-### Module 4 · Summaries, Notes and Flashcards
+### Sub-module 4 · Summaries, Notes and Flashcards
 
 Reading a huge chapter? Let AI turn it into study-friendly material. With one prompt you can get a summary in bullet points, an easy-English version of a hard paragraph, flashcards for memory practice, and a glossary of difficult words.
 
@@ -361,7 +361,7 @@ Flashcard recipe:
 **Answer:** A — Daily review builds lasting memory.
 
 ---
-### Module 5 · Your Daily Study-with-AI Checklist
+### Sub-module 5 · Your Daily Study-with-AI Checklist
 
 Before you start homework, run this checklist. It trains you to use AI the safe, smart way - and after two weeks it becomes an automatic habit. This checklist is the difference between on-and-off AI use and genuine independent learning.
 
@@ -452,7 +452,7 @@ Same list + same spot + every study
 **Answer:** A — Repeated practice turns the checklist into a reflex.
 
 ---
-### Module 6 · What NOT to Do (Signals of Cheating)
+### Sub-module 6 · What NOT to Do (Signals of Cheating)
 
 Know the danger signals so you never slide into them. Each one looks harmless in the moment - but together they turn AI help into AI cheating, and cheating steals your own learning.
 

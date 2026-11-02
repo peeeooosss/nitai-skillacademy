@@ -1,7 +1,7 @@
 # Mission 2: AI-Resume & LinkedIn Rebuild
 
 ---
-### Module 1 · Why Resumes Fail Before a Human Reads Them
+### Sub-module 1 · Why Resumes Fail Before a Human Reads Them
 
 Recruiters and Applicant Tracking Systems (ATS) skim in seconds, so your resume fails silently unless it is built for their grammar. A resume that looks fine to your eyes can be invisible to a machine and unreadable to a stressed recruiter. The fix starts with understanding the three qualities that matter: **scannable**, **relevant**, and **quantified**.
 
@@ -99,7 +99,7 @@ What the six-second glance checks, in order:
 **Answer:** A — A polished exaggeration is exposed in the interview - polish the truth instead.
 
 ---
-### Module 2 · The PAR Method for Strong Bullets
+### Sub-module 2 · The PAR Method for Strong Bullets
 
 Every resume bullet should follow the PAR structure: **Problem, Action, Result**. It is the difference between telling a recruiter you had a job and proving you could deliver one. A duty bullet describes activities; a PAR bullet demonstrates impact - and impact is what gets interviews.
 
@@ -194,7 +194,7 @@ leave a [ ] placeholder where I must verify or fill in a metric.
 **Answer:** A — 'AI-drafted, then manually edited for brand voice' shows both tool and human control.
 
 ---
-### Module 3 · The 3-Pass AI Resume Workshop
+### Sub-module 3 · The 3-Pass AI Resume Workshop
 
 A single pass rarely produces a great resume. Three passes with AI - match, quantify, tailor - create a resume that is honest, targeted, and read-ready. Each pass has a specific job, and the order matters: target first, then harshen the language, then customise the final version for each application.
 
@@ -290,7 +290,7 @@ The honesty guardrails - non-negotiable:
 **Answer:** A — Flagging stronger claims is the guardrail that keeps the rewrite honest.
 
 ---
-### Module 4 · Building a Resume That Compiles
+### Sub-module 4 · Building a Resume That Compiles
 
 A resume needs to compile for two different readers: a stressed human and an ATS parser. The good news is that both want the same thing - clean, standard structure with standard headings and simple formatting. If you design for the ATS, you automatically design for the human, because both struggle with the same layouts.
 
@@ -390,7 +390,7 @@ The plain-text compile test:
 **Answer:** A — If the structure reads cleanly as plain text, an ATS will parse it correctly.
 
 ---
-### Module 5 · LinkedIn: Building for Recruiters
+### Sub-module 5 · LinkedIn: Building for Recruiters
 
 LinkedIn is searchable - so it needs keywords in the right places. A recruiter searches by skill and title; if those words are not in your profile, you simply do not appear. The good news is that the whole profile is optimisable in an afternoon, starting with the headline, the About section, the Featured section, and the Skills list.
 
@@ -487,7 +487,7 @@ Flag suggested keywords separately so I can verify them.
 **Answer:** A — AI polish that breaks your voice reads as spam - make it sound like you.
 
 ---
-### Module 6 · The Two Readability Tests
+### Sub-module 6 · The Two Readability Tests
 
 Before you submit, two quick tests catch the failures that happen silently - the ones that cost calls. The first is a human test of the top of your page; the second is a machine test of your layout. Both take less than five minutes and should be part of every application routine.
 

@@ -1,7 +1,7 @@
 # Mission 6: AI Presentations, Videos & School Events
 
 ---
-### Module 1 · Your School-Life Superpower
+### Sub-module 1 · Your School-Life Superpower
 
 Presentations, competitions, anchoring events, and group projects now happen in almost every class. AI can help you prepare faster and shine brighter - if you use it as a **coach and co-writer**, not a crutch.
 
@@ -88,7 +88,7 @@ Draft → Edit → Practise → Perform
 **Answer:** A — Editing stamps your voice and identity on the draft.
 
 ---
-### Module 2 · Outline First — Never Slides First
+### Sub-module 2 · Outline First — Never Slides First
 
 Rushing to make slides is a classic mistake. First, build a **structure** - an outline with a title, main points, and a strong ending. Slides are decoration for that structure, not the starting point.
 
@@ -176,7 +176,7 @@ If not, cut the text.
 **Answer:** A — Simplicity carries meaning on slides.
 
 ---
-### Module 3 · Script for Speaking
+### Sub-module 3 · Script for Speaking
 
 Now turn the outline into words you'll actually say out loud. Speaking words are different from reading words - they sound like talking, not like a textbook. Your script should sound like a friendly chat, not a school essay.
 
@@ -264,7 +264,7 @@ If it sounds like a robot, it isn't your script yet.
 **Answer:** A — Editing until it sounds like you is the whole point.
 
 ---
-### Module 4 · Practise the Right Way
+### Sub-module 4 · Practise the Right Way
 
 Practice is the superpower behind every confident presenter. A simple routine - read aloud, time yourself, circle hard words, ask AI for tips, and rehearse questions - will take you further than any fancy tool.
 
@@ -352,7 +352,7 @@ so well that nerves can't shake it.
 **Answer:** A — Practising the Q&A makes you ready for real questions.
 
 ---
-### Module 5 · AI for Events & Competitions
+### Sub-module 5 · AI for Events & Competitions
 
 Beyond homework, AI shines at school events: quiz master helper, team games, anchor scripts, and competition prep. Whatever the event, the same law applies: AI generates ideas, you pick the best, you make them yours, and you practise.
 
@@ -438,7 +438,7 @@ AI ideas + your choices + practice
 **Answer:** A — Tone and content instructions shape the output.
 
 ---
-### Module 6 · Simple AI-Assisted Videos + Your Confidence Checklist
+### Sub-module 6 · Simple AI-Assisted Videos + Your Confidence Checklist
 
 Videos for projects don't need fancy cameras. Try this safe, simple recipe: write a short script, create visuals, record your own voice notes, and stitch it together in a simple editor. AI helps with the script - you supply the ideas and the voice.
 

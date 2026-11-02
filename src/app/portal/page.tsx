@@ -190,7 +190,8 @@ export default function DashboardPage() {
                     <div className="min-w-0">
                       <h3 className="truncate text-sm font-semibold text-white">{c.title}</h3>
                       <p className="text-[11px] text-slate-400">
-                        {completedMissions}/{totalMissions} missions · {percent}%
+                        {completedMissions}/{totalMissions} missions · {percent}% ·{" "}
+                        {c.progress.timeSpentHours.toFixed(1)}h
                       </p>
                     </div>
                   </div>

@@ -1,7 +1,7 @@
 # Mission 1: AI for Legal Research
 
 ---
-### Module 1 · AI as a Research Assistant, Not Authority
+### Sub-module 1 · AI as a Research Assistant, Not Authority
 
 AI can search, summarise, and suggest faster than any junior, but it is not a legal authority. It has no duty to the court, no license, and no accountability. **You do.**
 
@@ -96,7 +96,7 @@ as a lead to verify.
 **Answer:** A — Professional accountability stays human.
 
 ---
-### Module 2 · The Legal Prompt Frame (Context–Task–Format)
+### Sub-module 2 · The Legal Prompt Frame (Context–Task–Format)
 
 Legal prompts need more context than most. Jurisdiction, area of law, party position, and the desired output format all change the answer.
 
@@ -190,7 +190,7 @@ of defences, each with the elements and a leading authority.
 **Answer:** A — Treat the first response as a draft and refine it.
 
 ---
-### Module 3 · Finding Statutes and Precedents with AI
+### Sub-module 3 · Finding Statutes and Precedents with AI
 
 AI is useful for orienting you in unfamiliar areas: naming the relevant statutes, suggesting the leading cases, and outlining the elements of a claim.
 
@@ -283,7 +283,7 @@ and the authority for each. Mark all as leads to verify.
 **Answer:** A — Ask for statutory provisions, leading cases, and the elements with authority.
 
 ---
-### Module 4 · Verifying Citations and Spotting Hallucinations
+### Sub-module 4 · Verifying Citations and Spotting Hallucinations
 
 Fabricated citations are the signature failure of AI in legal work. Courts have sanctioned lawyers who filed briefs citing cases that did not exist.
 
@@ -377,7 +377,7 @@ good law. Do not assert the citations are valid.
 **Answer:** A — Cite only authorities you have read and confirmed.
 
 ---
-### Module 5 · Case Law Summaries You Can Trust
+### Sub-module 5 · Case Law Summaries You Can Trust
 
 AI summaries are useful for triage, not for advice. A summary you can trust is one you built from the actual judgment, with the holding and reasoning verified.
 
@@ -470,7 +470,7 @@ that is obiter or uncertain.
 **Answer:** A — Record the citation and date for every case note.
 
 ---
-### Module 6 · The Research Memo Workflow
+### Sub-module 6 · The Research Memo Workflow
 
 A research memo has a standard structure: question, brief answer, facts, analysis, and conclusion. AI can speed each part, but you assemble and verify the whole.
 

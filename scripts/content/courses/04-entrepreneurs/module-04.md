@@ -1,7 +1,7 @@
 # Mission 4: MVP & Landing Page with AI
 
 ---
-### Module 1 · The MVP Trap: Overbuilding Is the Real Failure
+### Sub-module 1 · The MVP Trap: Overbuilding Is the Real Failure
 
 The real MVP failure is not launching something too small - it is building too much before anyone pays. **MVP means the smallest thing that tests your riskiest assumption, not a mini version of the final product.**
 
@@ -98,7 +98,7 @@ single signal that would prove or disprove the assumption.
 **Answer:** A — Let measured behaviour, not applause or taste, decide what to build next.
 
 ---
-### Module 2 · Step 1: Scope the Leanest Version
+### Sub-module 2 · Step 1: Scope the Leanest Version
 
 Scope your MVP to one core promise: a single action a user takes that tests your assumption. List every feature, then cut everything that is not required for that one action.
 
@@ -191,7 +191,7 @@ one-weekend build plan with the single core action users take.
 **Answer:** A — A weekend deadline forces ruthless scoping.
 
 ---
-### Module 3 · Step 2: The Converting Landing Page (Weekend Build)
+### Sub-module 3 · Step 2: The Converting Landing Page (Weekend Build)
 
 The landing page is your MVP's front door. Its only job is to convert a stranger into a signal - a sign-up, a reservation, or a pre-order.
 
@@ -285,7 +285,7 @@ build plan with a tool like a no-code page builder.
 **Answer:** A — Say the truth clearly; hype undermines trust.
 
 ---
-### Module 4 · Step 3: Capture the Signal (Lead, Pre-Order, or Waitlist)
+### Sub-module 4 · Step 3: Capture the Signal (Lead, Pre-Order, or Waitlist)
 
 A signal is only useful if you capture it. A like is not a signal; an email, a reservation, or a pre-order is. Choose the strongest capture your stage allows.
 
@@ -379,7 +379,7 @@ and list the fields to collect. Keep it to one screen.
 **Answer:** A — The captured list is an asset you own and follow up on.
 
 ---
-### Module 5 · Step 4: The 60-Second Demo (No Editing Skills Needed)
+### Sub-module 5 · Step 4: The 60-Second Demo (No Editing Skills Needed)
 
 A 60-second demo explains your product without a live build. You can make one with a script, a screen recording, and free tools - no editing skills required.
 
@@ -473,7 +473,7 @@ and the before/after. Plain language, no editing required.
 **Answer:** A — Use the demo to check that a stranger grasps the product.
 
 ---
-### Module 6 · Step 5: Build vs No-Code Core
+### Sub-module 6 · Step 5: Build vs No-Code Core
 
 Most lean startups do not need custom code for the MVP. A no-code core - forms, pages, spreadsheets, automations - can test the assumption and even serve early customers.
 

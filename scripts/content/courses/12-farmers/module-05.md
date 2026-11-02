@@ -1,7 +1,7 @@
 # Mission 5: Agri-Business & Value Addition with AI
 
 ---
-### Module 1 · Value Addition Starts With a Question
+### Sub-module 1 · Value Addition Starts With a Question
 
 Value addition means turning raw produce into something more valuable - jam from fruit, flour from grain, pickles from vegetables, packaged goods with a label. The difference between selling a tomato for a few rupees and selling a jar of tomato chutney for many times more is value addition, and AI can help you find the right idea.
 
@@ -96,7 +96,7 @@ For each: rough cost, shelf life, effort level, and who would buy it.
 **Answer:** A — Prefer products that use your own produce - you control the raw material.
 
 ---
-### Module 2 · The Value-Addition Prompt
+### Sub-module 2 · The Value-Addition Prompt
 
 A good prompt turns a vague hope into a concrete plan. The value-addition prompt asks AI to act as a small food-business advisor and give you a shortlist of products tailored to your crop, district, budget, and helpers. From that shortlist you pick the most realistic option.
 
@@ -193,7 +193,7 @@ Follow-up prompts after choosing one product:
 **Answer:** A — Test with neighbours and local buyers before selling widely.
 
 ---
-### Module 3 · Costing Your Product
+### Sub-module 3 · Costing Your Product
 
 Many small food businesses fail not because the product is bad but because the price does not cover the true cost. Costing means adding up everything - ingredients, packaging, fuel, labour, and a share of your time - before you decide the selling price.
 
@@ -291,7 +291,7 @@ Help me cost this product for a small batch:
 **Answer:** A — Recalculate when ingredient or packaging prices change.
 
 ---
-### Module 4 · Pricing and Selling Online
+### Sub-module 4 · Pricing and Selling Online
 
 Once your product is ready, selling it well is a second skill. Online marketplaces, WhatsApp selling, and local fairs all work - but each needs a clear price, a clear description, and a reliable supply. AI helps you write listings and compare channels.
 
@@ -388,7 +388,7 @@ Write a product listing for [product]:
 **Answer:** A — Test both and grow the channel that pays the best net profit.
 
 ---
-### Module 5 · Building a Brand Story
+### Sub-module 5 · Building a Brand Story
 
 A brand is not a logo - it is the reason a buyer chooses your jar over an identical one. For farm products, that reason is usually the story: who made it, where it came from, and why it is trustworthy. AI helps you shape that story into a label and a few honest lines.
 
@@ -484,7 +484,7 @@ Help me write a short brand story for [product]:
 **Answer:** A — Consistency across label, WhatsApp, and listings builds repeat buyers.
 
 ---
-### Module 6 · A Simple Agri-Business Plan
+### Sub-module 6 · A Simple Agri-Business Plan
 
 A business plan does not need to be long. One page is enough if it answers five questions: what you sell, to whom, at what price, what it costs, and how you will grow. AI can draft this in minutes and help you keep it realistic.
 

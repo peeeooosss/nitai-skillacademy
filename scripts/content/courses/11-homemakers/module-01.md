@@ -1,7 +1,7 @@
 # Mission 1: Welcome to Your AI Journey — What AI Can Do for You
 
 ---
-### Module 1 · What AI Really Is (No Scary Movies)
+### Sub-module 1 · What AI Really Is (No Scary Movies)
 
 AI stands for Artificial Intelligence. Forget the scary movies - think of it as a helpful assistant that lives inside your phone and understands plain language.
 
@@ -94,7 +94,7 @@ my phone today.
 **Answer:** A — AI helps, but you always make the final decision.
 
 ---
-### Module 2 · What AI Can Do for You at Home
+### Sub-module 2 · What AI Can Do for You at Home
 
 AI can help with cooking, children, home tasks, money, and even earning. It saves time and gives you ideas when you feel stuck.
 
@@ -188,7 +188,7 @@ to start with each.
 **Answer:** A — Using AI daily builds the habit and saves more time.
 
 ---
-### Module 3 · Getting Started on Your Phone
+### Sub-module 3 · Getting Started on Your Phone
 
 You already have everything you need: a smartphone and an internet connection. Setting up takes only a few minutes.
 
@@ -281,7 +281,7 @@ comfortable using it.
 **Answer:** A — You can talk to AI in your own everyday language.
 
 ---
-### Module 4 · Free AI Tools You Can Use Today
+### Sub-module 4 · Free AI Tools You Can Use Today
 
 You do not need to pay to benefit from AI. Many powerful tools are free and work well on a phone.
 
@@ -375,7 +375,7 @@ for and whether it works offline.
 **Answer:** A — Pay only when free tools are no longer enough for your needs.
 
 ---
-### Module 5 · Staying Safe and Private Online
+### Sub-module 5 · Staying Safe and Private Online
 
 AI is helpful, but you must protect your private information. Some things should never be shared with any app.
 
@@ -469,7 +469,7 @@ protect my family. Keep it very simple.
 **Answer:** A — Always put safety and privacy before convenience.
 
 ---
-### Module 6 · Your First Week with AI
+### Sub-module 6 · Your First Week with AI
 
 The best way to learn is to use AI a little every day. In one week you can build a comfortable habit.
 

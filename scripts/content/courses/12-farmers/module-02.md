@@ -1,7 +1,7 @@
 # Mission 2: Weather, Soil & Crop Advisory with AI
 
 ---
-### Module 1 · Three Sources, One Lens
+### Sub-module 1 · Three Sources, One Lens
 
 Farming advice is only as good as the information behind it. The best habit combines three sources: **official advisories**, **farm apps**, and **general AI assistants**. No single source is enough - official data is reliable but scattered; AI is instant but needs checking. Together they cover both speed and trust.
 
@@ -97,7 +97,7 @@ AI is the lens, not the source of truth.
 **Answer:** A — Official data is reliable but scattered; AI is instant but needs verification - combine them.
 
 ---
-### Module 2 · Weather That Speaks Your Language
+### Sub-module 2 · Weather That Speaks Your Language
 
 Weather apps give raw forecasts; AI gives decisions. Instead of hunting through a dashboard of numbers, you ask a plain question and get a plain answer: will there be rain days or heat days, and how should that change your spraying schedule?
 
@@ -194,7 +194,7 @@ Then ask:
 **Answer:** A — Confirm the forecast officially and the treatment with your KVK before acting.
 
 ---
-### Module 3 · Soil: Know Your Land
+### Sub-module 3 · Soil: Know Your Land
 
 Soil decides what grows, how much water you need, and how fertiliser behaves. Knowing your soil type changes almost every farming decision, yet many farmers have never had it explained in simple words. AI can do exactly that - and turn it into a crop plan.
 
@@ -290,7 +290,7 @@ The soil-to-crop question:
 **Answer:** A — Observing where it gets sticky, how fast it dries, and how water drains tells you your soil type.
 
 ---
-### Module 4 · Building a Season Crop Plan With AI
+### Sub-module 4 · Building a Season Crop Plan With AI
 
 A good season plan answers five questions: **what crop, what land, what cost, what care, what risk.** AI can produce a first draft of all five in minutes, comparing 2-3 realistic options side by side. Then your judgement and the agri officer's verification turn the draft into a plan.
 
@@ -385,7 +385,7 @@ and risks. Keep it practical for a small farmer.
 **Answer:** A — The plan records crop choice, input cost, a care calendar, and your top risk.
 
 ---
-### Module 5 · The Check-Twice Rule
+### Sub-module 5 · The Check-Twice Rule
 
 Never apply pesticides, fertilisers, or treat disease based on one AI answer alone. This is the single most important safety habit in the whole course - a wrong dose can cost a whole season, and a wrong product can harm your family and your soil.
 
@@ -481,7 +481,7 @@ The safe disease-check flow:
 **Answer:** A — AI gives instant understanding; official sources give the verified final decision.
 
 ---
-### Module 6 · From Forecast to Field Decisions
+### Sub-module 6 · From Forecast to Field Decisions
 
 Putting it all together, an AI-powered crop season runs on one repeated habit: **ask with details, get the decision, check with an official source, then act.** Every stage of the season uses the same habit - before sowing, during growth, and at spraying and harvest time.
 

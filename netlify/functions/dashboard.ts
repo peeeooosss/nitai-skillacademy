@@ -25,11 +25,15 @@ export const handler: NetlifyHandler = async (event) => {
   }
 
   try {
-    const [user, progress, credits, enrollments] = await Promise.all([
+    const [user, progress, allProgress, credits, enrollments] = await Promise.all([
       prisma.user.findUnique({ where: { id: payload.userId } }),
       prisma.userProgress.findMany({
         where: { userId: payload.userId, completed: true },
         include: { module: { include: { course: true } } },
+      }),
+      prisma.userProgress.findMany({
+        where: { userId: payload.userId },
+        select: { timeSpentSeconds: true, module: { select: { courseId: true } } },
       }),
       prisma.userCredit.findUnique({ where: { userId: payload.userId } }),
       prisma.userCourseEnrollment.findMany({
@@ -44,7 +48,14 @@ export const handler: NetlifyHandler = async (event) => {
     }
 
     const totalCompleted = progress.length
-    const totalHours = Math.round(totalCompleted * 0.5 * 10) / 10
+    const totalSeconds = allProgress.reduce((sum, p) => sum + (p.timeSpentSeconds || 0), 0)
+    const totalHours = Math.round((totalSeconds / 3600) * 10) / 10
+    const timeByCourse = new Map<string, number>()
+    for (const p of allProgress) {
+      const courseId = p.module.courseId
+      if (!courseId) continue
+      timeByCourse.set(courseId, (timeByCourse.get(courseId) || 0) + (p.timeSpentSeconds || 0))
+    }
 
     // Streak: consecutive days (by completion date) ending today
     let streak = 0
@@ -76,6 +87,7 @@ export const handler: NetlifyHandler = async (event) => {
       const total = missions.length
       const done = missions.filter(m => completedByModule.has(m.id)).length
       const firstIncomplete = missions.find(m => !completedByModule.has(m.id))
+      const timeSpentSeconds = timeByCourse.get(e.course.id) || 0
       return {
         courseId: e.course.id,
         slug: e.course.slug,
@@ -89,6 +101,8 @@ export const handler: NetlifyHandler = async (event) => {
           completedMissions: done,
           totalMissions: total,
           percent: total ? Math.round((done / total) * 100) : 0,
+          timeSpentSeconds,
+          timeSpentHours: Math.round((timeSpentSeconds / 3600) * 10) / 10,
         },
         currentMission: firstIncomplete
           ? { missionNumber: firstIncomplete.missionNumber, title: firstIncomplete.title }
@@ -119,6 +133,7 @@ export const handler: NetlifyHandler = async (event) => {
         currentStreak: streak,
         completedMissions: totalCompleted,
         totalHours,
+        totalSeconds,
         enrolledCourses: enrolledCourses.length,
       },
       enrolledCourses,

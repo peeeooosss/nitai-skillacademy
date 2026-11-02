@@ -1,7 +1,7 @@
 # Mission 3: AI for Research & Literature Review
 
 ---
-### Module 1 · Research: Where AI Helps (and Where It Must Not)
+### Sub-module 1 · Research: Where AI Helps (and Where It Must Not)
 
 AI is a research **accelerator**, not a research **source**. Get this boundary wrong and your literature review will collapse the moment someone questions a source. Get it right, and AI saves you days while your research stays defensible.
 
@@ -95,7 +95,7 @@ The red lines in research:
 **Answer:** A — AI points, you verify - that combination is fast and defensible.
 
 ---
-### Module 2 · Step 1: Sharpen Your Research Question
+### Sub-module 2 · Step 1: Sharpen Your Research Question
 
 A fuzzy question gives fuzzy research. Before any search, sharpening your research question is the highest-value step - and AI is an excellent sparring partner for it. A good question is **specific, answerable, and bounded**: who or what, where, and when.
 
@@ -187,7 +187,7 @@ too broad or vague, then suggest a sharper version.
 **Answer:** A — Bounded questions converge instead of returning everything.
 
 ---
-### Module 3 · Step 2: Build a Search Strategy
+### Sub-module 3 · Step 2: Build a Search Strategy
 
 A sharp question needs a sharp search strategy. This means extracting keywords and synonyms, combining them with Boolean operators, and adding the filters that pin your scope. The AI can draft the search strings - but you must run them yourself.
 
@@ -279,7 +279,7 @@ Example search string:
 **Answer:** A — OR lets you capture synonyms for the same concept.
 
 ---
-### Module 4 · Step 3: Read and Annotate With AI
+### Sub-module 4 · Step 3: Read and Annotate With AI
 
 Reading a dense paper is a skill AI can compress - without replacing the reading. The method is a two-pass loop: a framing summary that gives you the shape of the paper, then a critical pass that lists strengths and weaknesses for you to check against the text itself.
 
@@ -371,7 +371,7 @@ points of this paper.
 **Answer:** A — Those four parts map exactly to what a reviewer must know.
 
 ---
-### Module 5 · The Verification Rule, Non-Negotiable
+### Sub-module 5 · The Verification Rule, Non-Negotiable
 
 Every fact you carry forward must survive one rule: **trace it to a source you can open**. This is the verification rule, and it is not about distrusting tools - it is about research hygiene. Violating it is how AI-generated literature reviews collapse under one easy question in a viva.
 
@@ -465,7 +465,7 @@ Common summary errors to catch:
 **Answer:** A — Those sections carry the claims an AI summary most often distorts.
 
 ---
-### Module 6 · Manage References Like a Pro
+### Sub-module 6 · Manage References Like a Pro
 
 Reference management is 90 percent habit and 10 percent tool. Start with Zotero (free) or a similar manager early - it costs minutes now and saves days later. The AI joins in only for safe tasks: converting formats you already hold and drafting the citation narrative.
 

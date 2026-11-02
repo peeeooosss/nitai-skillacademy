@@ -1,7 +1,7 @@
 # Mission 1: What is AI? Meet Your Learning Buddy
 
 ---
-### Module 1 · What Is AI in Your Life Today?
+### Sub-module 1 · What Is AI in Your Life Today?
 
 You have probably used AI many times today without even knowing it. Let's play a quick game - **spot the AI**. AI is not a robot living on a screen or something you must plug in; it is simply software that has learned patterns from examples and now does a smart job for you.
 
@@ -110,7 +110,7 @@ Your mission right now:
 **Answer:** A — The computer opponent chooses the best reply based on what it learned.
 
 ---
-### Module 2 · What 'Artificial Intelligence' Really Means
+### Sub-module 2 · What 'Artificial Intelligence' Really Means
 
 Here is the big idea in plain words. **Artificial Intelligence (AI)** is when a *machine* does something that normally needs a human brain - like understanding your voice, answering a question, recognising your face, or playing a game against you.
 
@@ -194,7 +194,7 @@ AI learns like a student:
 **Answer:** A — AI is trained with practice; it is not born with knowledge.
 
 ---
-### Module 3 · How AI Learns: Training, Practice, Examples
+### Sub-module 3 · How AI Learns: Training, Practice, Examples
 
 So how does a machine learn to recognise a cat or understand 'what's your name?' It follows a simple recipe. First, feed it lots of examples. To learn what a cat is, the AI is shown *thousands* of cat photos - fat cats, small cats, cartoons, and real ones.
 
@@ -300,7 +300,7 @@ AI: learns patterns, handles NEW situations it never saw.
 **Answer:** A — AI improves exactly the way you do: practice and correction.
 
 ---
-### Module 4 · Strong AI vs Narrow AI: Specialists, Not Superheroes
+### Sub-module 4 · Strong AI vs Narrow AI: Specialists, Not Superheroes
 
 There are two famous words you should know: **Narrow AI** and **Strong AI**. They help you understand what today's machines can and cannot do - and why you are still the most important person in the room.
 
@@ -399,7 +399,7 @@ Each is narrow - super good at one thing.
 **Answer:** A — Strong AI doesn't exist, so you are the only generalist.
 
 ---
-### Module 5 · Meet Nitai's AI Didi — Your Learning Buddy
+### Sub-module 5 · Meet Nitai's AI Didi — Your Learning Buddy
 
 In your Nitai Command Center, you have a special friend called **AI Didi** - a tutor who lives in a chat panel beside your lessons. AI Didi is trained on the exact lesson you are studying, so she knows what is in THIS mission and can help you understand it better.
 
@@ -499,7 +499,7 @@ You can ask AI Didi:
 **Answer:** A — Coaching is the whole point of AI Didi.
 
 ---
-### Module 6 · Your First AI Safety Rules
+### Sub-module 6 · Your First AI Safety Rules
 
 Before you finish this mission, learn the **Three-Stop Rule** for using AI. Before you ask AI anything, stop and check. This little rhythm - Plan, Read twice, Check - is the foundation of safe, smart AI use.
 

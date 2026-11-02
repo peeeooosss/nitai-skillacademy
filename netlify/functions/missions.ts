@@ -52,6 +52,13 @@ export const handler: NetlifyHandler = async (event) => {
       return errorResponse('Mission not found', 404, origin)
     }
 
+    const enrollment = await prisma.userCourseEnrollment.findUnique({
+      where: { userId_courseId: { userId: payload.userId, courseId: course.id } },
+    })
+    if (!enrollment) {
+      return errorResponse('You are not enrolled in this course', 403, origin)
+    }
+
     // All course missions for gating + progress
     const allMissions = await prisma.module.findMany({
       where: { courseId: course.id, missionNumber: { not: null } },
@@ -65,7 +72,11 @@ export const handler: NetlifyHandler = async (event) => {
     const progressByModule = new Map(progressRows.map(p => [p.moduleId, p]))
 
     const liveSession = await prisma.liveSession.findFirst({
-      where: { courseId: course.id, missionNumber: mission, isActive: true },
+      where: {
+        missionNumber: mission,
+        isActive: true,
+        OR: [{ courseId: course.id }, { courseId: null }],
+      },
       orderBy: { scheduledAt: 'desc' },
     })
 
@@ -82,12 +93,12 @@ export const handler: NetlifyHandler = async (event) => {
       .slice()
       .sort((a, b) => a.index - b.index)
     const completedSet = new Set<number>((current?.completedSubmodules as number[] | null) || [])
-    const submodules = rawSubmodules.map((s, i) => ({
+    const submodules = rawSubmodules.map((s) => ({
       index: s.index,
       title: s.title,
       markdown: s.markdown,
       exampleQuiz: s.exampleQuiz ?? null,
-      unlocked: i === 0 || completedSet.has(rawSubmodules[i - 1].index),
+      unlocked: true,
       completed: completedSet.has(s.index),
     }))
 

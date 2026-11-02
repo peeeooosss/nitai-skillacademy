@@ -1,7 +1,7 @@
 # Mission 6: Building an AI-Enabled Legal Practice
 
 ---
-### Module 1 · The AI-Enabled Practice Mindset
+### Sub-module 1 · The AI-Enabled Practice Mindset
 
 An AI-enabled practice uses AI where it adds leverage - research, drafting, review, admin - while keeping judgment and relationships human.
 
@@ -94,7 +94,7 @@ to start with and the boundaries to keep.
 **Answer:** A — Adopt AI deliberately, starting where it is proven.
 
 ---
-### Module 2 · Step 1: Map Your Workflows
+### Sub-module 2 · Step 1: Map Your Workflows
 
 Before automating, map how work actually flows through your practice: intake, matter setup, research, drafting, review, and closure.
 
@@ -188,7 +188,7 @@ or human (judgment), and rank the AI opportunities.
 **Answer:** A — Start with the biggest, most repeated opportunity.
 
 ---
-### Module 3 · Step 2: Automate the Repetitive
+### Sub-module 3 · Step 2: Automate the Repetitive
 
 Repetitive work - intake forms, document assembly, reminders, records - is where automation returns the most hours for the least risk.
 
@@ -282,7 +282,7 @@ check. Keep it simple and safe.
 **Answer:** A — Measure the hours the automation returns.
 
 ---
-### Module 4 · Step 3: Build Your Prompt and Precedent Library
+### Sub-module 4 · Step 3: Build Your Prompt and Precedent Library
 
 An AI-enabled practice runs on reusable assets: prompts that work and precedents that are vetted. Build both and every matter gets faster and more consistent.
 
@@ -375,7 +375,7 @@ Include a template for saving prompts with context.
 **Answer:** A — Review the library as the law changes to keep it current.
 
 ---
-### Module 5 · Step 4: Pricing, Efficiency, and Client Value
+### Sub-module 5 · Step 4: Pricing, Efficiency, and Client Value
 
 AI changes the economics of legal work. If a task that took five hours now takes one, billing by the hour alone can punish efficiency.
 
@@ -468,7 +468,7 @@ communicate the change to clients fairly.
 **Answer:** A — Share part of the efficiency with clients and be transparent.
 
 ---
-### Module 6 · Step 5: The 90-Day Adoption Plan
+### Sub-module 6 · Step 5: The 90-Day Adoption Plan
 
 Adoption works best as a plan, not a scramble. A 90-day plan moves from one proven use case to a governed, measured practice.
 

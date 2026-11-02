@@ -1,7 +1,7 @@
 # Mission 8: Launch Plan, Metrics & First Customers
 
 ---
-### Module 1 · Launch Isn't an Event — It's a Campaign
+### Sub-module 1 · Launch Isn't an Event — It's a Campaign
 
 A launch is not a single day; it is a short campaign with a build-up, a push, and a follow-through. Treating it as one event wastes the moment.
 
@@ -98,7 +98,7 @@ the launch-day push, and the follow-up plan.
 **Answer:** A — Planning before, during, and after keeps momentum alive.
 
 ---
-### Module 2 · Step 1: The 14-Day Launch Campaign
+### Sub-module 2 · Step 1: The 14-Day Launch Campaign
 
 A 14-day campaign gives you a concrete plan: week one builds anticipation, launch day and the days after push and convert.
 
@@ -191,7 +191,7 @@ with one metric to watch. Keep it doable for a solo founder.
 **Answer:** A — One metric keeps the campaign focused and honest.
 
 ---
-### Module 3 · Step 2: The 5 Numbers That Matter
+### Sub-module 3 · Step 2: The 5 Numbers That Matter
 
 After launch, you can drown in metrics. Ignore most of them. Five numbers tell you whether the business is working.
 
@@ -290,7 +290,7 @@ to fix it. Keep it simple.
 **Answer:** A — Fix the weakest stage one at a time and re-measure.
 
 ---
-### Module 4 · Step 3: The Repeatable Sales Loop (First 3 Customers)
+### Sub-module 4 · Step 3: The Repeatable Sales Loop (First 3 Customers)
 
 Your first three customers should not come from luck; they should come from a loop you can repeat. A sales loop is a defined way of finding, pitching, and closing.
 
@@ -384,7 +384,7 @@ and simple for a solo founder.
 **Answer:** A — Keep it manual and simple first, then automate later.
 
 ---
-### Module 5 · Step 4: The Evidence Meeting (Fork in the Road)
+### Sub-module 5 · Step 4: The Evidence Meeting (Fork in the Road)
 
 After launch, hold an evidence meeting with yourself: what did the numbers and customers actually show? This is the fork in the road.
 
@@ -478,7 +478,7 @@ the honest recommendation.
 **Answer:** A — Commit to the next 90 days based on the decision.
 
 ---
-### Module 6 · Step 5: The Weekly Founder Dashboard
+### Sub-module 6 · Step 5: The Weekly Founder Dashboard
 
 The final system is a weekly founder dashboard: a single page that shows the five numbers, the week's actions, and the one decision you are facing.
 

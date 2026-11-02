@@ -1,7 +1,7 @@
 # Mission 1: Your AI Content Engine: Setup
 
 ---
-### Module 1 · What an AI Content Engine Is
+### Sub-module 1 · What an AI Content Engine Is
 
 An AI content engine is a repeatable system that turns ideas into published posts with AI doing the heavy lifting on the repetitive parts. It is not one tool; it is a workflow.
 
@@ -94,7 +94,7 @@ published post, which steps AI can do, and which stay mine.
 **Answer:** A — Your voice and taste are what set you apart.
 
 ---
-### Module 2 · Pick Your Platform and Niche
+### Sub-module 2 · Pick Your Platform and Niche
 
 You cannot be everywhere at once. Pick one primary platform and one clear niche, and go deep before you spread out.
 
@@ -188,7 +188,7 @@ My interests: [list]. Audience I want: [describe]. Give
 **Answer:** A — Master one platform before expanding to others.
 
 ---
-### Module 3 · The Creator's Prompt Frame
+### Sub-module 3 · The Creator's Prompt Frame
 
 Creator prompts work best with four parts: who you are, who you talk to, what you want made, and how it should sound. That last part - voice - is what keeps AI from sounding generic.
 
@@ -282,7 +282,7 @@ I use, words I avoid]. Task: [what to make].
 **Answer:** A — Save prompts that nail your voice for reuse.
 
 ---
-### Module 4 · Your Tool Stack (Script, Edit, Caption, Schedule)
+### Sub-module 4 · Your Tool Stack (Script, Edit, Caption, Schedule)
 
 You need four kinds of tools: scripting, editing, captioning, and scheduling. Pick one reliable option in each and learn it well.
 
@@ -376,7 +376,7 @@ one scheduler, with free options first and why each.
 **Answer:** A — Mastering a few tools beats collecting many.
 
 ---
-### Module 5 · Set Up Your Content System
+### Sub-module 5 · Set Up Your Content System
 
 A content system is where ideas live and how they become posts: an idea bank, a calendar, and a production checklist.
 
@@ -469,7 +469,7 @@ for [platform] and [niche]. Keep it simple.
 **Answer:** A — A system lets you post consistently regardless of mood.
 
 ---
-### Module 6 · Your First Week Plan
+### Sub-module 6 · Your First Week Plan
 
 The best way to start is a concrete first week: three to five posts, produced with your new system, using your tools.
 

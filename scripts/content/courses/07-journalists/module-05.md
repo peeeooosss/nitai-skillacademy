@@ -1,7 +1,7 @@
 # Mission 5: Ethics & Transparency in AI Journalism
 
 ---
-### Module 1 · The Journalist's Non-Negotiables
+### Sub-module 1 · The Journalist's Non-Negotiables
 
 Some principles do not bend, whatever the tool. Truth, independence, fairness, and accountability are the journalist's non-negotiables.
 
@@ -96,7 +96,7 @@ Give a concrete example of each.
 **Answer:** A — No deadline excuses deception.
 
 ---
-### Module 2 · Disclosure: When and How to Tell Readers
+### Sub-module 2 · Disclosure: When and How to Tell Readers
 
 Transparency builds trust. When AI has materially shaped a story, readers often have a right to know - and your outlet may require it.
 
@@ -189,7 +189,7 @@ verified, and keep it under 3 sentences.
 **Answer:** A — Place it visibly - never bury the disclosure.
 
 ---
-### Module 3 · Accuracy, Bias, and the Verification Duty
+### Sub-module 3 · Accuracy, Bias, and the Verification Duty
 
 AI can reproduce and amplify bias at scale. It learns from data that carries historical patterns, and it can present those patterns as neutral fact.
 
@@ -282,7 +282,7 @@ verification. Suggest fairer alternatives.
 **Answer:** A — Framing is a choice - question what AI assumes.
 
 ---
-### Module 4 · Privacy, Sources, and Sensitive Data
+### Sub-module 4 · Privacy, Sources, and Sensitive Data
 
 Sources trust journalists with their identity and their safety. Uploading that material to an AI tool can break that trust in ways you cannot undo.
 
@@ -375,7 +375,7 @@ and the cases where material must not be uploaded at all.
 **Answer:** A — When unsure, do not upload sensitive material.
 
 ---
-### Module 5 · Copyright, Attribution, and Plagiarism
+### Sub-module 5 · Copyright, Attribution, and Plagiarism
 
 AI can reproduce text and images that belong to others. Using AI output does not transfer ownership or erase copyright.
 
@@ -468,7 +468,7 @@ credit or replace them correctly.
 **Answer:** A — AI-generated text is not original reporting and must not be passed off as such.
 
 ---
-### Module 6 · Your Newsroom AI Policy (One Page)
+### Sub-module 6 · Your Newsroom AI Policy (One Page)
 
 A one-page AI policy turns good intentions into daily practice. It tells everyone what is allowed, what is checked, and who is accountable.
 

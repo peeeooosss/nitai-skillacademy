@@ -1,7 +1,7 @@
 # Mission 1: Idea Hunt & AI Trend Research
 
 ---
-### Module 1 · The Founder's First Job: Choose the Right Problem
+### Sub-module 1 · The Founder's First Job: Choose the Right Problem
 
 Most failed startups did not die from bad execution - they died from **unvalidated ideas**. Founders fall in love with a solution before confirming anyone has the problem. Your first job is deliberately boring: build a wide pool of ideas, filter it hard, and pick one thing worth your next 90 days.
 
@@ -97,7 +97,7 @@ The founder's first job:
 **Answer:** A — Generating across categories prevents you from only seeing your own favourite idea.
 
 ---
-### Module 2 · Generate a Wide Pool (Quantity First)
+### Sub-module 2 · Generate a Wide Pool (Quantity First)
 
 Ideas are a numbers game. The founders who win generate many ideas and filter ruthlessly, rather than polishing the first one that arrives. Generate across categories to avoid your own bias.
 
@@ -196,7 +196,7 @@ For each: one-line pitch and who it serves.
 **Answer:** A — One-line pitch plus who it serves keeps ideas comparable and customer-focused.
 
 ---
-### Module 3 · The 4-Filter Screen (Kill Bad Ideas Fast)
+### Sub-module 3 · The 4-Filter Screen (Kill Bad Ideas Fast)
 
 With a shortlist in hand, kill bad ideas fast. The 4-filter screen scores each idea on pain, willingness to pay, reachability, and timing. AI can score them, but you apply the judgement.
 
@@ -292,7 +292,7 @@ Flag strengths and blind spots for each.
 **Answer:** A — Killing weak ideas fast is a skill - every kept idea must pass all four filters.
 
 ---
-### Module 4 · Read the Trend, Not the Hype
+### Sub-module 4 · Read the Trend, Not the Hype
 
 Trend research done wrong is reading AI summaries of other people's hype. Done right, it starts from **primary sources**: marketplaces, job boards, regulator pages, and real communities. What employers pay for is what businesses need.
 
@@ -389,7 +389,7 @@ Classify each signal as evidence or hype.
 **Answer:** A — Open at least three sources per trend and note which signals you verified.
 
 ---
-### Module 5 · Pick Your ONE Idea (FOMO-Proof)
+### Sub-module 5 · Pick Your ONE Idea (FOMO-Proof)
 
 With your pool filtered and signals checked, choose a single idea to take into Mission 2. The test that makes it FOMO-proof: **if I get zero results for 60 days, would I still enjoy working on this?** Enjoyment is your only guaranteed runway.
 
@@ -483,7 +483,7 @@ Print it. Every mission after this serves that sentence.
 **Answer:** A — Pivot the idea only on evidence - the skills transfer either way.
 
 ---
-### Module 6 · The 90-Day Founder Runway
+### Sub-module 6 · The 90-Day Founder Runway
 
 Commit to a focused sprint for the rest of the course. The runway moves from validation to build to launch to systemisation, with a clear check-in point at week 4.
 

@@ -1,7 +1,7 @@
 # Mission 3: AI for Everyday Life — Cooking, Kids, Home, Money
 
 ---
-### Module 1 · Your Everyday Helper
+### Sub-module 1 · Your Everyday Helper
 
 This mission is about putting AI to work in your daily life: in the kitchen, with the children, around the home, and with money.
 
@@ -95,7 +95,7 @@ question to ask for each.
 **Answer:** A — Many small time savings add up to real benefit.
 
 ---
-### Module 2 · Step 1: Cooking and Meal Planning
+### Sub-module 2 · Step 1: Cooking and Meal Planning
 
 AI is wonderful in the kitchen. It can suggest recipes from what you already have, plan meals for the week, and help you shop smart.
 
@@ -189,7 +189,7 @@ plan and a shopping list for it.
 **Answer:** A — A weekly meal plan produces a matching shopping list.
 
 ---
-### Module 3 · Step 2: Helping Your Kids Learn
+### Sub-module 3 · Step 2: Helping Your Kids Learn
 
 AI can help your children with homework, explain difficult topics in simple words, and create practice questions.
 
@@ -283,7 +283,7 @@ questions with answers.
 **Answer:** A — The child must still do their own learning, with your support.
 
 ---
-### Module 4 · Step 3: Running the Home and Errands
+### Sub-module 4 · Step 3: Running the Home and Errands
 
 AI can help you organise the home: to-do lists, reminders, errand plans, and ideas for repairs and decorating.
 
@@ -377,7 +377,7 @@ plan and group the errands to save travel.
 **Answer:** A — Planning your tasks reduces the mental load you carry.
 
 ---
-### Module 5 · Step 4: Managing Money and Budgets
+### Sub-module 5 · Step 4: Managing Money and Budgets
 
 AI can help you make a simple household budget, track expenses, and find ways to save. It explains money matters in plain words.
 
@@ -471,7 +471,7 @@ table and 3 ways to save. Do not ask for bank details.
 **Answer:** A — Consult a real financial adviser for major money decisions.
 
 ---
-### Module 6 · Step 5: Health, Wellbeing, and Family Care
+### Sub-module 6 · Step 5: Health, Wellbeing, and Family Care
 
 AI can give general information on health, fitness, and caring for family, and help you prepare questions for a doctor.
 

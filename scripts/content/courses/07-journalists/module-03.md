@@ -1,7 +1,7 @@
 # Mission 3: Structuring Stories with AI
 
 ---
-### Module 1 · The Story Architecture: News vs Feature
+### Sub-module 1 · The Story Architecture: News vs Feature
 
 Stories have architecture. A news story front-loads the most important facts; a feature builds a narrative arc. Knowing which you are writing changes how you structure and how AI can help.
 
@@ -94,7 +94,7 @@ and what each section must accomplish.
 **Answer:** A — Choosing the right architecture before drafting streamlines the writing.
 
 ---
-### Module 2 · Step 1: Find the Angle
+### Sub-module 2 · Step 1: Find the Angle
 
 The angle is the specific slice of a topic that makes the story worth reading. Without one, you have a subject, not a story.
 
@@ -187,7 +187,7 @@ and why it matters now. Flag which need more reporting.
 **Answer:** A — Specific angles are more compelling and easier to report.
 
 ---
-### Module 3 · Step 2: The Outline That Holds
+### Sub-module 3 · Step 2: The Outline That Holds
 
 An outline is the story's skeleton. A good outline holds the facts in a logical order and shows where the evidence goes.
 
@@ -280,7 +280,7 @@ needs. Flag any section where I may lack reporting.
 **Answer:** A — Adjust the outline to match real reporting, not wishes.
 
 ---
-### Module 4 · Step 3: Draft Fast, Edit Slow
+### Sub-module 4 · Step 3: Draft Fast, Edit Slow
 
 Separate drafting from editing. Draft fast to get the story on the page, then edit slow to make it accurate, clear, and tight.
 
@@ -373,7 +373,7 @@ place that needs a fact-check or a missing detail.
 **Answer:** A — Never publish an unedited AI draft - you are the editor of record.
 
 ---
-### Module 5 · Step 4: Headlines, Ledes, and Nut Grafs
+### Sub-module 5 · Step 4: Headlines, Ledes, and Nut Grafs
 
 Three elements decide whether a story gets read: the headline, the lede, and the nut graf. Each has a specific job.
 
@@ -466,7 +466,7 @@ clickbait. Flag any that overstate the story.
 **Answer:** A — Flag and reject options that overstate the story.
 
 ---
-### Module 6 · Step 5: The Editing Pass (Cut, Clarify, Verify)
+### Sub-module 6 · Step 5: The Editing Pass (Cut, Clarify, Verify)
 
 The final editing pass has three moves: cut what is unnecessary, clarify what is muddy, and verify what is uncertain.
 

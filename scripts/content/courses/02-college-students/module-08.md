@@ -1,7 +1,7 @@
 # Mission 8: Building an AI Mini-Project
 
 ---
-### Module 1 · The One-Week Project Method
+### Sub-module 1 · The One-Week Project Method
 
 A one-week build teaches more than a semester of theory. The method runs on three rules: five days, small scope; boring-but-real beats clever-but-mock; and AI is your workforce while you own the quality. The whole mission is a product sprint.
 
@@ -93,7 +93,7 @@ Friday: package and share
 **Answer:** A — Friday turns the build into a portfolio package.
 
 ---
-### Module 2 · Day 1: Pick and Scope
+### Sub-module 2 · Day 1: Pick and Scope
 
 Day one is decision day: pick ONE idea that fits your slice of life, and scope it brutally. The counter-scope rule is sharp - if you cannot build a v1 in three days, cut the scope in half. A half-scoped project that ships beats a grand one that does not.
 
@@ -188,7 +188,7 @@ The scoping test:
 **Answer:** A — The brief is the go-ahead checkpoint for the week.
 
 ---
-### Module 3 · Days 2-3: Build the Core
+### Sub-module 3 · Days 2-3: Build the Core
 
 Build the single core flow first - everything else is a stretch goal. The build order is: skeleton, core function, error handling, and daily commits. A working-but-ugly core on Wednesday night is a project you can present.
 
@@ -279,7 +279,7 @@ The feature-creep brake:
 **Answer:** A — Handling breakage is part of the core build.
 
 ---
-### Module 4 · Day 4: Real-User Test (Even One Friend Counts)
+### Sub-module 4 · Day 4: Real-User Test (Even One Friend Counts)
 
 Ship to a real human before you call it done. Give it to one friend or classmate with zero explanation, watch rather than coach them use it, and ask three questions: what did you try first, where did you get stuck, and would you use this again?
 
@@ -372,7 +372,7 @@ The feedback triad:
 **Answer:** A — Uncoached use reveals what the product itself teaches.
 
 ---
-### Module 5 · Day 5: Package and Share
+### Sub-module 5 · Day 5: Package and Share
 
 Package it like it matters - because it will be your portfolio. The deliverable is a README with what it does, how to run it, and one screenshot; a sixty-to-ninety-second demo; a deployed link if it is a web app; and a share in your course group and on LinkedIn.
 
@@ -463,7 +463,7 @@ What packaging buys you:
 **Answer:** A — Public feedback teaches and improves the build.
 
 ---
-### Module 6 · The Reflection Loop: What Makes It Portfolio-Worthy
+### Sub-module 6 · The Reflection Loop: What Makes It Portfolio-Worthy
 
 After shipping, run the reflection that makes projects impressive. Capture what you built and why it matters, the hardest technical problem and how you solved it, what you would improve with two more weeks, and AI's exact role. This five-minute reflection becomes your case study in Mission 9.
 

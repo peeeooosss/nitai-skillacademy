@@ -1,7 +1,7 @@
 # Mission 6: Teaching AI to Your Community — Your AI Didi Roadmap
 
 ---
-### Module 1 · You Can Teach Others
+### Sub-module 1 · You Can Teach Others
 
 Once you are comfortable with AI, you can help other women in your community learn it too. This is the AI Didi idea: one woman teaches another.
 
@@ -94,7 +94,7 @@ and how to keep it simple and friendly.
 **Answer:** A — Simple, everyday examples help your community understand AI.
 
 ---
-### Module 2 · Step 1: Learn One Skill Deeply
+### Sub-module 2 · Step 1: Learn One Skill Deeply
 
 You do not need to master everything. Choose one useful skill, learn it well, and become the local expert in it.
 
@@ -188,7 +188,7 @@ a simple 2-week practice plan for it.
 **Answer:** A — Collect good examples to use when teaching others.
 
 ---
-### Module 3 · Step 2: Make a Simple Lesson Plan
+### Sub-module 3 · Step 2: Make a Simple Lesson Plan
 
 A simple lesson plan keeps your teaching clear: what you will show, how you will show it, and how the learner will practise.
 
@@ -281,7 +281,7 @@ example, and a practice activity. Keep it friendly.
 **Answer:** A — End with hands-on practice so the learner tries it themselves.
 
 ---
-### Module 4 · Step 3: Teach Your Neighbours
+### Sub-module 4 · Step 3: Teach Your Neighbours
 
 Start with a small group you are comfortable with: neighbours, friends, or relatives. A friendly, hands-on session is the best first step.
 
@@ -374,7 +374,7 @@ activity for everyone. Keep it encouraging.
 **Answer:** A — Welcome every question patiently to keep learners encouraged.
 
 ---
-### Module 5 · Step 4: Build a Small Learning Circle
+### Sub-module 5 · Step 4: Build a Small Learning Circle
 
 A learning circle is a small group that meets regularly to learn AI together. It keeps everyone motivated and growing.
 
@@ -467,7 +467,7 @@ keep everyone motivated and growing.
 **Answer:** A — A healthy circle grows and reaches more women in the community.
 
 ---
-### Module 6 · Step 5: Your AI Didi Roadmap
+### Sub-module 6 · Step 5: Your AI Didi Roadmap
 
 This is your roadmap: from learning AI yourself, to using it daily, to earning, to teaching others.
 

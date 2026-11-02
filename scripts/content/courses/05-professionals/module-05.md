@@ -1,7 +1,7 @@
 # Mission 5: Department-Specific AI Workflows
 
 ---
-### Module 1 · One Workflow per Department
+### Sub-module 1 · One Workflow per Department
 
 A generic 'use AI at work' skill helps, but the real gains come from a workflow built for your department's repeated tasks. Department workflows succeed because they match your jargon, your formats, and your actual rhythm - not a one-size-fits-all prompt.
 
@@ -77,7 +77,7 @@ Each workflow is a small set of reusable prompts tuned to the way your team alre
 **Answer:** A — Finance and ops workflows produce variance notes and structured reports.
 
 ---
-### Module 2 · Marketing and Content Workflows
+### Sub-module 2 · Marketing and Content Workflows
 
 Marketing and content teams repeat the same outputs constantly: briefs, social posts, campaign plans, and tone guides. Each of these can be built as a reusable prompt, and each one you build pays for itself within a week.
 
@@ -152,7 +152,7 @@ The key asset in a marketing AI workflow is the tone guide - a set of rules extr
 **Answer:** A — One idea plus several format requests plus your tone guide equals fast, consistent social posts.
 
 ---
-### Module 3 · Sales and Support Workflows
+### Sub-module 3 · Sales and Support Workflows
 
 Sales and support teams live on repetition: follow-ups, objection handling, and call summaries. Each of these can become a reusable prompt, and each saved prompt keeps the messaging consistent while the team focuses on the conversation, not the typing.
 
@@ -229,7 +229,7 @@ The three prompts in this module turn scattered conversations into a repeatable,
 **Answer:** A — Structured call summaries keep follow-up clear and accountable.
 
 ---
-### Module 4 · Finance and Operations Workflows
+### Sub-module 4 · Finance and Operations Workflows
 
 Finance and operations teams live on structured outputs: reports, variance explanations, and process checklists. AI writes the narrative around the numbers; your systems remain the source of truth. Get that division right and these workflows become a genuine time engine.
 
@@ -306,7 +306,7 @@ The discipline, always: AI explains and drafts, you verify against your systems,
 **Answer:** A — Numbered checklists with owners and estimates make processes executable.
 
 ---
-### Module 5 · HR and People Ops Workflows
+### Sub-module 5 · HR and People Ops Workflows
 
 HR teams repeat the same drafts constantly: job descriptions, onboarding plans, and feedback. Each one touches someone's career, which is exactly why these workflows pair AI's drafting speed with mandatory human review.
 
@@ -383,7 +383,7 @@ The benefit is real - faster cycle times and consistently structured, bias-reduc
 **Answer:** A — People content affects careers - human review is non-negotiable.
 
 ---
-### Module 6 · Launch Your Department's First Workflow
+### Sub-module 6 · Launch Your Department's First Workflow
 
 You now have the patterns; this module is where one of them becomes real. The most persuasive thing you can show your team is a single working workflow - a prompt that turns one weekly task into minutes, with quality intact.
 

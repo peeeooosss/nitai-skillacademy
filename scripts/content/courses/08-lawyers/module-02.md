@@ -1,7 +1,7 @@
 # Mission 2: Drafting & Summarising Documents with AI
 
 ---
-### Module 1 · Drafting as a First Draft, Not Final
+### Sub-module 1 · Drafting as a First Draft, Not Final
 
 AI drafting is a head start, not a finished document. It produces plausible language fast, but it does not know your client, your jurisdiction's latest amendments, or your firm's style.
 
@@ -95,7 +95,7 @@ that needs client-specific facts or a legal check.
 **Answer:** A — Ask AI to mark gaps so you can complete and verify them.
 
 ---
-### Module 2 · Step 1: Structure Before You Draft
+### Sub-module 2 · Step 1: Structure Before You Draft
 
 Structure comes before language. A document's sections, order, and defined terms determine whether it works; the prose is secondary.
 
@@ -188,7 +188,7 @@ needed. Note any mandatory formalities.
 **Answer:** A — Restructuring a drafted document is costly and error-prone.
 
 ---
-### Module 3 · Step 2: Clause and Template Libraries
+### Sub-module 3 · Step 2: Clause and Template Libraries
 
 Most documents reuse clauses. A clause library saves time, improves consistency, and reduces risk - and AI can help you organise and adapt it.
 
@@ -281,7 +281,7 @@ and a template structure I can reuse across matters.
 **Answer:** A — Only vetted clauses should enter the library.
 
 ---
-### Module 4 · Step 3: Summarising Long Documents
+### Sub-module 4 · Step 3: Summarising Long Documents
 
 Long documents - disclosure bundles, judgments, contracts, transcripts - are where hours disappear. AI summarising turns a day of reading into a structured first pass.
 
@@ -374,7 +374,7 @@ page references. Flag the passages I must read in full.
 **Answer:** A — Critical passages must be read in full, not just summarised.
 
 ---
-### Module 5 · Step 4: Tone, Register, and Jurisdiction
+### Sub-module 5 · Step 4: Tone, Register, and Jurisdiction
 
 Legal writing has a register: formal, precise, and jurisdiction-specific. AI defaults to a generic tone that may not fit your court, client, or jurisdiction.
 
@@ -467,7 +467,7 @@ meaning identical and flag any jurisdiction-specific terms.
 **Answer:** A — Plain language is often clearer and safer than archaic formality.
 
 ---
-### Module 6 · Step 5: The Review and Redline Pass
+### Sub-module 6 · Step 5: The Review and Redline Pass
 
 The final drafting pass is review and redline: check accuracy, consistency, and completeness, and mark changes clearly for the client or counterparty.
 

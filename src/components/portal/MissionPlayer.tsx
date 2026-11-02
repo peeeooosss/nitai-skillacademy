@@ -21,7 +21,7 @@ import {
   Check,
   PlayCircle,
 } from "lucide-react";
-import { api, type MissionDetail, type QuizQuestion, type ExampleQuizItem } from "@/lib/api";
+import { api, TOKEN_KEY, type MissionDetail, type QuizQuestion, type ExampleQuizItem } from "@/lib/api";
 import { renderMarkdown, extractExamples } from "@/lib/markdown";
 import SlideViewer from "@/components/portal/SlideViewer";
 import { courseIcon, hexToRgba } from "@/lib/courseIcons";
@@ -58,6 +58,7 @@ export default function MissionPlayerPage({ params }: { params: { slug: string; 
   const [modTab, setModTab] = React.useState<"theory" | "slides" | "quiz">("theory");
   const [celebrating, setCelebrating] = React.useState(false);
   const [moduleError, setModuleError] = React.useState("");
+  const [moduleNotice, setModuleNotice] = React.useState("");
 
   React.useEffect(() => {
     setData(null);
@@ -68,11 +69,13 @@ export default function MissionPlayerPage({ params }: { params: { slug: string; 
     setModTab("theory");
     setCelebrating(false);
     setModuleError("");
+    setModuleNotice("");
     api
       .get<MissionDetail>(`/missions?courseSlug=${params.slug}&mission=${missionNumber}`)
       .then((d) => {
         setData(d);
-        const modParam = new URLSearchParams(window.location.search).get("module");
+        const search = new URLSearchParams(window.location.search);
+        const modParam = search.get("submodule") ?? search.get("module");
         if (modParam) {
           const target = d.module.submodules.find((s) => s.index === parseInt(modParam, 10));
           if (target && target.unlocked) setActiveIndex(target.index);
@@ -95,6 +98,8 @@ export default function MissionPlayerPage({ params }: { params: { slug: string; 
     });
   }, [data]);
 
+  useStudyTimer(data && data.gating.unlocked ? data.module.id : null);
+
   const completeMission = async () => {
     if (!data || credited || data.progress.completed) {
       setCredited(true);
@@ -116,12 +121,18 @@ export default function MissionPlayerPage({ params }: { params: { slug: string; 
     if (!data || completing) return;
     setCompleting(true);
     setModuleError("");
+    setModuleNotice("");
     try {
       const res = await api.post<{ completed: boolean; creditsEarned: number }>("/progress", {
         moduleId: data.module.id,
         submoduleIndex: sub.index,
       });
       await refreshUser();
+      setModuleNotice(
+        res.creditsEarned > 0
+          ? `Sub-module complete · +${res.creditsEarned} credits`
+          : "Sub-module complete",
+      );
       if (res.completed) {
         setCelebrating(true);
         setCredited(true);
@@ -220,6 +231,7 @@ export default function MissionPlayerPage({ params }: { params: { slug: string; 
           celebrating={celebrating}
           completing={completing}
           moduleError={moduleError}
+          moduleNotice={moduleNotice}
           onMarkComplete={markModuleComplete}
         />
       ) : (
@@ -260,6 +272,7 @@ function ModuleFlow({
   celebrating,
   completing,
   moduleError,
+  moduleNotice,
   onMarkComplete,
 }: {
   course: MissionDetail["course"];
@@ -274,6 +287,7 @@ function ModuleFlow({
   celebrating: boolean;
   completing: boolean;
   moduleError: string;
+  moduleNotice: string;
   onMarkComplete: (sub: { index: number }) => void;
 }) {
   const subs = mod.submodules.slice().sort((a, b) => a.index - b.index);
@@ -281,10 +295,8 @@ function ModuleFlow({
   const total = subs.length;
   const pct = total ? Math.round((doneCount / total) * 100) : 0;
   const active = subs.find((s) => s.index === activeIndex) ?? null;
-  const lockedActive = active && !active.unlocked;
 
   const openModule = (s: (typeof subs)[number]) => {
-    if (!s.unlocked) return;
     setActiveIndex(s.index);
     setModTab("theory");
   };
@@ -318,43 +330,33 @@ function ModuleFlow({
             <button
               key={s.index}
               onClick={() => openModule(s)}
-              disabled={!s.unlocked}
-              className={`flex w-full items-center gap-3 rounded-xl border px-4 py-3 text-left transition-all ${
+              className={`flex w-full cursor-pointer items-center gap-3 rounded-xl border px-4 py-3 text-left transition-all ${
                 isActive
                   ? "border-white/20 bg-white/[0.06]"
                   : isDone
                     ? "border-emerald-500/15 bg-emerald-500/[0.03]"
-                    : s.unlocked
-                      ? "border-white/10 bg-white/[0.02] hover:border-white/25"
-                      : "border-white/5 bg-white/[0.01] opacity-50"
-              } ${!s.unlocked ? "cursor-not-allowed" : "cursor-pointer"}`}
+                    : "border-white/10 bg-white/[0.02] hover:border-white/25"
+              }`}
             >
               <span
                 className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-xs font-bold ${
-                  isDone
-                    ? "bg-emerald-500/15 text-emerald-400"
-                    : s.unlocked
-                      ? "text-white"
-                      : "bg-white/5 text-white/30"
+                  isDone ? "bg-emerald-500/15 text-emerald-400" : "text-white"
                 }`}
-                style={s.unlocked && !isDone ? { background: hexToRgba(accent, 0.18), color: accent } : undefined}
+                style={!isDone ? { background: hexToRgba(accent, 0.18), color: accent } : undefined}
               >
                 {isDone ? <Check className="h-4 w-4" /> : s.index}
               </span>
               <div className="min-w-0 flex-1">
-                <p className={`truncate text-xs font-semibold ${isDone || s.unlocked ? "text-slate-200" : "text-slate-500"}`}>
-                  Module {s.index} · {s.title}
+                <p className="truncate text-xs font-semibold text-slate-200">
+                  Sub-module {s.index} · {s.title}
                 </p>
-                <p className="text-[10px] text-slate-500">
-                  {isDone ? "Completed" : s.unlocked ? "Available now" : `Complete Module ${s.index - 1} to unlock`}
-                </p>
+                <p className="text-[10px] text-slate-500">{isDone ? "Completed" : "Available now"}</p>
               </div>
-              {s.unlocked && (isActive || isDone) && !allDone && (
+              {(isActive || isDone) && !allDone && (
                 <span className="shrink-0 text-[10px] font-semibold" style={{ color: accent }}>
                   {isActive ? (isDone ? "Done" : "Open") : "Review"}
                 </span>
               )}
-              {!s.unlocked && <Lock className="h-3.5 w-3.5 shrink-0 text-white/20" />}
             </button>
           );
         })}
@@ -407,26 +409,16 @@ function ModuleFlow({
           >
             <div className="flex flex-wrap items-center gap-2 pb-4">
               <h2 className="font-display text-base font-bold text-white sm:text-lg">
-                Module {active.index} — {active.title}
+                Sub-module {active.index} — {active.title}
               </h2>
               {active.completed && (
                 <span className="flex items-center gap-1 rounded-full bg-emerald-500/10 px-2.5 py-1 text-[10px] font-semibold text-emerald-400">
                   <Check className="h-3 w-3" /> Completed
                 </span>
               )}
-              {!active.unlocked && (
-                <span className="flex items-center gap-1 rounded-full bg-white/5 px-2.5 py-1 text-[10px] font-semibold text-slate-400">
-                  <Lock className="h-3 w-3" /> Locked
-                </span>
-              )}
             </div>
 
-            {lockedActive ? (
-              <p className="py-6 text-center text-sm text-slate-400">
-                Complete Module {active.index - 1} to unlock this module.
-              </p>
-            ) : (
-              <>
+            <>
                 {/* Module tabs */}
                 <div className="flex gap-1 overflow-x-auto pb-4">
                   {MOD_TABS.map((t) => {
@@ -466,7 +458,7 @@ function ModuleFlow({
                     {modTab === "slides" && (
                       <SlideViewer
                         missionNumber={mod.missionNumber}
-                        title={`Module ${active.index} · ${active.title}`}
+                        title={`Sub-module ${active.index} · ${active.title}`}
                         contentMarkdown={active.markdown}
                         accent={accent}
                         compact
@@ -479,9 +471,10 @@ function ModuleFlow({
                 </AnimatePresence>
 
                 {/* Module complete action */}
-                {!active.completed && active.unlocked && (
+                {!active.completed && (
                   <div className="mt-6 border-t border-white/10 pt-5">
                     {moduleError && <p className="mb-3 text-xs text-rose-400">{moduleError}</p>}
+                    {moduleNotice && <p className="mb-3 text-xs text-emerald-400">{moduleNotice}</p>}
                     <button
                       onClick={() => onMarkComplete(active)}
                       disabled={completing}
@@ -493,12 +486,11 @@ function ModuleFlow({
                       ) : (
                         <CheckCircle2 className="h-4 w-4" />
                       )}
-                      {completing ? "Saving..." : `Mark Module ${active.index} Complete`}
+                      {completing ? "Saving..." : `Mark Sub-module ${active.index} Complete`}
                     </button>
                   </div>
                 )}
-              </>
-            )}
+            </>
           </motion.div>
         )}
       </AnimatePresence>
@@ -602,7 +594,8 @@ function LegacyFlow({
 
   React.useEffect(() => {
     setOpenModules(new Set());
-    const modParam = new URLSearchParams(window.location.search).get("module");
+    const search = new URLSearchParams(window.location.search);
+    const modParam = search.get("submodule") ?? search.get("module");
     if (module.submodules.length > 0) {
       const ids = new Set<number>();
       ids.add(parseInt(modParam ?? "1", 10) >= 1 ? parseInt(modParam ?? "1", 10) : 1);
@@ -684,9 +677,9 @@ function LegacyFlow({
                 <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-5 sm:p-6">
                   <div className="flex items-center gap-2">
                     <Layers className="h-4 w-4" style={{ color: accent }} />
-                    <h3 className="font-display text-sm font-bold text-white">Lesson Modules</h3>
+                    <h3 className="font-display text-sm font-bold text-white">Sub-modules</h3>
                   </div>
-                  <p className="mt-1 text-xs text-slate-400">Tap a topic to expand the full lesson.</p>
+                  <p className="mt-1 text-xs text-slate-400">Tap a sub-module to expand the full lesson.</p>
                   <div className="mt-4 space-y-2">
                     {module.submodules.map((s) => {
                       const open = openModules.has(s.index);
@@ -1131,4 +1124,69 @@ function CompletionCard({
       </div>
     </motion.div>
   );
+}
+/* ── Study-time tracking ───────────────────────────────────────────────── */
+
+function useStudyTimer(moduleId: number | null) {
+  React.useEffect(() => {
+    if (!moduleId) return;
+
+    let accumulated = 0;
+    let lastTick = Date.now();
+
+    const flush = (keepalive = false) => {
+      const seconds = Math.floor(accumulated);
+      if (seconds <= 0) return;
+      accumulated -= seconds;
+      const token = localStorage.getItem(TOKEN_KEY);
+      if (!token) return;
+      void fetch("/api/time", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ moduleId, seconds }),
+        keepalive,
+      }).catch(() => {});
+    };
+
+    const tick = () => {
+      if (document.visibilityState !== "visible") {
+        lastTick = Date.now();
+        return;
+      }
+      const now = Date.now();
+      const delta = (now - lastTick) / 1000;
+      if (delta > 0 && delta < 120) accumulated += delta;
+      lastTick = now;
+    };
+
+    const interval = window.setInterval(() => {
+      tick();
+      if (accumulated >= 60) flush();
+    }, 1000);
+
+    const onVisibility = () => {
+      if (document.visibilityState === "visible") {
+        lastTick = Date.now();
+      } else {
+        tick();
+        flush(true);
+      }
+    };
+
+    const onPageHide = () => {
+      tick();
+      flush(true);
+    };
+
+    document.addEventListener("visibilitychange", onVisibility);
+    window.addEventListener("pagehide", onPageHide);
+
+    return () => {
+      window.clearInterval(interval);
+      document.removeEventListener("visibilitychange", onVisibility);
+      window.removeEventListener("pagehide", onPageHide);
+      tick();
+      flush(true);
+    };
+  }, [moduleId]);
 }

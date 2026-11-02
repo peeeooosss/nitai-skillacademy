@@ -1,7 +1,7 @@
 # Mission 5: Pitch Deck & Investor Materials
 
 ---
-### Module 1 · Pitch Deck Purpose: Make Them Want the Next Call
+### Sub-module 1 · Pitch Deck Purpose: Make Them Want the Next Call
 
 A pitch deck's job is not to raise money. Its job is to earn the next conversation. **The deck opens a door; the meeting does the rest.**
 
@@ -98,7 +98,7 @@ and the 3 beliefs they must hold to take the next meeting.
 **Answer:** A — Tune the same core story to whoever is reading.
 
 ---
-### Module 2 · The 10-Slide Standard (Scan the Funnel)
+### Sub-module 2 · The 10-Slide Standard (Scan the Funnel)
 
 Investors read decks in minutes. The 10-slide standard gives them the funnel they are scanning for: problem, solution, market, traction, model, competition, team, and ask.
 
@@ -199,7 +199,7 @@ The 10-slide standard:
 **Answer:** A — Keep slides scannable and move detail into the appendix.
 
 ---
-### Module 3 · The Founder Story That Hooks
+### Sub-module 3 · The Founder Story That Hooks
 
 Investors bet on people as much as ideas. A short founder story explains why you, why this problem, and why now - in a way that builds trust fast.
 
@@ -292,7 +292,7 @@ Keep it credible, no buzzwords. End with the one-line mission.
 **Answer:** A — Close on the one-line mission to leave a clear impression.
 
 ---
-### Module 4 · Projections That Don't Look Painted
+### Sub-module 4 · Projections That Don't Look Painted
 
 Bad projections are obvious: hockey-stick growth with no basis. Good projections are boring, bottom-up, and clearly explained.
 
@@ -386,7 +386,7 @@ revenue and costs. Use [currency]. No hockey sticks.
 **Answer:** A — Show the assumptions and the resulting revenue and costs.
 
 ---
-### Module 5 · The Meeting Kit (Have These Ready)
+### Sub-module 5 · The Meeting Kit (Have These Ready)
 
 The meeting is where the deck gets tested. Bring a small kit so you can answer follow-ups without fumbling: the one-pager, financials, demo, and reference list.
 
@@ -481,7 +481,7 @@ honest answers for each.
 **Answer:** A — Have evidence ready for every claim you make in the deck.
 
 ---
-### Module 6 · Practise the Two Pitches
+### Sub-module 6 · Practise the Two Pitches
 
 You need two pitches, not one: a 60-second elevator pitch and a 5-minute deep pitch. Each has a different job.
 

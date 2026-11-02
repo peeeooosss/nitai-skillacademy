@@ -1,7 +1,7 @@
 # Mission 5: Diagnostics Support & Safety with AI
 
 ---
-### Module 1 · AI as a Second Opinion, Never the First
+### Sub-module 1 · AI as a Second Opinion, Never the First
 
 AI can act like a well-read colleague who suggests possibilities you might not have considered. But it is never the first opinion and never the decision-maker.
 
@@ -94,7 +94,7 @@ explain this, and what would change the diagnosis?
 **Answer:** A — The diagnostic decision is always the clinician's.
 
 ---
-### Module 2 · Step 1: Framing the Diagnostic Question
+### Sub-module 2 · Step 1: Framing the Diagnostic Question
 
 AI is only as useful as the question you ask. A vague presentation gets vague suggestions; a well-framed diagnostic question gets useful ones.
 
@@ -187,7 +187,7 @@ the diagnostic decision I am facing. Suggest considerations.
 **Answer:** A — Relevant negatives help focus the differential reasoning.
 
 ---
-### Module 3 · Step 2: Using AI for Differential Diagnosis
+### Sub-module 3 · Step 2: Using AI for Differential Diagnosis
 
 AI is useful for generating a broad differential: possibilities you may have under-weighted, and findings that would distinguish them.
 
@@ -280,7 +280,7 @@ and the can't-miss diagnoses. For clinician consideration.
 **Answer:** A — Clinical judgment remains central when using AI for differentials.
 
 ---
-### Module 4 · Step 3: Spotting Automation Bias and Anchoring
+### Sub-module 4 · Step 3: Spotting Automation Bias and Anchoring
 
 Automation bias is over-trusting the machine; anchoring is fixating on the first idea. Both are common when using AI in diagnosis.
 
@@ -373,7 +373,7 @@ would disconfirm each, and what alternatives are missing?
 **Answer:** A — Reconsider when new evidence shifts the picture.
 
 ---
-### Module 5 · Step 4: When to Escalate to a Colleague
+### Sub-module 5 · Step 4: When to Escalate to a Colleague
 
 AI can widen your thinking, but some situations need a human colleague: uncertainty, complexity, or risk beyond your scope.
 
@@ -467,7 +467,7 @@ my uncertainty, and the specific question I need answered.
 **Answer:** A — Patient safety always outweighs professional pride.
 
 ---
-### Module 6 · Step 5: Documenting AI-Assisted Reasoning
+### Sub-module 6 · Step 5: Documenting AI-Assisted Reasoning
 
 When AI informs your thinking, the record should reflect it: what you considered, what you rejected, and why. This keeps the reasoning transparent and defensible.
 

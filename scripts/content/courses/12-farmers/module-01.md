@@ -1,7 +1,7 @@
 # Mission 1: Welcome: How AI Helps Farmers
 
 ---
-### Module 1 · AI Is a Helper, Not a Replacement
+### Sub-module 1 · AI Is a Helper, Not a Replacement
 
 AI (Artificial Intelligence) is a helper on your phone that understands questions in plain language and answers instantly. Think of it as a very knowledgeable field assistant who has studied weather data, thousands of crop advisories, market price reports, and government schemes - and can talk to you in your own language.
 
@@ -99,7 +99,7 @@ How you use a chat assistant:
 **Answer:** A — AI cannot stand in your field - your judgement stays the final word.
 
 ---
-### Module 2 · Five Ways AI Already Helps Indian Agriculture
+### Sub-module 2 · Five Ways AI Already Helps Indian Agriculture
 
 AI is already working across Indian agriculture, quietly and everywhere. These are not future promises - they are services available today on the phone in your pocket. Knowing the five main ways helps you pick the one that helps your farm most this season.
 
@@ -198,7 +198,7 @@ That answer is your first AI use case.
 **Answer:** A — Start with the worry that costs you the most - one clear use case first.
 
 ---
-### Module 3 · The Field Assistant Who Reads Faster
+### Sub-module 3 · The Field Assistant Who Reads Faster
 
 The machines are not coming to replace farmers - they are coming to stand beside you like a helper who reads faster and remembers more. A human field assistant would need years to read all the crop advisories, weather records, and price reports relevant to your land. AI does that in seconds and replies in your language.
 
@@ -296,7 +296,7 @@ Practice this on every question and it becomes second nature.
 **Answer:** A — Write your three most wanted questions - you will ask them during the course.
 
 ---
-### Module 4 · Special Farm Apps and General AI Assistants
+### Sub-module 4 · Special Farm Apps and General AI Assistants
 
 There are two ways to use AI on your farm: **special farm apps** built for agriculture, and **general AI assistants** that answer anything you ask. Both have value, and the smart farmer uses both - special apps for official, verified information; general AI for immediate plain-language answers and planning help.
 
@@ -392,7 +392,7 @@ Which tool for which job:
 **Answer:** A — Special apps for verified information, general AI for flexible answers - use both.
 
 ---
-### Module 5 · Asking AI About Your Own Farm
+### Sub-module 5 · Asking AI About Your Own Farm
 
 The quality of the answer depends on the quality of the question. A good farming question to AI includes the who, what, where, when, and what you noticed. This single habit is the most important thing in the whole course - it is the difference between generic advice and advice you can actually use.
 
@@ -490,7 +490,7 @@ Turn any question into a strong one:
 **Answer:** A — A vague question like 'what should I do?' gets a vague answer.
 
 ---
-### Module 6 · No English, No Computer - Only a Phone
+### Sub-module 6 · No English, No Computer - Only a Phone
 
 You need no English and no computer to begin - just a phone. Voice input lets you speak in your own language (Hindi, Marathi, Kannada, Telugu, Punjabi, and more), and the app types and answers in the same language. WhatsApp works with these AI assistants in many languages too, and most assistants are free on a basic phone.
 

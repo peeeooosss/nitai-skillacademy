@@ -1,7 +1,7 @@
 # Mission 6: Planning Your AI-Powered Farm Year
 
 ---
-### Module 1 · The One-Page Farm Plan
+### Sub-module 1 · The One-Page Farm Plan
 
 This final mission brings the whole course together into one practical habit: planning your farm year with AI. A one-page farm plan captures what you will grow, your rough costs, your care calendar, and your main risks - and it becomes the document you return to every month.
 
@@ -99,7 +99,7 @@ Draft my one-page farm plan for this year:
 **Answer:** A — Verify the risky parts - chemicals, big decisions - with your agri officer.
 
 ---
-### Module 2 · The Month-by-Month Calendar
+### Sub-module 2 · The Month-by-Month Calendar
 
 A farm year has a rhythm: preparation, sowing, growth, protection, harvest, and selling. When you lay your tasks on a month-by-month calendar, the year stops being a series of emergencies and becomes a sequence you can prepare for.
 
@@ -197,7 +197,7 @@ Turn my one-page farm plan into a month-by-month checklist:
 **Answer:** A — Preparation lowers cost and stress and stops you missing windows and dates.
 
 ---
-### Module 3 · Your AI Check-In Routine
+### Sub-module 3 · Your AI Check-In Routine
 
 The final skill of the course is a simple weekly and monthly routine with AI. This is what turns everything you have learned into an automatic habit - a short check-in that keeps your farm, your money, and your knowledge moving forward.
 
@@ -294,7 +294,7 @@ My monthly AI check-in:
 **Answer:** A — The repeating habit - ask with details, get the decision, check officially, then act.
 
 ---
-### Module 4 · Reviewing Last Season With AI
+### Sub-module 4 · Reviewing Last Season With AI
 
 The most underused farm skill is looking back. Most farmers repeat the same costly mistakes because last season's lessons were never written down or reviewed. AI makes a season review quick and honest: what worked, what failed, and what to change.
 
@@ -389,7 +389,7 @@ and suggest 3 changes for next season.
 **Answer:** A — A review without honesty changes nothing; honesty compounds your skill.
 
 ---
-### Module 5 · Building Your Farm Records
+### Sub-module 5 · Building Your Farm Records
 
 Records are the memory of your farm business. Without them, every season starts from zero. With them, every season starts from experience. AI turns the scattered notes and voice memos you have been keeping into a simple, organised record.
 
@@ -485,7 +485,7 @@ Organise my farm records:
 **Answer:** A — Records prove your track record to lenders and buyers.
 
 ---
-### Module 6 · Teaching Your Family and Neighbours
+### Sub-module 6 · Teaching Your Family and Neighbours
 
 AI skills multiply when shared. The final module of this course is about passing on what you have learned - to your family, your neighbours, and your village group. Teaching is also the best way to strengthen your own understanding.
 

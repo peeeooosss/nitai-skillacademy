@@ -139,7 +139,9 @@ export default function CourseHomePage({ params }: { params: { slug: string } })
             <div className="flex-1">
               <div className="mb-1.5 flex items-center justify-between text-xs">
                 <span className="font-medium text-white">
-                  {data.enrolled ? `${completedMissions}/${missions.length} missions completed` : "Not enrolled yet"}
+                  {data.enrolled
+                    ? `${completedMissions}/${missions.length} missions completed · ${data.progress.timeSpentHours.toFixed(1)}h spent`
+                    : "Not enrolled yet"}
                 </span>
                 <span className="text-slate-400">{data.progress.percent}%</span>
               </div>
@@ -215,7 +217,7 @@ export default function CourseHomePage({ params }: { params: { slug: string } })
                     <h3 className="truncate text-sm font-semibold text-white">{m.title}</h3>
                     <p className="mt-0.5 line-clamp-1 text-[11px] text-slate-400">
                       {isDone ? "Completed" : isUnlocked ? "Available now" : `Complete Mission ${m.missionNumber - 1} to unlock`}
-                      {m.submodules.length > 0 && ` · ${m.submodulesCompleted}/${m.submodulesTotal} modules done`}
+                      {m.submodules.length > 0 && ` · ${m.submodulesCompleted}/${m.submodulesTotal} sub-modules done`}
                       {" · "}+{m.creditsReward} credits
                     </p>
                   </div>
@@ -224,7 +226,7 @@ export default function CourseHomePage({ params }: { params: { slug: string } })
                     {m.submodules.length > 0 && (
                       <button
                         onClick={() => toggleExpand(m.missionNumber)}
-                        aria-label="Toggle topics"
+                        aria-label="Toggle sub-modules"
                         className="rounded-lg border border-white/10 p-1.5 text-slate-300 transition-colors hover:border-white/25 hover:text-white"
                       >
                         <ChevronDown
@@ -249,7 +251,7 @@ export default function CourseHomePage({ params }: { params: { slug: string } })
                 {expanded.has(m.missionNumber) && m.submodules.length > 0 && (
                   <div className="mt-3 grid gap-2 border-t border-white/5 pt-3 sm:grid-cols-2">
                     {m.submodules.map((s) => {
-                      const href = s.unlocked ? `/portal/courses/${course.slug}/mission/${m.missionNumber}?module=${s.index}` : null;
+                      const href = s.unlocked ? `/portal/courses/${course.slug}/mission/${m.missionNumber}?submodule=${s.index}` : null;
                       const content = (
                         <>
                           <span
