@@ -1,11 +1,13 @@
 "use client";
 
 import * as React from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import {
   Loader2,
   Check,
+  ArrowLeft,
   ArrowRight,
   Timer,
   Target,
@@ -44,6 +46,18 @@ const SESSION_ICONS: Record<string, typeof Video> = {
   LECTURE: Video,
   LAB: ListChecks,
 };
+
+function BackToCourses() {
+  return (
+    <Link
+      href="/#courses"
+      className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3.5 py-2 text-xs font-semibold text-slate-300 transition-colors hover:border-white/25 hover:bg-white/[0.06] hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60"
+    >
+      <ArrowLeft className="h-4 w-4" />
+      Back to all courses
+    </Link>
+  );
+}
 
 function useLandingData(slug: string) {
   const { user } = useAuth();
@@ -142,17 +156,25 @@ export function CourseLanding({ slug }: { slug: string }) {
 
   if (error) {
     return (
-      <div className="mx-auto max-w-3xl py-24 text-center">
-        <p className="text-sm text-rose-300">{error}</p>
-        <p className="mt-2 text-xs text-slate-500">The course you&apos;re looking for could not be found.</p>
+      <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+        <BackToCourses />
+        <div className="py-12 text-center">
+          <p className="text-sm text-rose-300">{error}</p>
+          <p className="mt-2 text-xs text-slate-500">The course you&apos;re looking for could not be found.</p>
+        </div>
       </div>
     );
   }
 
   if (!data) {
     return (
-      <div className="flex min-h-[60vh] items-center justify-center">
-        <Loader2 className="h-8 w-8 animate-spin text-violet-400" />
+      <div className="min-h-screen bg-slate-950 px-4 pt-10 sm:px-6">
+        <div className="mx-auto max-w-6xl">
+          <BackToCourses />
+        </div>
+        <div className="flex min-h-[50vh] items-center justify-center">
+          <Loader2 className="h-8 w-8 animate-spin text-violet-400" />
+        </div>
       </div>
     );
   }
@@ -181,6 +203,7 @@ export function CourseLanding({ slug }: { slug: string }) {
       />
 
       <div className="relative z-10 mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
+        <BackToCourses />
         {/* ── Hero ── */}
         <motion.div
           initial={{ opacity: 0, y: 16 }}
